@@ -1,6 +1,8 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
 
 const config: Config = {
   title: 'EnderBot Wiki',
@@ -51,11 +53,12 @@ const config: Config = {
       'classic',
       {
         docs: {
+          remarkPlugins: [require('remark-math')],
+          rehypePlugins: [require('rehype-katex')],
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl:'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -89,13 +92,13 @@ const config: Config = {
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
-          position: 'center',
+          position: 'left',
           label: 'Index',
         },
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
-          position: 'center',
+          position: 'left',
           label: 'Premium',
         },
         {
