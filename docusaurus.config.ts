@@ -104,6 +104,10 @@ const config: Config = {
           position: 'left',
           label: 'Official Discord',
         },
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        },
       ],
     },
     footer: {
