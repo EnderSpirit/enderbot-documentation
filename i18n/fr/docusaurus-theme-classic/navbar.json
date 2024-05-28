@@ -7,11 +7,11 @@
     "message": "Logo de mon site",
     "description": "Le texte alternatif du logo de la barre de navigation"
   },
-  "item.label.Guide du débutant": {
+  "item.label.Beginner's guide": {
     "message": "Guide du débutant",
     "description": "Élément de la barre de navigation avec le label Guide du débutant"
   },
-  "item.label.Commandes": {
+  "item.label.Commands": {
     "message": "Commandes",
     "description": "Élément de la barre de navigation avec le label Commandes"
   },
@@ -23,7 +23,7 @@
     "message": "Premium",
     "description": "Élément de la barre de navigation avec le label Premium"
   },
-  "item.label.Discord Officiel": {
+  "item.label.Official Discord": {
     "message": "Discord Officiel",
     "description": "Élément de la barre de navigation avec le label Discord Officiel"
   }

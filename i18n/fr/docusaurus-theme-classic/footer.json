@@ -11,29 +11,17 @@
     "message": "Plus",
     "description": "Le titre de la colonne de liens de pied de page avec le titre Plus"
   },
-  "link.item.label.Guide du débutant": {
+  "item.label.Beginner's guide": {
     "message": "Guide du débutant", 
     "description": "Le label du lien de pied de page avec le label Guide du débutant menant à /docs/intro"
   },
-  "link.item.label.Stack Overflow": {
-    "message": "Stack Overflow",
-    "description": "Le label du lien de pied de page avec le label Stack Overflow menant à https://stackoverflow.com/questions/tagged/docusaurus"
-  },
   "link.item.label.Discord": {
     "message": "Discord",
-    "description": "Le label du lien de pied de page avec le label Discord menant à https://discordapp.com/invite/docusaurus"
-  },
-  "link.item.label.Twitter": {
-    "message": "Twitter",
-    "description": "Le label du lien de pied de page avec le label Twitter menant à https://twitter.com/docusaurus"
-  },
-  "link.item.label.Blog": {
-    "message": "Blog",
-    "description": "Le label du lien de pied de page avec le label Blog menant à /blog"
+    "description": "Le label du lien de pied de page avec le label Discord menant à https://discordapp.com/invite/enderbot"
   },
   "link.item.label.GitHub": {
     "message": "GitHub",
-    "description": "Le label du lien de pied de page avec le label GitHub menant à https://github.com/facebook/docusaurus"
+    "description": "Le label du lien de pied de page avec le label GitHub menant à https://github.com/EnderSpirit/enderbot-documentation"
   },
   "copyright": {
     "message": "© 2017-2024 EnderBot™. Tous droits réservés.",
