@@ -1,0 +1,30 @@
+{
+  "title": {
+    "message": "EnderBot Wiki",
+    "description": "Le titre dans la barre de navigation"
+  },
+  "logo.alt": {
+    "message": "Logo de mon site",
+    "description": "Le texte alternatif du logo de la barre de navigation"
+  },
+  "item.label.Guide du débutant": {
+    "message": "Guide du débutant",
+    "description": "Élément de la barre de navigation avec le label Guide du débutant"
+  },
+  "item.label.Commandes": {
+    "message": "Commandes",
+    "description": "Élément de la barre de navigation avec le label Commandes"
+  },
+  "item.label.Index": {
+    "message": "Index",
+    "description": "Élément de la barre de navigation avec le label Index"
+  },
+  "item.label.Premium": {
+    "message": "Premium",
+    "description": "Élément de la barre de navigation avec le label Premium"
+  },
+  "item.label.Discord Officiel": {
+    "message": "Discord Officiel",
+    "description": "Élément de la barre de navigation avec le label Discord Officiel"
+  }
+}

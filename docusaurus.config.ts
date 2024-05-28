@@ -26,7 +26,24 @@ const config: Config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'fr'],
+    path: './i18n',
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+        calendar: 'gregory',
+        path: 'en',
+      },
+      fr: {
+        label: 'Français',
+        direction: 'ltr',
+        htmlLang: 'fr-FR',
+        calendar: 'gregory',
+        path: 'fr',
+      },
+    }
   },
 
   presets: [
