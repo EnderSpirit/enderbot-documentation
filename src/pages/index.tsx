@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            Guide de débutant EnderBot
+            Guide du débutant EnderBot
           </Link>
         </div>
       </div>
