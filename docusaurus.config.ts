@@ -3,9 +3,9 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'EnderBot Wiki',
+  tagline: 'Bienvenue sur le Wiki!',
+  favicon: 'img/enderbotrotate.gif',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -56,12 +56,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/enderbot3.png',
     navbar: {
-      title: 'My Site',
+      title: 'EnderBot Wiki',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/enderbot3.png',
       },
       items: [
         {
@@ -121,7 +121,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `© 2017-2024 EnderBot™. All Rights Reserved.`,
     },
     prism: {
       theme: prismThemes.github,
