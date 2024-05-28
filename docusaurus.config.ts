@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 const config: Config = {
   title: 'EnderBot Wiki',
   tagline: 'Bienvenue sur le Wiki!',
-  favicon: 'img/enderbotrotate.gif',
+  favicon: 'img/icon/enderbotrotate.gif',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -49,12 +49,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/enderbot3.png',
+    image: 'img/icon/enderbot_profile_picture.png',
     navbar: {
       title: 'EnderBot Wiki',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/enderbot3.png',
+        src: 'img/icon/enderbot_profile_picture.png',
       },
       items: [
         {
