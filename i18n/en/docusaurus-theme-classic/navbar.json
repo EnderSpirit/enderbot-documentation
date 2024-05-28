@@ -9,11 +9,11 @@
   },
   "item.label.Beginner's Guide": {
     "message": "Beginner's guide",
-    "description": "Navbar item with label Guide du débutant"
+    "description": "Navbar item with label Beginner's guide"
   },
   "item.label.Commands": {
-    "message": "Commandes",
-    "description": "Navbar item with label Commandes"
+    "message": "Commands",
+    "description": "Navbar item with label Commands"
   },
   "item.label.Index": {
     "message": "Index",
