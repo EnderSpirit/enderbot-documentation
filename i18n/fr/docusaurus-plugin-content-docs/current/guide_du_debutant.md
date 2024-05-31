@@ -33,7 +33,7 @@ Cette commande a un cooldown de 60 minutes et donne des récompenses pour avance
 Cette commande a également **une mécanique de combo**, si vous récupérez un `>hourly` 90 minutes après avoir récupéré votre dernier `>hourly` vous gagnerez un peu plus de ressources, les récompenses n'augmentent plus après le combo 10. **Pour optimiser la production de ressources il est donc préférable de les enchainer**.
 
 
-Sur le screeen ci-dessous, on voit 4 récompenses conférées par cette commande dans l'ordre:
+Sur la capture d'écran ci-dessous, on voit 4 récompenses conférées par cette commande dans l'ordre:
 
 • **XP** (points d'expérience permettant de monter en niveau).
 
@@ -110,7 +110,7 @@ L'inventaire vous permet de voir tout ce que vous possédez sur le bot:
 
 • **Sur la quatrième page** vous pourrez y trouver **toutes les potions** que vous avez fabriquées.
 
-• **Sur la cinquième page** vous pourrez y trouver **tous les outilsùù que vous possédez sur le bot.
+• **Sur la cinquième page** vous pourrez y trouver **tous les outils** que vous possédez sur le bot.
 
 # <u>Commande `>craft` (`>cra`)</u>
 La commande `>craft` est utilisée pour la fabrication d'outils et de potions.
