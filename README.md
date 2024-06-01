@@ -1,41 +1,20 @@
-# Website
-
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
-
-### Installation
-
+## Tutorial installation wiki 
+Prérequis : [Git](<https://git-scm.com/download/win>), [Node.js](<https://nodejs.org/dist/v20.13.1/node-v20.13.1-x64.msi>), [vscode](<https://code.visualstudio.com/>)
+### Étape 1 : 
+> Ouvrir visual studio code, et choisir un dossier ou effectuer les commandes dans l'onglet ``fichier``
+### Étape 2:
+>  Ouvrir un terminal avec l'onglet ``terminal`` et faire nouveau 
+> 
+> Écrire les commandes suivante 
 ```
-$ yarn
+git clone https://github.com/EnderSpirit/enderbot-documentation.git
+cd enderbot-documentation
+git branch develop
+git checkout develop
+npm install 
 ```
-
-### Local Development
-
+### Étape 3: 
+> Une fois l'installation correctement effectuée, il faut lancer le projet avec les commandes suivantes 
 ```
-$ yarn start
+npm start
 ```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
