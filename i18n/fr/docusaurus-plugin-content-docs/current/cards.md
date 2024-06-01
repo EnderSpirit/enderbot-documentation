@@ -2,6 +2,8 @@
 sidebar_position: 1
 ---
 
+# Cartes
+
 La collection de cartes:
 
 # Invoquer des cartes (`>summon`)
