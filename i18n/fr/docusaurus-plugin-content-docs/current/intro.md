@@ -4,11 +4,6 @@ sidebar_position: 1
 
 # <u>Guide du débutant:</u>
 
-:endercoin:
-
-
-
-
 Si vous êtes nouveau sur EnderBot ou vous êtes perdus vis à vis du bot, cette page est faite pour vous!
 
 # <u>**Préambule:**</u>
