@@ -29,3 +29,10 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+img[alt="emoji"] {
+  height: 1.7em;
+  width: 1.7em;
+  margin: 0 0.05em 0 0.1em;
+  vertical-align: -0.1em;
+}

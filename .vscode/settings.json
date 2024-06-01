@@ -1,6 +1,8 @@
 {
     "conventionalCommits.scopes": [
         "i18n",
-        "page"
+        "page",
+        "readme",
+        "preprocessor"
     ]
 }
