@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 6
 ---
 
-# __Les organisations:__
+# Les organisations
 
 Les organisations **sont composées de groupes de joueurs** qui décident de réunir leurs forces afin **de jouer ensemble** (si vous préférez, vous pouvez les appeler "guildes").
 
@@ -34,7 +34,7 @@ Vous pourrez y trouver certaines informations comme:
 
 Vous pourrez aussi y retouver la liste des membres.
 
-![organization_command_info.png](static/img/organization_command_info.png)
+<!-- ![organization_command_info.png](static/img/organization_command_info.png) -->
 
 # Voir les améliorations d'une organisation (`>org upgrades`)
 
