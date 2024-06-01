@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 ---
-L'inventaire:
+# L'inventaire:
 Vous pouvez consulter tout ce que vous possédez sur EnderBot grâce à la commande `>inv` (ou /ebinventory).
 
 :::tip INFORMATION
@@ -17,7 +17,7 @@ Informations générales:
 - **Vos Card Essence** (vous permet de réinitialiser votre temps d'attente pour récupérer de nouvelles cartes ou votre invocation. 
 - **Vos Golems** (vous permet de savoir combien de golems vous avez en votre possession afin d'attaquer ou de défendre sur la carte pvp).
 
-Les cartes:
+### Les cartes:
 - **Votre nombre total de cartes**.
 - **Votre nombre total d'étoiles** (sur toutes vos cartes possédées).
 - **Votre nombre total de cartes uniques** (vos doubles ne sont pas comptés).
@@ -25,10 +25,10 @@ Les cartes:
 - Votre puissance de carte totale (?).
 - Votre puissance de carte disponible (?).
 
-Les objets:
+### Les objets:
 Permet de savoir quel objet vous avez équipé sur chaque métier ainsi que son ID (chaque objet possède un ID unique afin de le différencier des autres).
 
-La page des ressources:
+### La page des ressources:
 Sur cette page, vous pourrez trouver toutes les ressources en votre possession triées par métier!
 
 - **Les ressources minières** sont liées au **métier de mineur** et à la **pioche**. 
@@ -37,11 +37,11 @@ Sur cette page, vous pourrez trouver toutes les ressources en votre possession t
 - **Les ressources de pêche** sont liées au **métier de pêcheur** et à la canne à **pêche**. 
 - **Les ressources agricoles** sont liées au **métier d'agriculteur** et à la **binette**. 
 
-La page des explorations:
+### La page des explorations:
 ?
 
-La page d'alchimiste:
+### La page d'alchimiste:
 ?
 
-La page des objets:
+### La page des objets:
 Vous trouverez sur cette page tous les objets que vous possédez. ?

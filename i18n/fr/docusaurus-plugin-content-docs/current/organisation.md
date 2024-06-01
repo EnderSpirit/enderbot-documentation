@@ -13,14 +13,14 @@ Les différents **membres de l'organisation** contribuent à celle-ci en y **pay
 ## Actions possibles:
 Toutes les actions de l'organisation se font avec la commande `>organisation` (ou `>org`).
 
-# Créer son organisation (`>org create`)
+### Créer son organisation (`>org create`)
 Vous pouvez créer votre propre organisation avec la commande `>org create <NomOrganisation>` (remplacez `<NomOrganisation>`) par le nom que vous souhaitez lui donner.
 
 :::tip INFORMATION
 Créer une organisation n'est pas gratuit, il vous faudra **100 EnderCoins pour la créer**.
 :::
 
-# Voir les détails d'une organisation (`>org info`)
+### Voir les détails d'une organisation (`>org info`)
 Si vous souhaitez voir les détails d'une organisations il vous suffit de faire la commande `>org info <NomOrganisation>`.
 
 Vous pourrez y trouver certaines informations comme:
@@ -36,9 +36,9 @@ Vous pourrez aussi y retouver la liste des membres.
 
 <!-- ![organization_command_info.png](static/img/organization_command_info.png) -->
 
-# Voir les améliorations d'une organisation (`>org upgrades`)
+### Voir les améliorations d'une organisation (`>org upgrades`)
 
-# Promouvoir et distituer un membre (`>org promote`)
+### Promouvoir et distituer un membre (`>org promote`)
 Afin que l'organisation fonctionne au mieux, elle est composée d'une structure hiérarchique. Chaque grade donne des pouvoirs différents que vous pouvez retrouver ci-dessous:
 
 - **Rang 5 - Chef** (il peut faire toutes les actions disponibles dans l'organisation, il ne peut y en avoir qu'un seul).
@@ -48,14 +48,14 @@ Afin que l'organisation fonctionne au mieux, elle est composée d'une structure 
 - **Rang 1 - Recruteur** (il peut inviter de nouveaux membres dans l'organisation).
 - **Rang 0 - Membre** (rang de base).
 
-# Inviter des joueurs dans l'organisaion (`>org invite`)
+### Inviter des joueurs dans l'organisaion (`>org invite`)
 Si vous êtes recruteur de l'organisation (ou rang plus élevé), vous pouvez inviter de nouveaux joueurs avec la commande `>org invite <NomOrganisation> @Joueur`.
 
-# Expulser des joueurs de l'organisation (`>org kick`)
+### Expulser des joueurs de l'organisation (`>org kick`)
 Si vous êtes modérateur de l'organisation (ou rang plus élevé), vous pouvez expulser des joueurs de rang inférieur à vous avec la commande `>org kick <NomOrganisation> @Joueur`.
 
 
-# Supprimer l'organisation (`>org disband`)
+### Supprimer l'organisation (`>org disband`)
 Si vous souhaitez supprimer l'organisation, il vous suffit de faire la commande `>org disband <NomOrganisation>`.
 
 :::tip INFORMATION
@@ -65,7 +65,7 @@ Uniquement le chef peut supprimer l'organisation. L'ensemble des ressources dans
 Cette action est irréversible.
 :::
 
-# La liste des améliorations de l'organisation (`>org disband`)
+### La liste des améliorations de l'organisation (`>org disband`)
 Il y a 30 améliorations disponibles:
 J : Jobs
 JLU : Jobs/Lumberjack (Bûcheron)
