@@ -14,7 +14,7 @@ Informations générales:
 - **Votre mana** (vous permet de travailler et de récolter des ressources sur les différents métiers).
 - **Votre dark mana** (vous permet d'utiliser vos sortilèges avec ebspell).
 - **Vos EnderCoin** ( vous permet d'acheter les licences dans le shop, des shares et sert de monnaie d'échange contre des ressources ou des cartes auprès des autres joueurs).
-- **Vos Card Essence** (vous permet de réinitialiser votre temps d'attente pour récupérer de nouvelles cartes ou votre invocation. 
+- **Vos Card Essence** (vous permet de réinitialiser votre temps d'attente pour récupérer de nouvelles cartes ou votre invocation). 
 - **Vos Golems** (vous permet de savoir combien de golems vous avez en votre possession afin d'attaquer ou de défendre sur la carte pvp).
 
 Les cartes:
