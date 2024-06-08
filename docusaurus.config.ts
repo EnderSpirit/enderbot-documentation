@@ -8,19 +8,23 @@ import type * as Preset from '@docusaurus/preset-classic';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 import EmojiDictionary from './src/modules/EmojiDictionary';
-const emoji_regex = /:([a-z0-9_]+):/g;
+const emoji_regex = /:([a-z0-9_]+)(?::([a-z0-9_]+))?(?::([a-z0-9_]+))?:/g;
 
 const config: Config = {
     staticDirectories: ['public', 'static'],
     markdown: {
         preprocessor: ({filePath,fileContent}) => {
-            if (fileContent != undefined || fileContent != null) {
+            if (fileContent != undefined && fileContent != null) {
                 const matches = fileContent.match(emoji_regex);
                 if (!matches) return fileContent;
                 matches.forEach((match) => {
-                    const emoji_name = match.slice(1, -1);
+                    let altText = 'emoji';
+                    const parts = match.split(':').filter(Boolean);
+                    const emoji_name = parts[0];
+                    if (parts.includes('title')) altText = 'title_emoji';
                     const emoji = EmojiDictionary.find((emoji) => emoji.name === emoji_name);
-                    if (emoji) fileContent = fileContent.replace(match, `![emoji](${emoji.path})`);
+                    console.log(emoji, altText, emoji_name);
+                    if (emoji) fileContent = fileContent.replace(match, `![${altText}](${emoji.path})`);
                 });
             }
             return fileContent;

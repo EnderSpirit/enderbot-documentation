@@ -4,9 +4,8 @@ sidebar_position: 1
 
 # Cartes
 
-La collection de cartes:
+### Invoquer des cartes
 
-### Invoquer des cartes (`>summon`)
 Pour invoquer des cartes, utilisez la commande `>summon`, vous aurez alors **le choix entre 3 cartes** et vous pourrez **en choisir une** parmis les trois en cliquant sur le bouton correspondant (aussi appelé "faire un claim").
 
 Le temps d'attente entre deux invocations est de 1 heure.
