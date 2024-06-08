@@ -35,7 +35,7 @@ Une fois que vous avez choisi une destination, il vous suffit de faire la comman
 
 ![move_no_args.png](/img/commands_example/move_no_args.png)
 
-:::tip 
+:::tip ASTUCE
 Le bot considère que votre personnage est toujours dans une zone, même si vous êtes en déplacement, tant que votre trajet n'est pas entièrement fini, le bot considéra que vous êtes toujours dans votre zone d'origine pour les commandes qui sont affectées par votre localisation.
 :::
 
@@ -44,4 +44,3 @@ Les commandes affectées par la localisation sont:
 - `>shrine` (donne un boost si vous êtes dans la zone du village ou de la capitale).
 - `>shop` (nécessite d'être au village).
 - `>exploration` (comme il s'agit d'une mécanique qui lui est propre cliquez ici).
-

@@ -65,7 +65,7 @@ Uniquement le chef peut supprimer l'organisation. L'ensemble des ressources dans
 Cette action est irréversible.
 :::
 
-### La liste des améliorations de l'organisation (`>org disband`)
+### La liste des améliorations de l'organisation (`>org upgrade`)
 Il y a 30 améliorations disponibles:
 J : Jobs
 JLU : Jobs/Lumberjack (Bûcheron)

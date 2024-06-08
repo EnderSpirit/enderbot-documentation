@@ -281,5 +281,5 @@ Si vous avez activé l'affichage des ID, vous pouvez ensuite faire un clic droit
 ## Pour aller plus loin
 
 Ce guide couvre déjà une grosse partie de bot mais il existe encore d'autres très gros systèmes de jeu qui n'ont pas été mentionnés dans ce guide, notamment : 
-- Le système d'organisation (`>organization`)
-- Le système PvP (`>warmap`)
+- Le système d'organisation (`>organization`).
+- Le système PvP (`>warmap`).
