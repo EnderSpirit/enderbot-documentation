@@ -73,7 +73,7 @@ Si vous souhaitez supprimer l'organisation, il vous suffit de faire la commande 
 
 ![organization_disband.png](/img/commands_example/organization_disband.png)
 
-:::tip INFORMATION
+:::info INFORMATION
 Uniquement le chef peut supprimer l'organisation. L'ensemble des ressources dans la banque retourneront dans l'inventaire de leur joueur respectif. 
 :::
 :::warning ATTENTION
@@ -84,6 +84,10 @@ Cette action est irréversible.
 Vous pouvez rejoindre plusieurs organisations si vous le souhaitez. Cependant, si vous venez à rejoindre plusieurs organisations vous devrez choisir une organisation principale parmis toutes celles que vous avez rejoint.
 
 ![organization_list.png](/img/commands_example/organization_list.png)
+
+:::info INFORMATION
+Si vous voulez plus d'informations sur comment se passe le fait de rejoindre plusieurs organisations, cliquez ici.
+:::
 
 ### Voir les améliorations d'une organisation (`>org upgrades`)
 Il y a 30 améliorations disponibles:
