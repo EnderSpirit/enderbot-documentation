@@ -22,7 +22,7 @@ Vous pouvez créer votre propre organisation avec la commande `>org create <NomO
 
 ![organization_create.png](/img/commands_example/organization_create.png)
 
-:::tip INFORMATION
+:::info INFORMATION
 Créer une organisation n'est pas gratuit, il vous faudra **100 EnderCoins pour la créer**.
 :::
 
@@ -45,12 +45,13 @@ Vous pourrez aussi y retouver la liste des membres.
 ### Promouvoir et distituer un membre (`>org promote`)
 Afin que l'organisation fonctionne au mieux, elle est composée d'une structure hiérarchique. Chaque grade donne des pouvoirs différents que vous pouvez retrouver ci-dessous:
 
-- **Rang 5 - Chef** (il peut faire toutes les actions disponibles dans l'organisation, il ne peut y en avoir qu'un seul).
-- **Rang 4 - Sous-chef** (il a les mêmes droits que le chef sauf qu'il ne peut pas supprimer l'organisation).
-- **Rang 3 - Administrateur** (il peut acheter des améliorations et promouvoir/destituer les membres de l'organisation de rang inférieur).
-- **Rang 2 - Modérateur** (il peut expulser des membres).
-- **Rang 1 - Recruteur** (il peut inviter de nouveaux membres dans l'organisation).
-- **Rang 0 - Membre** (rang de base).
+- **Rang 6 - Chef** (il peut faire toutes les actions disponibles dans l'organisation, il ne peut y en avoir qu'un seul).
+- **Rang 5 - Sous-chef** (il a les mêmes droits que le chef sauf qu'il ne peut pas supprimer l'organisation).
+- **Rang 4 - Administrateur** (il peut acheter des améliorations et promouvoir/destituer les membres de l'organisation de rang inférieur).
+- **Rang 3 - Modérateur** (il peut expulser des membres).
+- **Rang 2 - Recruteur** (il peut inviter de nouveaux membres dans l'organisation).
+- **Rang 1 - Membre** (rang de base).
+- **Rang 1 - Esclave** (il ne bénéficie pas des bonus de l'organisation et toutes les ressources récoltées vont pour l'organisation).
 
 ![organization_promote.png](/img/commands_example/organization_promote.png)
 
@@ -79,66 +80,49 @@ Uniquement le chef peut supprimer l'organisation. L'ensemble des ressources dans
 Cette action est irréversible.
 :::
 
-## Améliorations Disponibles pour l'Organisation
+### Voir sa list d'organisations (`>org list`)
+Vous pouvez rejoindre plusieurs organisations si vous le souhaitez. Cependant, si vous venez à rejoindre plusieurs organisations vous devrez choisir une organisation principale parmis toutes celles que vous avez rejoint.
 
-### Emplois (Jobs)
+![organization_list.png](/img/commands_example/organization_list.png)
 
-- **Jobs (J)**
-- **Bûcheron (JLU)**
-- **Mineur (JMI)**
-- **Pelleteur (JDI)**
-- **Pêcheur (JFI)**
-- **Fermier (JFA)**
-- **Forgeron (JTO)**
-- **Alchimiste (JAL)**
+### Voir les améliorations d'une organisation (`>org upgrades`)
+Il y a 30 améliorations disponibles:
 
-### Cartes (Cards)
+J : Jobs\
+JLU : Jobs/Lumberjack (Bûcheron)\
+JMI : Jobs/Miner (Mineur)\
+JDI : Jobs/Digger (Pelleteur)\
+JFI : Jobs/Fisherman (Pêcheur)\
+JFA : Jobs/Farmer (Fermier)\
+JTO : Jobs/Toolsmith (Forgeron)\
+JAL : Jobs/Alchemist (Alchimiste)
 
-- **Cards (C)**
+C : Cards\
+M : Mana
 
-### Mana
+D : Daily\
+MDG : Mana/Daily/Guaranteed\
+MDP : Mana/Daily/Probabilistic\
+CDG : Cards/Daily/Guaranteed\
+CDP : Cards/Daily/Probabilistic
 
-- **Mana (M)**
+H : Hourly\
+MDG : Mana/Hourly/Guaranteed\
+MDP : Mana/Hourly/Probabilistic\
+CDG : Cards/Hourly/Guaranteed\
+CDP : Cards/Hourly/Probabilistic
 
-### Quotidien (Daily)
+S : Shrine\
+MDG : Mana/Treasure/Guaranteed\
+MDP : Mana/Treasure/Probabilistic\
+CDG : Cards/Treasure/Guaranteed\
+CDP : Cards/Treasure/Probabilistic
 
-- **Mana Quotidien Garanti (MDG)**
-- **Mana Quotidien Probabiliste (MDP)**
-- **Cartes Quotidien Garanti (CDG)**
-- **Cartes Quotidien Probabiliste (CDP)**
-
-### Horaire (Hourly)
-
-- **Mana Horaire Garanti (MDG)**
-- **Mana Horaire Probabiliste (MDP)**
-- **Cartes Horaire Garanti (CDG)**
-- **Cartes Horaire Probabiliste (CDP)**
-
-### Sanctuaire (Shrine)
-
-- **Mana Trésor Garanti (MDG)**
-- **Mana Trésor Probabiliste (MDP)**
-- **Cartes Trésor Garanti (CDG)**
-- **Cartes Trésor Probabiliste (CDP)**
-
-### Trésor (Treasure)
-
-- **Mana Trésor Garanti (MDG)**
-- **Mana Trésor Probabiliste (MDP)**
-- **Cartes Trésor Garanti (CDG)**
-- **Cartes Trésor Probabiliste (CDP)**
-
----
-
-**Légende :**
-
-- **Jobs (J) :** Options liées aux types d'emplois disponibles dans l'organisation.
-- **Mana (M) :** Options liées à la génération de mana.
-- **Cards (C) :** Options liées aux cartes.
-- **Daily (D) :** Améliorations appliquées quotidiennement.
-- **Hourly (H) :** Améliorations appliquées toutes les heures.
-- **Shrine (S) :** Améliorations liées aux sanctuaires.
-- **Treasure (T) :** Améliorations liées aux trésors.
+T : Treasure\
+MDG : Mana/Treasure/Guaranteed\
+MDP : Mana/Treasure/Probabilistic\
+CDG : Cards/Treasure/Guaranteed\
+CDP : Cards/Treasure/Probabilistic
 
 ![organization_upgrades.png](/img/commands_example/organization_upgrades.png)
 

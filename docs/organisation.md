@@ -22,7 +22,7 @@ Vous pouvez créer votre propre organisation avec la commande `>org create <NomO
 
 ![organization_create.png](/img/commands_example/organization_create.png)
 
-:::tip INFORMATION
+:::info INFORMATION
 Créer une organisation n'est pas gratuit, il vous faudra **100 EnderCoins pour la créer**.
 :::
 
@@ -45,12 +45,13 @@ Vous pourrez aussi y retouver la liste des membres.
 ### Promouvoir et distituer un membre (`>org promote`)
 Afin que l'organisation fonctionne au mieux, elle est composée d'une structure hiérarchique. Chaque grade donne des pouvoirs différents que vous pouvez retrouver ci-dessous:
 
-- **Rang 5 - Chef** (il peut faire toutes les actions disponibles dans l'organisation, il ne peut y en avoir qu'un seul).
-- **Rang 4 - Sous-chef** (il a les mêmes droits que le chef sauf qu'il ne peut pas supprimer l'organisation).
-- **Rang 3 - Administrateur** (il peut acheter des améliorations et promouvoir/destituer les membres de l'organisation de rang inférieur).
-- **Rang 2 - Modérateur** (il peut expulser des membres).
-- **Rang 1 - Recruteur** (il peut inviter de nouveaux membres dans l'organisation).
-- **Rang 0 - Membre** (rang de base).
+- **Rang 6 - Chef** (il peut faire toutes les actions disponibles dans l'organisation, il ne peut y en avoir qu'un seul).
+- **Rang 5 - Sous-chef** (il a les mêmes droits que le chef sauf qu'il ne peut pas supprimer l'organisation).
+- **Rang 4 - Administrateur** (il peut acheter des améliorations et promouvoir/destituer les membres de l'organisation de rang inférieur).
+- **Rang 3 - Modérateur** (il peut expulser des membres).
+- **Rang 2 - Recruteur** (il peut inviter de nouveaux membres dans l'organisation).
+- **Rang 1 - Membre** (rang de base).
+- **Rang 1 - Esclave** (il ne bénéficie pas des bonus de l'organisation et toutes les ressources récoltées vont pour l'organisation).
 
 ![organization_promote.png](/img/commands_example/organization_promote.png)
 
@@ -72,11 +73,20 @@ Si vous souhaitez supprimer l'organisation, il vous suffit de faire la commande 
 
 ![organization_disband.png](/img/commands_example/organization_disband.png)
 
-:::tip INFORMATION
+:::info INFORMATION
 Uniquement le chef peut supprimer l'organisation. L'ensemble des ressources dans la banque retourneront dans l'inventaire de leur joueur respectif. 
 :::
 :::warning ATTENTION
 Cette action est irréversible.
+:::
+
+### Voir sa list d'organisations (`>org list`)
+Vous pouvez rejoindre plusieurs organisations si vous le souhaitez. Cependant, si vous venez à rejoindre plusieurs organisations vous devrez choisir une organisation principale parmis toutes celles que vous avez rejoint.
+
+![organization_list.png](/img/commands_example/organization_list.png)
+
+:::info INFORMATION
+Si vous voulez plus d'informations sur comment se passe le fait de rejoindre plusieurs organisations, cliquez ici.
 :::
 
 ### Voir les améliorations d'une organisation (`>org upgrades`)
