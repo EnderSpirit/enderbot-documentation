@@ -33,8 +33,9 @@ La commande `>hourly` permet de récupérer des récompenses toutes les heures.
 Cette commande a un cooldown de 60 minutes et donne des récompenses pour avancer plus vite dans le jeu, n'hésitez pas à l'utiliser dès qu'elle est disponible si vous souhaitez avancer rapidement.
 Cette commande a également **une mécanique de combo**, si vous récupérez un `>hourly` 90 minutes après avoir récupéré votre dernier `>hourly` vous gagnerez un peu plus de ressources, les récompenses n'augmentent plus après le combo 10. **Pour optimiser la production de ressources il est donc préférable de les enchainer**.
 
+![hourly_success.png](/img/commands_example/hourly_success.png)
 
-Sur la capture d'écran ci-dessous, on voit 4 récompenses conférées par cette commande dans l'ordre:
+Sur la capture d'écran ci-dessus, on voit 4 récompenses conférées par cette commande dans l'ordre:
 
 • **XP** (points d'expérience permettant de monter en niveau).
 
