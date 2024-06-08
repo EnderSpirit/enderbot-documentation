@@ -8,6 +8,8 @@ Votre personnage (représenté par votre photo de profile Discord), est toujours
 
 Lorsque vous commencez à jouer à EnderBot, vous serez automatiquement situé à la plage.
 
+![advmap_multi.png](/img/commands_example/advmap_multi.png)
+
 Les douzes zones suivantes sont:
 - La plage.
 - Le lac.
@@ -27,9 +29,15 @@ Si vous souhaitez **bouger de zone** sur la carte, vous devez obligatoirement **
 
 Si jamais vous ne vous souvenez plus des noms des différentes zones sur la carte, il vous suffit d'effectuer la commande sans mettre de nom afin d'obtenir la liste des différents lieux disponibles.
 
+![move_success.png](/img/commands_example/move_success.png)
+
 Une fois que vous avez choisi une destination, il vous suffit de faire la commande `>move NomDeLaZone`
 
-Astuce : le bot considère que votre personnage est toujours dans une zone, même si vous êtes en déplacement, tant que votre trajet n'est pas entièrement fini, le bot considéra que vous êtes toujours dans votre zone d'origine pour les commandes qui sont affectées par votre localisation.
+![move_no_args.png](/img/commands_example/move_no_args.png)
+
+:::tip 
+Le bot considère que votre personnage est toujours dans une zone, même si vous êtes en déplacement, tant que votre trajet n'est pas entièrement fini, le bot considéra que vous êtes toujours dans votre zone d'origine pour les commandes qui sont affectées par votre localisation.
+:::
 
 Les commandes affectées par la localisation sont:
 - `>work`
