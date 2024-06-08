@@ -4,7 +4,7 @@ sidebar_position: 1
 L'inventaire:
 Vous pouvez consulter tout ce que vous possédez sur EnderBot grâce à la commande `>inv` (ou /ebinventory).
 
-:::tip INFORMATION
+:::info INFORMATION
 C'est la page générale qui s'ouvrira par défaut quand vous effectuerez la commande. Vous y trouverez dans les grandes lignes concernant la progression de votre compte.
 :::
 

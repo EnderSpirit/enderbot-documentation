@@ -10,11 +10,17 @@ Les organisations **sont composées de groupes de joueurs** qui décident de ré
 
 Les différents **membres de l'organisation** contribuent à celle-ci en y **payant des taxes**. Les ressources collectées à travers les taxes peuvent uniquement être utilisées par le chef de l'organisation ainsi que les administrateurs qui ont été choisis par celui-ci. Il peuvent **acheter des améliorations** qui donneront **des bonus** à tous les membres de l'organisation.
 
+:::info INFORMATION
+Chaque organisation se réunit également dans un but commun pour la partie PvP que vous pouvez retrouver ici.
+:::
+
 ## Actions possibles:
 Toutes les actions de l'organisation se font avec la commande `>organisation` (ou `>org`).
 
 ### Créer son organisation (`>org create`)
 Vous pouvez créer votre propre organisation avec la commande `>org create <NomOrganisation>` (remplacez `<NomOrganisation>`) par le nom que vous souhaitez lui donner.
+
+![organization_create.png](/img/commands_example/organization_create.png)
 
 :::tip INFORMATION
 Créer une organisation n'est pas gratuit, il vous faudra **100 EnderCoins pour la créer**.
@@ -34,9 +40,7 @@ Vous pourrez y trouver certaines informations comme:
 
 Vous pourrez aussi y retouver la liste des membres.
 
-<!-- ![organization_command_info.png](static/img/organization_command_info.png) -->
-
-### Voir les améliorations d'une organisation (`>org upgrades`)
+![organization_command_info.png](/img/commands_example/organization_command_info.png)
 
 ### Promouvoir et distituer un membre (`>org promote`)
 Afin que l'organisation fonctionne au mieux, elle est composée d'une structure hiérarchique. Chaque grade donne des pouvoirs différents que vous pouvez retrouver ci-dessous:
@@ -48,60 +52,73 @@ Afin que l'organisation fonctionne au mieux, elle est composée d'une structure 
 - **Rang 1 - Recruteur** (il peut inviter de nouveaux membres dans l'organisation).
 - **Rang 0 - Membre** (rang de base).
 
+![organization_promote.png](/img/commands_example/organization_promote.png)
+
 ### Inviter des joueurs dans l'organisaion (`>org invite`)
 Si vous êtes recruteur de l'organisation (ou rang plus élevé), vous pouvez inviter de nouveaux joueurs avec la commande `>org invite <NomOrganisation> @Joueur`.
 
+![organization_invite.png](/img/commands_example/organization_invite.png)
+
 ### Expulser des joueurs de l'organisation (`>org kick`)
 Si vous êtes modérateur de l'organisation (ou rang plus élevé), vous pouvez expulser des joueurs de rang inférieur à vous avec la commande `>org kick <NomOrganisation> @Joueur`.
+:::warning ATTENTION
+Cette action a des conséquences pour la partie PvP que vous pouvez retrouver ici.
+:::
 
+![organization_kick.png](/img/commands_example/organization_kick.png)
 
 ### Supprimer l'organisation (`>org disband`)
 Si vous souhaitez supprimer l'organisation, il vous suffit de faire la commande `>org disband <NomOrganisation>`.
 
+![organization_disband.png](/img/commands_example/organization_disband.png)
+
 :::tip INFORMATION
 Uniquement le chef peut supprimer l'organisation. L'ensemble des ressources dans la banque retourneront dans l'inventaire de leur joueur respectif. 
 :::
-:::tip NOTE
+:::warning ATTENTION
 Cette action est irréversible.
 :::
 
-### La liste des améliorations de l'organisation (`>org upgrade`)
+### Voir les améliorations d'une organisation (`>org upgrades`)
 Il y a 30 améliorations disponibles:
-J : Jobs
-JLU : Jobs/Lumberjack (Bûcheron)
-JMI : Jobs/Miner (Mineur)
-JDI : Jobs/Digger (Pelleteur)
-JFI : Jobs/Fisherman (Pêcheur)
-JFA : Jobs/Farmer (Fermier)
-JTO : Jobs/Toolsmith (Forgeron)
+
+J : Jobs\
+JLU : Jobs/Lumberjack (Bûcheron)\
+JMI : Jobs/Miner (Mineur)\
+JDI : Jobs/Digger (Pelleteur)\
+JFI : Jobs/Fisherman (Pêcheur)\
+JFA : Jobs/Farmer (Fermier)\
+JTO : Jobs/Toolsmith (Forgeron)\
 JAL : Jobs/Alchemist (Alchimiste)
 
-C : Cards
+C : Cards\
 M : Mana
 
-D : Daily
-MDG : Mana/Daily/Guaranteed
-MDP : Mana/Daily/Probabilistic
-CDG : Cards/Daily/Guaranteed
+D : Daily\
+MDG : Mana/Daily/Guaranteed\
+MDP : Mana/Daily/Probabilistic\
+CDG : Cards/Daily/Guaranteed\
 CDP : Cards/Daily/Probabilistic
 
-H : Hourly
-MDG : Mana/Hourly/Guaranteed
-MDP : Mana/Hourly/Probabilistic
-CDG : Cards/Hourly/Guaranteed
+H : Hourly\
+MDG : Mana/Hourly/Guaranteed\
+MDP : Mana/Hourly/Probabilistic\
+CDG : Cards/Hourly/Guaranteed\
 CDP : Cards/Hourly/Probabilistic
 
-S : Shrine
-MDG : Mana/Treasure/Guaranteed
-MDP : Mana/Treasure/Probabilistic
-CDG : Cards/Treasure/Guaranteed
+S : Shrine\
+MDG : Mana/Treasure/Guaranteed\
+MDP : Mana/Treasure/Probabilistic\
+CDG : Cards/Treasure/Guaranteed\
 CDP : Cards/Treasure/Probabilistic
 
-T : Treasure
-MDG : Mana/Treasure/Guaranteed
-MDP : Mana/Treasure/Probabilistic
-CDG : Cards/Treasure/Guaranteed
+T : Treasure\
+MDG : Mana/Treasure/Guaranteed\
+MDP : Mana/Treasure/Probabilistic\
+CDG : Cards/Treasure/Guaranteed\
 CDP : Cards/Treasure/Probabilistic
+
+![organization_upgrades.png](/img/commands_example/organization_upgrades.png)
 
 Il y a donc plusieurs types d'améliorations, les améliorations **J**, **M**, **C**, **D**, **H**, **S** et **T** sont des pré-requis : **acheter** des améliorations ne donne **aucun bonus** en soit mais elles sont **nécessaires pour pouvoir acheter d'autres améliorations** ensuite.
 

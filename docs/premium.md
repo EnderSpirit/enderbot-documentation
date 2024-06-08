@@ -13,7 +13,8 @@ Actuellement, nous avons 3 types de souscriptions. Chaque type de souscription v
 | **Type de premium :** | **Sans Premium**         | **Premium Standard** | **Super Premium** | **Hyper Premium** |
 |----------------------:|--------------------------|----------------------|-------------------|-------------------|
 | _Prix :_              |         _Gratuit_        |       _5$/mois_      |     _10$/mois_    | _15$/mois_        |
-| Avantage :            |  |                      |                   |                   |
+| Avantage :            | Tant d'attente avant prochaine  invocation: **50 minutes** 
+Tant d'attente avant prochaine            |  |                      |                   |                   |
 |                       |                          |             
 
 ##  Comment fonctionne le système de crédit et comment puis-je passer de la version “**Standard**", ”**Super**" et “**Hyper**” ? 
