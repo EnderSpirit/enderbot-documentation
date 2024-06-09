@@ -51,7 +51,7 @@ Afin que l'organisation fonctionne au mieux, elle est composée d'une structure 
 - **Rang 3 - Modérateur** (il peut expulser des membres).
 - **Rang 2 - Recruteur** (il peut inviter de nouveaux membres dans l'organisation).
 - **Rang 1 - Membre** (rang de base).
-- **Rang 1 - Esclave** (il ne bénéficie pas des bonus de l'organisation et toutes les ressources récoltées vont pour l'organisation).
+- **Rang -1 - Esclave** (il ne bénéficie pas des bonus de l'organisation et toutes les ressources récoltées vont pour l'organisation).
 
 ![organization_promote.png](/img/commands_example/organization_promote.png)
 
@@ -89,44 +89,67 @@ Vous pouvez rejoindre plusieurs organisations si vous le souhaitez. Cependant, s
 Si vous voulez plus d'informations sur comment se passe le fait de rejoindre plusieurs organisations, cliquez ici.
 :::
 
-### Voir les améliorations d'une organisation (`>org upgrades`)
+## Voir les améliorations d'une organisation 
 Il y a 30 améliorations disponibles:
 
-J : Jobs\
-JLU : Jobs/Lumberjack (Bûcheron)\
-JMI : Jobs/Miner (Mineur)\
-JDI : Jobs/Digger (Pelleteur)\
-JFI : Jobs/Fisherman (Pêcheur)\
-JFA : Jobs/Farmer (Fermier)\
-JTO : Jobs/Toolsmith (Forgeron)\
-JAL : Jobs/Alchemist (Alchimiste)
+### Emplois (Jobs)
 
-C : Cards\
-M : Mana
+- **Jobs (J)**
+- **Bûcheron (JLU)**
+- **Mineur (JMI)**
+- **Pelleteur (JDI)**
+- **Pêcheur (JFI)**
+- **Fermier (JFA)**
+- **Forgeron (JTO)**
+- **Alchimiste (JAL)**
 
-D : Daily\
-MDG : Mana/Daily/Guaranteed\
-MDP : Mana/Daily/Probabilistic\
-CDG : Cards/Daily/Guaranteed\
-CDP : Cards/Daily/Probabilistic
+### Cartes (Cards)
 
-H : Hourly\
-MDG : Mana/Hourly/Guaranteed\
-MDP : Mana/Hourly/Probabilistic\
-CDG : Cards/Hourly/Guaranteed\
-CDP : Cards/Hourly/Probabilistic
+- **Cards (C)**
 
-S : Shrine\
-MDG : Mana/Treasure/Guaranteed\
-MDP : Mana/Treasure/Probabilistic\
-CDG : Cards/Treasure/Guaranteed\
-CDP : Cards/Treasure/Probabilistic
+### Mana
 
-T : Treasure\
-MDG : Mana/Treasure/Guaranteed\
-MDP : Mana/Treasure/Probabilistic\
-CDG : Cards/Treasure/Guaranteed\
-CDP : Cards/Treasure/Probabilistic
+- **Mana (M)**
+
+### Quotidien (Daily)
+
+- **Mana Quotidien Garanti (MDG)**
+- **Mana Quotidien Probabiliste (MDP)**
+- **Cartes Quotidien Garanti (CDG)**
+- **Cartes Quotidien Probabiliste (CDP)**
+
+### Horaire (Hourly)
+
+- **Mana Horaire Garanti (MDG)**
+- **Mana Horaire Probabiliste (MDP)**
+- **Cartes Horaire Garanti (CDG)**
+- **Cartes Horaire Probabiliste (CDP)**
+
+### Shrine
+
+- **Mana Trésor Garanti (MDG)**
+- **Mana Trésor Probabiliste (MDP)**
+- **Cartes Trésor Garanti (CDG)**
+- **Cartes Trésor Probabiliste (CDP)**
+
+### Trésor (Treasure)
+
+- **Mana Trésor Garanti (MDG)**
+- **Mana Trésor Probabiliste (MDP)**
+- **Cartes Trésor Garanti (CDG)**
+- **Cartes Trésor Probabiliste (CDP)**
+
+---
+
+#### Légende :
+
+- **Jobs (J) :** Options liées aux types d'emplois disponibles dans l'organisation.
+- **Mana (M) :** Options liées à la génération de mana.
+- **Cards (C) :** Options liées aux cartes.
+- **Daily (D) :** Améliorations appliquées quotidiennement.
+- **Hourly (H) :** Améliorations appliquées toutes les heures.
+- **Shrine (S) :** Améliorations liées aux shrines.
+- **Treasure (T) :** Améliorations liées aux trésors.
 
 ![organization_upgrades.png](/img/commands_example/organization_upgrades.png)
 
