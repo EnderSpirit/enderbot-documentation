@@ -5,8 +5,6 @@ import type {
     Config
 } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
-import remarkMath from 'remark-math';
-import rehypeKatex from 'rehype-katex';
 import EmojiDictionary from './src/modules/EmojiDictionary';
 const emoji_regex = /:([a-z0-9_]+)(?::([a-z0-9_]+))?(?::([a-z0-9_]+))?:/g;
 
@@ -23,7 +21,6 @@ const config: Config = {
                     const emoji_name = parts[0];
                     if (parts.includes('title')) altText = 'title_emoji';
                     const emoji = EmojiDictionary.find((emoji) => emoji.name === emoji_name);
-                    console.log(emoji, altText, emoji_name);
                     if (emoji) fileContent = fileContent.replace(match, `![${altText}](${emoji.path})`);
                 });
             }
