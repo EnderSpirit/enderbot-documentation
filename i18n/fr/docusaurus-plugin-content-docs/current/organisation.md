@@ -89,7 +89,7 @@ Vous pouvez rejoindre plusieurs organisations si vous le souhaitez. Cependant, s
 Si vous voulez plus d'informations sur comment se passe le fait de rejoindre plusieurs organisations, cliquez ici.
 :::
 
-### Voir les améliorations d'une organisation (`>org upgrades`)
+## Voir les améliorations d'une organisation 
 Il y a 30 améliorations disponibles:
 
 ### Emplois (Jobs)
@@ -125,7 +125,7 @@ Il y a 30 améliorations disponibles:
 - **Cartes Horaire Garanti (CDG)**
 - **Cartes Horaire Probabiliste (CDP)**
 
-### Sanctuaire (Shrine)
+### Shrine
 
 - **Mana Trésor Garanti (MDG)**
 - **Mana Trésor Probabiliste (MDP)**
@@ -141,14 +141,14 @@ Il y a 30 améliorations disponibles:
 
 ---
 
-**Légende :**
+#### Légende :
 
 - **Jobs (J) :** Options liées aux types d'emplois disponibles dans l'organisation.
 - **Mana (M) :** Options liées à la génération de mana.
 - **Cards (C) :** Options liées aux cartes.
 - **Daily (D) :** Améliorations appliquées quotidiennement.
 - **Hourly (H) :** Améliorations appliquées toutes les heures.
-- **Shrine (S) :** Améliorations liées aux sanctuaires.
+- **Shrine (S) :** Améliorations liées aux shrines.
 - **Treasure (T) :** Améliorations liées aux trésors.
 
 ![organization_upgrades.png](/img/commands_example/organization_upgrades.png)
