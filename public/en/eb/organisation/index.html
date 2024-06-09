@@ -1,0 +1,1317 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=34803&amp;path=livereload" data-no-instant defer></script>
+  <meta property="og:title" content="" />
+<meta property="og:description" content="Les organisations # Les organisations sont composées de groupes de joueurs qui décident de réunir leurs forces afin de jouer ensemble (si vous préférez, vous pouvez les appeler &ldquo;guildes&rdquo;).
+Chaque organisation est organisée par une structure hiérarchique.
+Les différents membres de l&rsquo;organisation contribuent à celle-ci en y payant des taxes. Les ressources collectées à travers les taxes peuvent uniquement être utilisées par le chef de l&rsquo;organisation ainsi que les administrateurs qui ont été choisis par celui-ci." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:34803/en/eb/organisation/" /><meta property="article:section" content="eb" />
+
+<meta property="og:site_name" content="📓 Amethyst" />
+<title>Organisation | 📓 Amethyst</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+  <link rel="alternate" hreflang="fr-FR" href="http://localhost:34803/fr/eb/organisation/" title="Organisation">
+<link rel="stylesheet" href="/book.min.45ec1f6261e17c6488824ac77b6b8a0c11eef38eaed587cfecad4b284f57ee79.css" integrity="sha256-RewfYmHhfGSIgkrHe2uKDBHu846u1YfP7K1LKE9X7nk=" crossorigin="anonymous">
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+  
+
+
+
+<meta charset="UTF-8" />
+<meta
+  name="description"
+  content="Les organisations # Les organisations sont composées de groupes de joueurs qui décident de réunir leurs forces afin de jouer ensemble (si vous préférez, vous pouvez les appeler &ldquo;guildes&rdquo;).
+Chaque organisation est organisée par une structure hiérarchique.
+Les différents membres de l&rsquo;organisation contribuent à celle-ci en y payant des taxes. Les ressources collectées à travers les taxes peuvent uniquement être utilisées par le chef de l&rsquo;organisation ainsi que les administrateurs qui ont été choisis par celui-ci."
+/>
+<title>
+  📓 Amethyst
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+
+
+
+
+<link rel="shortcut icon" type="image/png"  href="http://localhost:34803//favicon.png" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<link href="http://localhost:34803/styles.e08ceb33360cec132feb69cfb982e2a4.min.css" rel="stylesheet" />
+
+
+<link href="http://localhost:34803/quartz/styles/_light_syntax.86a48a52faebeaaf42158b72922b1c90.min.css" rel="stylesheet" id="theme-link">
+
+  
+
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+      integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"
+        integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx"
+        crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js"
+        integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR"
+        crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/copy-tex.min.js"
+        integrity="sha384-ww/583aHhxWkz5DEVn6OKtNiIaLi2iBRNZXfJRiY1Ai7tnJ9UXpEsyvOITVpTl4A"
+        crossorigin="anonymous"></script>
+
+  
+
+
+
+
+
+
+<script src="http://localhost:34803/quartz/js/darkmode.d159077825458c96466cb00893a1c0d1.min.js"></script>
+
+
+
+<script src="http://localhost:34803/quartz/js/util.c69e233dc1cc331a30b0f670e657b425.min.js"></script>
+
+
+
+<script async src="https://unpkg.com/@floating-ui/core@0.7.3"></script>
+<script async src="https://unpkg.com/@floating-ui/dom@0.5.4"></script>
+
+<script src="http://localhost:34803/quartz/js/popover.f03552ccb84d99ca615d1cfb9abde59e.min.js"></script>
+
+
+
+
+<script defer src="http://localhost:34803/quartz/js/code-title.ce4a43f09239a9efb48fee342e8ef2df.min.js"></script>
+
+
+
+
+<script defer src="http://localhost:34803/quartz/js/clipboard.2913da76d3cb21c5deaa4bae7da38c9f.min.js"></script>
+
+
+
+
+<script defer src="http://localhost:34803/quartz/js/callouts.7723cac461d613d118ee8bb8216b9838.min.js"></script>
+
+
+
+ 
+<script>
+  const SEARCH_ENABLED =  false 
+  const LATEX_ENABLED =  true 
+  const PRODUCTION =  false 
+  const BASE_URL = "http://localhost:34803/"
+  const fetchData = Promise.all([
+        fetch("http:\/\/localhost:34803\/indices\/linkIndex.f6425e3c9c5a78cb1a57d6271bd0c88d.min.json")
+          .then(data => data.json())
+          .then(data => ({
+            index: data.index,
+            links: data.links,
+          })),
+        fetch("http:\/\/localhost:34803\/indices\/contentIndex.56753ef950db2332e50166167e5b613e.min.json")
+          .then(data => data.json()),
+      ])
+      .then(([{index, links}, content]) => ({
+        index,
+        links,
+        content,
+      }))
+
+    const render = () => {
+    
+    const siteBaseURL = new URL(BASE_URL);
+    const pathBase = siteBaseURL.pathname;
+    const pathWindow = window.location.pathname;
+    const isHome = pathBase == pathWindow;
+
+    addCopyButtons();
+    
+
+    
+
+    addCollapsibleCallouts();
+    
+
+    
+    initPopover(
+      "http://localhost:34803",
+       true 
+    )
+    
+
+    
+    const footer = document.getElementById("footer")
+    if (footer) {
+      const container = document.getElementById("graph-container")
+      
+      if (!container) return requestAnimationFrame(render)
+      
+      container.textContent = ""
+
+      const drawGlobal = isHome &&  true ;
+      drawGraph(
+          "http://localhost:34803",
+          drawGlobal,
+          [{"/moc":"#4388cc"}],
+          drawGlobal ? {"centerForce":1,"depth":-1,"enableDrag":true,"enableLegend":false,"enableZoom":true,"fontSize":0.5,"linkDistance":1,"opacityScale":3,"repelForce":1,"scale":1.4} : {"centerForce":1,"depth":1,"enableDrag":true,"enableLegend":false,"enableZoom":true,"fontSize":0.6,"linkDistance":1,"opacityScale":3,"repelForce":2,"scale":1.2}
+        );
+
+      }
+    
+
+    
+      var els = document.getElementsByClassName("mermaid");
+      if (els.length > 0) {
+        import('https://unpkg.com/mermaid@9/dist/mermaid.esm.min.mjs').then(
+          (obj) => {
+            
+            
+            obj.default.init();
+          }
+        )
+      }
+    
+  }
+
+  const init = (doc = document) => {
+    
+    addCopyButtons();
+    
+
+    addTitleToCodeBlocks();
+    renderMathInElement(doc.body, {
+      delimiters: [
+        {left: '$$', right: '$$', display: true},
+        {left: '$', right: '$', display: false},
+      ],
+      macros: {
+        '’': "'"
+      },
+      throwOnError : false
+    });
+    
+  };
+</script>
+
+<script>
+  window.Million = {
+    navigate: (url) => (window.location.href = url),
+    prefetch: () => {},
+  }
+
+  window.addEventListener("DOMContentLoaded", () => {
+    init()
+    render()
+  })
+</script>
+
+
+</head>
+<div id="search-container">
+  <div id="search-space">
+    <input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search"
+      placeholder="Search for something..." dir="ltr">
+    <div id="results-container">
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"
+  integrity="sha256-i3A0NZGkhsKjVMzFxv3ksk0DZh3aXqu0l49Bbh0MdjE=" crossorigin="anonymous" defer></script>
+
+<script defer src="http://localhost:34803/quartz/js/full-text-search.e6e2e0c213187ca0c703d6e2c7a77fcd.min.js"></script>
+
+
+
+<header class="book-header">
+    
+    <label for="menu-control">
+      <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+    </label>
+    <h1 id="page-title"><a href="http://localhost:34803/en/">📓 Amethyst</a></h1>
+    <div class="spacer"></div>
+    <div id="search-icon" class="quartz-search">
+      <p>Search</p>
+      <svg tabindex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search Icon</title><desc id="desc">Icon to open search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"/><circle cx="8" cy="8" r="7"/></g></svg>
+    </div>
+    <div class='darkmode'>
+    <input class='toggle' id='darkmode-toggle' type='checkbox' tabindex="-1">
+    <label id="toggle-label-light" for='darkmode-toggle' tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve">
+            <title>Light Mode</title>
+            <path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z" />
+        </svg>
+    </label>
+    <label id="toggle-label-dark" for='darkmode-toggle' tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xml:space="preserve">
+            <title>Dark Mode</title>
+            <path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z" />
+        </svg>
+    </label>
+</div>
+</header>
+
+
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <main class="flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<div class="menu-search">
+  <div id="search-icon" class="quartz-search">
+    <p>Search</p>
+    <svg tabindex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7">
+      <title id="title">Search Icon</title>
+      <desc id="desc">Icon to open search</desc>
+      <g class="search-path" fill="none">
+        <path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4" />
+        <circle cx="8" cy="8" r="7" />
+      </g>
+    </svg>
+  </div>
+</div>
+
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+  
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        English
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="http://localhost:34803/fr/eb/organisation/">
+          Français
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <span class="book-menu-title">Getting Started</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/setup/setup/" class="">Setup</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/setup/editing/" class="">Editing Content</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/setup/obsidian/" class="">Obsidian Vault Integration</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/setup/preview-changes/" class="">Preview Changes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/setup/custom-Domain/" class="">Custom Domain</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/setup/config/" class="">Customization</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/setup/hosting/" class="">Deploying Amethyst to the Web</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/setup/ignore-notes/" class="">Ignoring Notes</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/setup/search/" class="">Search</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/setup/troubleshooting/" class="">Troubleshooting and FAQ</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/setup/updating/" class="">Updating</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-71d2f98538faea977f26c44afad0d6a0" class="toggle"  />
+    <label for="section-71d2f98538faea977f26c44afad0d6a0" class="flex justify-between">
+      <a href="/en/example/" class="book-collapse-toggle ">Example Site</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/example/table-of-contents/" class="">Table of Contents</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/example/table-of-contents/with-toc/" class="">With ToC</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/example/table-of-contents/without-toc/" class="">Without ToC</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-dc27ad275b83c964f4f9bb4cbb6fbd9c" class="toggle"  />
+    <label for="section-dc27ad275b83c964f4f9bb4cbb6fbd9c" class="flex justify-between">
+      <a href="/en/example/collapsed/" class="book-collapse-toggle ">Collapsed</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/example/collapsed/3rd-level/" class="">3rd Level</a>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/example/collapsed/3rd-level/4th-level/" class="">4th Level</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <span class="book-menu-title">Features</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/features/buttons/" class="">Buttons</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/features/columns/" class="">Columns</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/features/details/" class="">Details</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/features/expand/" class="">Expand</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/features/mermaid/" class="">Mermaid</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <input type="checkbox" id="section-fdb61a7ff6158d7e7f1f3098711885f4" class="toggle"  />
+    <label for="section-fdb61a7ff6158d7e7f1f3098711885f4" class="flex justify-between">
+      <a href="/en/features/section/" class="book-collapse-toggle ">Section</a>
+    </label>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/features/section/first-page/" class="">First Page</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/features/section/second-page/" class="">Second Page</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/features/tabs/" class="">Tabs</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/features/callouts/" class="">Callouts</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/features/languages/" class="">Chinese, Japanese, Korean Support (测试)</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/features/latex/" class="">LaTeX</a>
+  
+
+        </li>
+      
+    
+  </ul>
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <span class="book-menu-title">Ebs</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/eb/adventure_map/" class="">Adventure Map</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/eb/beginners_guide/" class="">Beginners Guide</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/eb/cards/" class="">Cards</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/eb/exploration/" class="">Exploration</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/eb/intro/" class="">Intro</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/eb/inventory/" class="">Inventory</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/eb/organisation/" class="active">Organisation</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/en/eb/premium/" class="">Premium</a>
+  
+
+        </li>
+      
+    
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://github.com/64bitpandas/amethyst"  target="_blank" rel="noopener">
+        Github
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+    <div class="book-page container">
+      
+
+      
+      
+  <article class="markdown">
+    <h1 class="title">Organisation</h1>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+<h1 id="les-organisations">
+  Les organisations
+  <a class="anchor" href="#les-organisations">#</a>
+</h1>
+<p>Les organisations <strong>sont composées de groupes de joueurs</strong> qui décident de réunir leurs forces afin <strong>de jouer ensemble</strong> (si vous préférez, vous pouvez les appeler &ldquo;guildes&rdquo;).</p>
+<p><strong>Chaque organisation</strong> est organisée par <strong>une structure hiérarchique</strong>.</p>
+<p>Les différents <strong>membres de l&rsquo;organisation</strong> contribuent à celle-ci en y <strong>payant des taxes</strong>. Les ressources collectées à travers les taxes peuvent uniquement être utilisées par le chef de l&rsquo;organisation ainsi que les administrateurs qui ont été choisis par celui-ci. Il peuvent <strong>acheter des améliorations</strong> qui donneront <strong>des bonus</strong> à tous les membres de l&rsquo;organisation.</p>
+<p>:::info INFORMATION
+Chaque organisation se réunit également dans un but commun pour la partie PvP que vous pouvez retrouver ici.
+:::</p>
+<h2 id="actions-possibles">
+  Actions possibles:
+  <a class="anchor" href="#actions-possibles">#</a>
+</h2>
+<p>Toutes les actions de l&rsquo;organisation se font avec la commande <code>&gt;organisation</code> (ou <code>&gt;org</code>).</p>
+<h3 id="créer-son-organisation-org-create">
+  Créer son organisation (<code>&gt;org create</code>)
+  <a class="anchor" href="#cr%c3%a9er-son-organisation-org-create">#</a>
+</h3>
+<p>Vous pouvez créer votre propre organisation avec la commande <code>&gt;org create &lt;NomOrganisation&gt;</code> (remplacez <code>&lt;NomOrganisation&gt;</code>) par le nom que vous souhaitez lui donner.</p>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/organization_create.png" width="auto" alt="organization_create.png"  /></p>
+<p>:::info INFORMATION
+Créer une organisation n&rsquo;est pas gratuit, il vous faudra <strong>100 EnderCoins pour la créer</strong>.
+:::</p>
+<h3 id="voir-les-détails-dune-organisation-org-info">
+  Voir les détails d&rsquo;une organisation (<code>&gt;org info</code>)
+  <a class="anchor" href="#voir-les-d%c3%a9tails-dune-organisation-org-info">#</a>
+</h3>
+<p>Si vous souhaitez voir les détails d&rsquo;une organisations il vous suffit de faire la commande <code>&gt;org info &lt;NomOrganisation&gt;</code>.</p>
+<p>Vous pourrez y trouver certaines informations comme:</p>
+<ul>
+<li>Le chef de l&rsquo;organisation.</li>
+<li>Le nombre total de membres dans l&rsquo;organisation.</li>
+<li>La date de création de l&rsquo;organisation.</li>
+<li>Le capital d&rsquo;EnderCoins de l&rsquo;organisation.</li>
+<li>La taxe global imposée aux membres de l&rsquo;organisation.</li>
+<li>Le nombre d&rsquo;amélioration total de l&rsquo;organisation.</li>
+</ul>
+<p>Vous pourrez aussi y retouver la liste des membres.</p>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/organization_command_info.png" width="auto" alt="organization_command_info.png"  /></p>
+<h3 id="promouvoir-et-distituer-un-membre-org-promote">
+  Promouvoir et distituer un membre (<code>&gt;org promote</code>)
+  <a class="anchor" href="#promouvoir-et-distituer-un-membre-org-promote">#</a>
+</h3>
+<p>Afin que l&rsquo;organisation fonctionne au mieux, elle est composée d&rsquo;une structure hiérarchique. Chaque grade donne des pouvoirs différents que vous pouvez retrouver ci-dessous:</p>
+<ul>
+<li><strong>Rang 6 - Chef</strong> (il peut faire toutes les actions disponibles dans l&rsquo;organisation, il ne peut y en avoir qu&rsquo;un seul).</li>
+<li><strong>Rang 5 - Sous-chef</strong> (il a les mêmes droits que le chef sauf qu&rsquo;il ne peut pas supprimer l&rsquo;organisation).</li>
+<li><strong>Rang 4 - Administrateur</strong> (il peut acheter des améliorations et promouvoir/destituer les membres de l&rsquo;organisation de rang inférieur).</li>
+<li><strong>Rang 3 - Modérateur</strong> (il peut expulser des membres).</li>
+<li><strong>Rang 2 - Recruteur</strong> (il peut inviter de nouveaux membres dans l&rsquo;organisation).</li>
+<li><strong>Rang 1 - Membre</strong> (rang de base).</li>
+<li><strong>Rang 1 - Esclave</strong> (il ne bénéficie pas des bonus de l&rsquo;organisation et toutes les ressources récoltées vont pour l&rsquo;organisation).</li>
+</ul>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/organization_promote.png" width="auto" alt="organization_promote.png"  /></p>
+<h3 id="inviter-des-joueurs-dans-lorganisaion-org-invite">
+  Inviter des joueurs dans l&rsquo;organisaion (<code>&gt;org invite</code>)
+  <a class="anchor" href="#inviter-des-joueurs-dans-lorganisaion-org-invite">#</a>
+</h3>
+<p>Si vous êtes recruteur de l&rsquo;organisation (ou rang plus élevé), vous pouvez inviter de nouveaux joueurs avec la commande <code>&gt;org invite &lt;NomOrganisation&gt; @Joueur</code>.</p>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/organization_invite.png" width="auto" alt="organization_invite.png"  /></p>
+<h3 id="expulser-des-joueurs-de-lorganisation-org-kick">
+  Expulser des joueurs de l&rsquo;organisation (<code>&gt;org kick</code>)
+  <a class="anchor" href="#expulser-des-joueurs-de-lorganisation-org-kick">#</a>
+</h3>
+<p>Si vous êtes modérateur de l&rsquo;organisation (ou rang plus élevé), vous pouvez expulser des joueurs de rang inférieur à vous avec la commande <code>&gt;org kick &lt;NomOrganisation&gt; @Joueur</code>.
+:::warning ATTENTION
+Cette action a des conséquences pour la partie PvP que vous pouvez retrouver ici.
+:::</p>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/organization_kick.png" width="auto" alt="organization_kick.png"  /></p>
+<h3 id="supprimer-lorganisation-org-disband">
+  Supprimer l&rsquo;organisation (<code>&gt;org disband</code>)
+  <a class="anchor" href="#supprimer-lorganisation-org-disband">#</a>
+</h3>
+<p>Si vous souhaitez supprimer l&rsquo;organisation, il vous suffit de faire la commande <code>&gt;org disband &lt;NomOrganisation&gt;</code>.</p>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/organization_disband.png" width="auto" alt="organization_disband.png"  /></p>
+<p>:::info INFORMATION
+Uniquement le chef peut supprimer l&rsquo;organisation. L&rsquo;ensemble des ressources dans la banque retourneront dans l&rsquo;inventaire de leur joueur respectif.
+:::
+:::warning ATTENTION
+Cette action est irréversible.
+:::</p>
+<h3 id="voir-sa-list-dorganisations-org-list">
+  Voir sa list d&rsquo;organisations (<code>&gt;org list</code>)
+  <a class="anchor" href="#voir-sa-list-dorganisations-org-list">#</a>
+</h3>
+<p>Vous pouvez rejoindre plusieurs organisations si vous le souhaitez. Cependant, si vous venez à rejoindre plusieurs organisations vous devrez choisir une organisation principale parmis toutes celles que vous avez rejoint.</p>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/organization_list.png" width="auto" alt="organization_list.png"  /></p>
+<p>:::info INFORMATION
+Si vous voulez plus d&rsquo;informations sur comment se passe le fait de rejoindre plusieurs organisations, cliquez ici.
+:::</p>
+<h3 id="voir-les-améliorations-dune-organisation-org-upgrades">
+  Voir les améliorations d&rsquo;une organisation (<code>&gt;org upgrades</code>)
+  <a class="anchor" href="#voir-les-am%c3%a9liorations-dune-organisation-org-upgrades">#</a>
+</h3>
+<p>Il y a 30 améliorations disponibles:</p>
+<p>J : Jobs<br>
+JLU : Jobs/Lumberjack (Bûcheron)<br>
+JMI : Jobs/Miner (Mineur)<br>
+JDI : Jobs/Digger (Pelleteur)<br>
+JFI : Jobs/Fisherman (Pêcheur)<br>
+JFA : Jobs/Farmer (Fermier)<br>
+JTO : Jobs/Toolsmith (Forgeron)<br>
+JAL : Jobs/Alchemist (Alchimiste)</p>
+<p>C : Cards<br>
+M : Mana</p>
+<p>D : Daily<br>
+MDG : Mana/Daily/Guaranteed<br>
+MDP : Mana/Daily/Probabilistic<br>
+CDG : Cards/Daily/Guaranteed<br>
+CDP : Cards/Daily/Probabilistic</p>
+<p>H : Hourly<br>
+MDG : Mana/Hourly/Guaranteed<br>
+MDP : Mana/Hourly/Probabilistic<br>
+CDG : Cards/Hourly/Guaranteed<br>
+CDP : Cards/Hourly/Probabilistic</p>
+<p>S : Shrine<br>
+MDG : Mana/Treasure/Guaranteed<br>
+MDP : Mana/Treasure/Probabilistic<br>
+CDG : Cards/Treasure/Guaranteed<br>
+CDP : Cards/Treasure/Probabilistic</p>
+<p>T : Treasure<br>
+MDG : Mana/Treasure/Guaranteed<br>
+MDP : Mana/Treasure/Probabilistic<br>
+CDG : Cards/Treasure/Guaranteed<br>
+CDP : Cards/Treasure/Probabilistic</p>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/organization_upgrades.png" width="auto" alt="organization_upgrades.png"  /></p>
+<p>Il y a donc plusieurs types d&rsquo;améliorations, les améliorations <strong>J</strong>, <strong>M</strong>, <strong>C</strong>, <strong>D</strong>, <strong>H</strong>, <strong>S</strong> et <strong>T</strong> sont des pré-requis : <strong>acheter</strong> des améliorations ne donne <strong>aucun bonus</strong> en soit mais elles sont <strong>nécessaires pour pouvoir acheter d&rsquo;autres améliorations</strong> ensuite.</p>
+<p>Un niveau amélioration <strong>ne peut être acheté</strong> que si toutes les améliorations qui la précédent dans l&rsquo;arbre sont à <strong>un niveau supérieur</strong>. Par exemple pour acheter l&rsquo;amélioration MHG de niveau 5, il faut au moins que les améliorations M et H soient aussi au niveau 5.</p>
+<p>Les améliorations de métier:
+Les améliorations <strong>JLU</strong>, <strong>JMI</strong>, <strong>JDI</strong>, <strong>JFI</strong> et <strong>JFA</strong> augmentent la production des ressources respectivement des commandes <code>&gt;chop</code>, <code>&gt;mine</code>, <code>&gt;dig</code>, <code>&gt;fish</code> et <code>&gt;farm</code>.</p>
+<p>Les améliorations <strong>JAL</strong> et <strong>JTO</strong> diminuent la consommation en mana des crafts pour <strong>les alchimistes</strong> et <strong>les forgerons</strong>. Cette amélioration n&rsquo;a d&rsquo;effet que si le métier de craft du joueur est <strong>au moins 100 niveaux au dessus</strong> de l&rsquo;objet considéré.
+Par exemple pour une &ldquo;Medium Mining Potion&rdquo; qui a un niveau d&rsquo;alchimiste requis de 200, la décôte de mana de l&rsquo;amélioration <strong>JAL</strong> ne sera appliquée que si l&rsquo;alchmiste en question est <strong>au moins niveau 300</strong> dans son métier.</p>
+
+
+    
+
+<hr/>
+
+
+<div class="page-end" id="footer">
+    <div class="backlinks-container">
+        <h3>Backlinks</h3>
+<ul class="backlinks">
+    
+    
+    
+    
+    
+    
+    
+    <li>
+      No backlinks found
+    </li>
+    
+</ul>
+
+    </div>
+    <div>
+        <script
+  src="https://cdn.jsdelivr.net/npm/d3@6.7.0/dist/d3.min.js"
+  integrity="sha256-+7jaYCp29O1JusNWHaYtgUn6EhuP0VaFuswhNV06MyI="
+  crossorigin="anonymous"
+></script>
+<h3>Interactive Graph</h3>
+<div id="graph-container"></div>
+<style>
+  :root {
+    --g-node: var(--secondary);
+    --g-node-active: var(--primary);
+    --g-node-inactive: var(--visited);
+    --g-link: var(--outlinegray);
+    --g-link-active: #5a7282;
+  }
+</style>
+
+<script src="http://localhost:34803/quartz/js/graph.cbd78cfa87df7d3e230d16fc24f06548.js"></script>
+
+    </div>
+</div>
+
+
+
+
+
+
+<div id="contact_buttons">
+    <footer>
+        
+        
+        <p>Made with <a href="https://github.com/64bitpandas/amethyst">Amethyst</a>, © 2024 Ben Cuan</p>
+        <ul>
+            
+            <li><a href="http://localhost:34803/">Home</a></li>
+            <li><a href="https://bencuan.me">Website</a></li><li><a href="https://blog.bencuan.me">Blog</a></li></ul>
+    </footer>
+</div>
+
+
+    
+  </article>
+ 
+      
+      
+      
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#les-organisations">Les organisations</a>
+      <ul>
+        <li><a href="#actions-possibles">Actions possibles:</a>
+          <ul>
+            <li><a href="#créer-son-organisation-org-create">Créer son organisation (<code>&gt;org create</code>)</a></li>
+            <li><a href="#voir-les-détails-dune-organisation-org-info">Voir les détails d&rsquo;une organisation (<code>&gt;org info</code>)</a></li>
+            <li><a href="#promouvoir-et-distituer-un-membre-org-promote">Promouvoir et distituer un membre (<code>&gt;org promote</code>)</a></li>
+            <li><a href="#inviter-des-joueurs-dans-lorganisaion-org-invite">Inviter des joueurs dans l&rsquo;organisaion (<code>&gt;org invite</code>)</a></li>
+            <li><a href="#expulser-des-joueurs-de-lorganisation-org-kick">Expulser des joueurs de l&rsquo;organisation (<code>&gt;org kick</code>)</a></li>
+            <li><a href="#supprimer-lorganisation-org-disband">Supprimer l&rsquo;organisation (<code>&gt;org disband</code>)</a></li>
+            <li><a href="#voir-sa-list-dorganisations-org-list">Voir sa list d&rsquo;organisations (<code>&gt;org list</code>)</a></li>
+            <li><a href="#voir-les-améliorations-dune-organisation-org-upgrades">Voir les améliorations d&rsquo;une organisation (<code>&gt;org upgrades</code>)</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>💜 Bienvenue sur Amethyst on Documentation EnderBot</title>
+    <link>http://localhost:45269/fr/</link>
+    <description>Recent content in 💜 Bienvenue sur Amethyst on Documentation EnderBot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <atom:link href="http://localhost:45269/fr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:45269/fr/adventure_map/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:45269/fr/adventure_map/</guid>
+      <description>La carte d&amp;rsquo;aventure # Votre personnage (représenté par votre photo de profile Discord), est toujours localisé quelque part parmis les 12 zones de l&amp;rsquo;île d&amp;rsquo;Enderia.&#xA;Lorsque vous commencez à jouer à EnderBot, vous serez automatiquement situé à la plage.&#xA;Les douzes zones suivantes sont:&#xA;La plage. Le lac. Le village (c&amp;rsquo;est là que vous devez vous rendre si vous voulez acheter quelque chose dans le shop). La mine. La forêt.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:45269/fr/beginners_guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:45269/fr/beginners_guide/</guid>
+      <description>Introduction # Si vous êtes complétement perdu et confus à propos d&amp;rsquo;EnderBot, cette page est un bon début.&#xA;Préambule # Après avoir accepté les règles du jeu, vous pourrez commencer à jouer. Veuillez noter que dans cette documentation, les commandes sont préfixées par des &amp;gt;, cependant il ne s&amp;rsquo;agit pas de la seule manière d&amp;rsquo;éxécuter des commandes et le préfixe peut-être modifié par les administrateurs du serveur avec la commande &amp;gt;prefix.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:45269/fr/cards/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:45269/fr/cards/</guid>
+      <description>Cartes # Invoquer des cartes # Pour invoquer des cartes, utilisez la commande &amp;gt;summon, vous aurez alors le choix entre 3 cartes et vous pourrez en choisir une parmis les trois en cliquant sur le bouton correspondant (aussi appelé &amp;ldquo;faire un claim&amp;rdquo;).&#xA;Le temps d&amp;rsquo;attente entre deux invocations est de 1 heure. Le temps d&amp;rsquo;attente entre deux claims et de 20 minutes.&#xA;:::info N&amp;rsquo;hésitez pas à consulter notre page premium pour avoir des délais plus court pour faire des invocations ou récupérer des cartes.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:45269/fr/carte_aventure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:45269/fr/carte_aventure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:45269/fr/exploration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:45269/fr/exploration/</guid>
+      <description>Les explorations # Les explorations sont une fonctionnalité qui dépend directement de la carte d&amp;rsquo;aventure.&#xA;Lancer une exploration (&amp;gt;exploration) # Pour lancer une exploration il vous suffit d&amp;rsquo;utiliser la commande suite &amp;gt;exploration. Une exploration peut se lancer jusqu&amp;rsquo;à 6 joueurs au maximum. Plus vous serez nombreux à être dans une même expédition, plus vous collecterez de ressources.&#xA;Lors d&amp;rsquo;une exploration vous pouvez récolter les ressources suivantes une fois que votre exploration est terminée :</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:45269/fr/guide_du_debutant/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:45269/fr/guide_du_debutant/</guid>
+      <description>Guide du débutant: # Si vous êtes nouveau sur EnderBot ou vous êtes perdus vis à vis du bot, cette page est faite pour vous!&#xA;Préambule: # Une fois que vous avez accepté les règles du jeu, vous pouvez commencer à jouer au bot.&#xA;Veuillez noter que pour toute la documentation, les commandes sont préfixées par le préfixe par défaut d&amp;rsquo;EnderBot qui est &amp;gt;. Cependant, vous pouvez toujours personnaliser le prefix du bot s&amp;rsquo;il ne vous contient pas avec la commande &amp;gt;prefix (Uniquement les administrateurs du serveur peuvent modifier le préfixe du bot).</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:45269/fr/intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:45269/fr/intro/</guid>
+      <description>Guide du débutant: # Si vous êtes nouveau sur EnderBot ou vous êtes perdus vis à vis du bot, cette page est faite pour vous!&#xA;Préambule: # Une fois que vous avez accepté les règles du jeu, vous pouvez commencer à jouer au bot.&#xA;Veuillez noter que pour toute la documentation, les commandes sont préfixées par le préfixe par défaut d&amp;rsquo;EnderBot qui est &amp;gt;. Cependant, vous pouvez toujours personnaliser le prefix du bot s&amp;rsquo;il ne vous contient pas avec la commande &amp;gt;prefix (Uniquement les administrateurs du serveur peuvent modifier le préfixe du bot).</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:45269/fr/inventory/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:45269/fr/inventory/</guid>
+      <description>L&amp;rsquo;inventaire: # Vous pouvez consulter tout ce que vous possédez sur EnderBot grâce à la commande &amp;gt;inv (ou /ebinventory).&#xA;:::tip INFORMATION C&amp;rsquo;est la page générale qui s&amp;rsquo;ouvrira par défaut quand vous effectuerez la commande. Vous y trouverez dans les grandes lignes concernant la progression de votre compte. :::&#xA;Informations générales:&#xA;Votre niveau (vous permet de savoir votre progression générale sur le bot) ainsi que l&amp;rsquo;XP totale. Votre mana (vous permet de travailler et de récolter des ressources sur les différents métiers).</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:45269/fr/organisation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:45269/fr/organisation/</guid>
+      <description>Les organisations # Les organisations sont composées de groupes de joueurs qui décident de réunir leurs forces afin de jouer ensemble (si vous préférez, vous pouvez les appeler &amp;ldquo;guildes&amp;rdquo;).&#xA;Chaque organisation est organisée par une structure hiérarchique.&#xA;Les différents membres de l&amp;rsquo;organisation contribuent à celle-ci en y payant des taxes. Les ressources collectées à travers les taxes peuvent uniquement être utilisées par le chef de l&amp;rsquo;organisation ainsi que les administrateurs qui ont été choisis par celui-ci.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:45269/fr/structures/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:45269/fr/structures/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

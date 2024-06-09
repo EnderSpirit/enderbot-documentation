@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="fr-FR" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=34803&amp;path=livereload" data-no-instant defer></script>
+  <meta property="og:title" content="" />
+<meta property="og:description" content="Introduction # Si vous êtes complétement perdu et confus à propos d&rsquo;EnderBot, cette page est un bon début.
+Préambule # Après avoir accepté les règles du jeu, vous pourrez commencer à jouer. Veuillez noter que dans cette documentation, les commandes sont préfixées par des &gt;, cependant il ne s&rsquo;agit pas de la seule manière d&rsquo;éxécuter des commandes et le préfixe peut-être modifié par les administrateurs du serveur avec la commande &gt;prefix." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:34803/fr/eb/beginners_guide/" /><meta property="article:section" content="eb" />
+
+<meta property="og:site_name" content="📓 Amethyst" />
+<title>Beginners Guide | 📓 Amethyst</title>
+<link rel="manifest" href="/manifest.json">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/book.min.45ec1f6261e17c6488824ac77b6b8a0c11eef38eaed587cfecad4b284f57ee79.css" integrity="sha256-RewfYmHhfGSIgkrHe2uKDBHu846u1YfP7K1LKE9X7nk=" crossorigin="anonymous">
+
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+  
+
+
+
+<meta charset="UTF-8" />
+<meta
+  name="description"
+  content="Introduction # Si vous êtes complétement perdu et confus à propos d&rsquo;EnderBot, cette page est un bon début.
+Préambule # Après avoir accepté les règles du jeu, vous pourrez commencer à jouer. Veuillez noter que dans cette documentation, les commandes sont préfixées par des &gt;, cependant il ne s&rsquo;agit pas de la seule manière d&rsquo;éxécuter des commandes et le préfixe peut-être modifié par les administrateurs du serveur avec la commande &gt;prefix."
+/>
+<title>
+  📓 Amethyst
+</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+
+
+
+
+<link rel="shortcut icon" type="image/png"  href="http://localhost:34803//favicon.png" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<link href="http://localhost:34803/styles.e08ceb33360cec132feb69cfb982e2a4.min.css" rel="stylesheet" />
+
+
+<link href="http://localhost:34803/quartz/styles/_light_syntax.86a48a52faebeaaf42158b72922b1c90.min.css" rel="stylesheet" id="theme-link">
+
+  
+
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css" as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+      integrity="sha384-R4558gYOUz8mP9YWpZJjofhk+zx0AS11p36HnD2ZKj/6JR5z27gSSULCNHIRReVs" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"
+        integrity="sha384-z1fJDqw8ZApjGO3/unPWUPsIymfsJmyrDVWC8Tv/a1HeOtGmkwNd/7xUS0Xcnvsx"
+        crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/contrib/auto-render.min.js"
+        integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR"
+        crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.2/dist/contrib/copy-tex.min.js"
+        integrity="sha384-ww/583aHhxWkz5DEVn6OKtNiIaLi2iBRNZXfJRiY1Ai7tnJ9UXpEsyvOITVpTl4A"
+        crossorigin="anonymous"></script>
+
+  
+
+
+
+
+
+
+<script src="http://localhost:34803/quartz/js/darkmode.d159077825458c96466cb00893a1c0d1.min.js"></script>
+
+
+
+<script src="http://localhost:34803/quartz/js/util.c69e233dc1cc331a30b0f670e657b425.min.js"></script>
+
+
+
+<script async src="https://unpkg.com/@floating-ui/core@0.7.3"></script>
+<script async src="https://unpkg.com/@floating-ui/dom@0.5.4"></script>
+
+<script src="http://localhost:34803/quartz/js/popover.f03552ccb84d99ca615d1cfb9abde59e.min.js"></script>
+
+
+
+
+<script defer src="http://localhost:34803/quartz/js/code-title.ce4a43f09239a9efb48fee342e8ef2df.min.js"></script>
+
+
+
+
+<script defer src="http://localhost:34803/quartz/js/clipboard.2913da76d3cb21c5deaa4bae7da38c9f.min.js"></script>
+
+
+
+
+<script defer src="http://localhost:34803/quartz/js/callouts.7723cac461d613d118ee8bb8216b9838.min.js"></script>
+
+
+
+ 
+<script>
+  const SEARCH_ENABLED =  false 
+  const LATEX_ENABLED =  true 
+  const PRODUCTION =  false 
+  const BASE_URL = "http://localhost:34803/"
+  const fetchData = Promise.all([
+        fetch("http:\/\/localhost:34803\/indices\/linkIndex.f6425e3c9c5a78cb1a57d6271bd0c88d.min.json")
+          .then(data => data.json())
+          .then(data => ({
+            index: data.index,
+            links: data.links,
+          })),
+        fetch("http:\/\/localhost:34803\/indices\/contentIndex.56753ef950db2332e50166167e5b613e.min.json")
+          .then(data => data.json()),
+      ])
+      .then(([{index, links}, content]) => ({
+        index,
+        links,
+        content,
+      }))
+
+    const render = () => {
+    
+    const siteBaseURL = new URL(BASE_URL);
+    const pathBase = siteBaseURL.pathname;
+    const pathWindow = window.location.pathname;
+    const isHome = pathBase == pathWindow;
+
+    addCopyButtons();
+    
+
+    
+
+    addCollapsibleCallouts();
+    
+
+    
+    initPopover(
+      "http://localhost:34803",
+       true 
+    )
+    
+
+    
+    const footer = document.getElementById("footer")
+    if (footer) {
+      const container = document.getElementById("graph-container")
+      
+      if (!container) return requestAnimationFrame(render)
+      
+      container.textContent = ""
+
+      const drawGlobal = isHome &&  true ;
+      drawGraph(
+          "http://localhost:34803",
+          drawGlobal,
+          [{"/moc":"#4388cc"}],
+          drawGlobal ? {"centerForce":1,"depth":-1,"enableDrag":true,"enableLegend":false,"enableZoom":true,"fontSize":0.5,"linkDistance":1,"opacityScale":3,"repelForce":1,"scale":1.4} : {"centerForce":1,"depth":1,"enableDrag":true,"enableLegend":false,"enableZoom":true,"fontSize":0.6,"linkDistance":1,"opacityScale":3,"repelForce":2,"scale":1.2}
+        );
+
+      }
+    
+
+    
+      var els = document.getElementsByClassName("mermaid");
+      if (els.length > 0) {
+        import('https://unpkg.com/mermaid@9/dist/mermaid.esm.min.mjs').then(
+          (obj) => {
+            
+            
+            obj.default.init();
+          }
+        )
+      }
+    
+  }
+
+  const init = (doc = document) => {
+    
+    addCopyButtons();
+    
+
+    addTitleToCodeBlocks();
+    renderMathInElement(doc.body, {
+      delimiters: [
+        {left: '$$', right: '$$', display: true},
+        {left: '$', right: '$', display: false},
+      ],
+      macros: {
+        '’': "'"
+      },
+      throwOnError : false
+    });
+    
+  };
+</script>
+
+<script>
+  window.Million = {
+    navigate: (url) => (window.location.href = url),
+    prefetch: () => {},
+  }
+
+  window.addEventListener("DOMContentLoaded", () => {
+    init()
+    render()
+  })
+</script>
+
+
+</head>
+<div id="search-container">
+  <div id="search-space">
+    <input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search"
+      placeholder="Search for something..." dir="ltr">
+    <div id="results-container">
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"
+  integrity="sha256-i3A0NZGkhsKjVMzFxv3ksk0DZh3aXqu0l49Bbh0MdjE=" crossorigin="anonymous" defer></script>
+
+<script defer src="http://localhost:34803/quartz/js/full-text-search.e6e2e0c213187ca0c703d6e2c7a77fcd.min.js"></script>
+
+
+
+<header class="book-header">
+    
+    <label for="menu-control">
+      <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
+    </label>
+    <h1 id="page-title"><a href="http://localhost:34803/fr/">📓 Amethyst</a></h1>
+    <div class="spacer"></div>
+    <div id="search-icon" class="quartz-search">
+      <p>Search</p>
+      <svg tabindex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search Icon</title><desc id="desc">Icon to open search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"/><circle cx="8" cy="8" r="7"/></g></svg>
+    </div>
+    <div class='darkmode'>
+    <input class='toggle' id='darkmode-toggle' type='checkbox' tabindex="-1">
+    <label id="toggle-label-light" for='darkmode-toggle' tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xml:space="preserve">
+            <title>Light Mode</title>
+            <path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z" />
+        </svg>
+    </label>
+    <label id="toggle-label-dark" for='darkmode-toggle' tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xml:space="preserve">
+            <title>Dark Mode</title>
+            <path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z" />
+        </svg>
+    </label>
+</div>
+</header>
+
+
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <main class="flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<div class="menu-search">
+  <div id="search-icon" class="quartz-search">
+    <p>Search</p>
+    <svg tabindex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7">
+      <title id="title">Search Icon</title>
+      <desc id="desc">Icon to open search</desc>
+      <g class="search-path" fill="none">
+        <path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4" />
+        <circle cx="8" cy="8" r="7" />
+      </g>
+    </svg>
+  </div>
+</div>
+
+
+
+
+  
+
+
+
+  
+    
+  
+
+
+
+<ul class="book-languages">
+  <li>
+    <input type="checkbox" id="languages" class="toggle" />
+    <label for="languages" class="flex justify-between">
+      <a role="button" class="flex align-center">
+        <img src="/svg/translate.svg" class="book-icon" alt="Languages" />
+        Français
+      </a>
+    </label>
+
+    <ul>
+      
+      <li>
+        <a href="http://localhost:34803/en/">
+          English
+        </a>
+      </li>
+      
+    </ul>
+  </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <span class="book-menu-title">Ebs</span>
+  
+
+          
+  <ul>
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/fr/eb/adventure_map/" class="">Adventure Map</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/fr/eb/beginners_guide/" class="active">Beginners Guide</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/fr/eb/cards/" class="">Cards</a>
+  
+
+        </li>
+      
+    
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/fr/eb/exploration/" class="">Exploration</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/fr/eb/guide_du_debutant/" class="">Guide Du Debutant</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/fr/eb/intro/" class="">Intro</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/fr/eb/inventory/" class="">Inventory</a>
+  
+
+        </li>
+      
+    
+      
+        <li>
+          
+  
+  
+
+  
+    <a href="/fr/eb/organisation/" class="">Organisation</a>
+  
+
+        </li>
+      
+    
+      
+    
+  </ul>
+
+        </li>
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+<ul>
+  
+  <li>
+    <a href="https://github.com/64bitpandas/amethyst"  target="_blank" rel="noopener">
+        Github
+      </a>
+  </li>
+  
+</ul>
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+    <div class="book-page container">
+      
+
+      
+      
+  <article class="markdown">
+    <h1 class="title">Beginners Guide</h1>
+    
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+<h1 id="introduction">
+  Introduction
+  <a class="anchor" href="#introduction">#</a>
+</h1>
+<p>Si vous êtes complétement perdu et confus à propos d&rsquo;EnderBot, cette page est un bon début.</p>
+<h2 id="préambule">
+  Préambule
+  <a class="anchor" href="#pr%c3%a9ambule">#</a>
+</h2>
+<p>Après avoir accepté les règles du jeu, vous pourrez commencer à jouer.
+Veuillez noter que dans cette documentation, les commandes sont préfixées par des <code>&gt;</code>, cependant il ne s&rsquo;agit pas de la seule manière d&rsquo;éxécuter des commandes et le préfixe peut-être modifié par les administrateurs du serveur avec la commande <code>&gt;prefix</code>. Par exemple <code>&gt;ping</code> peut aussi être éxécuté en tapant <code>ebping</code> ou alors en utilisant la &ldquo;Slash command&rdquo; <code>/ebping</code> via la nouvelle interface Discord. La plupart des commandes du jeu ont une version slash si vous préférez. Beaucoup de joueurs préferent cependant la manière historique avec un préfixe <code>&gt;</code> ou <code>eb</code> puisque cela permet d&rsquo;abbréger les commandes, il est d&rsquo;ailleurs conseillé d&rsquo;utiliser les abbréviations autant que possible pour gagner du temps.</p>
+<h1 id="comment-jouer">
+  Comment jouer
+  <a class="anchor" href="#comment-jouer">#</a>
+</h1>
+<p>EnderBot se décompose en deux sous-systèmes de jeu majeurs : la partie RPG et la partie de collecte de cartes. Ces deux systèmes sont indépendents mais se rejoignent à haut niveau, vous pouvez choisir de jouer à seulement l&rsquo;un ou l&rsquo;autre, ou les deux !</p>
+<h2 id="commandes-communes">
+  Commandes communes
+  <a class="anchor" href="#commandes-communes">#</a>
+</h2>
+<p>Beaucoup de commandes d&rsquo;EnderBot sont communes aux deux systèmes de jeu. La plupart des commandes décrites dans cette sous-section ont tendance à avoir plus d&rsquo;intérêt pour les joueurs du RPG mais ont quand même une utilité aux joueurs de cartes.</p>
+<h3 id="commande-hourly-hr">
+  Commande <code>&gt;hourly</code> (<code>&gt;hr</code>)
+  <a class="anchor" href="#commande-hourly-hr">#</a>
+</h3>
+<p>La commande <code>&gt;hourly</code> permet de récupérer des récompenses toutes les heures.
+Cette commande a un cooldown de 60 minutes et donne des récompenses pour avancer plus vite dans le jeu, n&rsquo;hésitez pas à l&rsquo;utiliser dès qu&rsquo;elle est disponible si vous souhaitez avancer rapidement.
+Cette commande a également une mécanique de combo, si vous récupérez un <code>&gt;hourly</code> 90 minutes après avoir récupéré votre dernier <code>&gt;hourly</code> vous gagnerez un peu plus de ressources, les récompenses n&rsquo;augmentent plus après le combo 10. Pour optimiser la production de ressources il est donc préférable de les enchainer.</p>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/hourly_cooldown.png" width="auto" alt="hourly_cooldown.png"  />
+
+
+
+<img src="http://localhost:34803//img/commands_example/hourly_success.png" width="auto" alt="hourly_success.png"  /></p>
+<p>Sur le screen ci-dessus, on voit 4 récompenses conférées par cette commande, dans l&rsquo;ordre :</p>
+<ul>
+<li>XP, points d&rsquo;expérience permettant de monter en niveau</li>
+<li>Mana, permet de faire des actions sur le RPG</li>
+<li>EnderCoins, monnaie du jeu</li>
+<li>Card Essence (&ldquo;essence de carte&rdquo;), pour invoquer des cartes</li>
+</ul>
+<p>Ces ressources sont expliquées plus en détails plus bas dans ce guide. (Voir la section concernant la commande <code>&gt;inventory</code> pour une explication de toutes les ressources)</p>
+<h3 id="commande-daily-da">
+  Commande <code>&gt;daily</code> (<code>&gt;da</code>)
+  <a class="anchor" href="#commande-daily-da">#</a>
+</h3>
+<p>La commande <code>&gt;daily</code> est très similaire à la commande <code>&gt;hourly</code> exceptée qu&rsquo;elle n&rsquo;est faisable qu&rsquo;une fois par jour, donne plus de récompenses et n&rsquo;a pas de système de combo.</p>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/daily_cooldown.png" width="auto" alt="daily_cooldown.png"  />
+
+
+
+<img src="http://localhost:34803//img/commands_example/treasure_success.png" width="auto" alt="treasure_success.png"  /></p>
+<h3 id="commande-shrine-shr">
+  Commande <code>&gt;shrine</code> (<code>&gt;shr</code>)
+  <a class="anchor" href="#commande-shrine-shr">#</a>
+</h3>
+<p>La commande <code>&gt;shrine</code> permet de lancer un rituel et d&rsquo;obtenir des récompenses.
+Après avoir utilisé <code>&gt;shrine start</code> (<code>&gt;shr s</code>), vous devrez utiliser la commande <code>&gt;shrine claim</code> (<code>&gt;shr c</code>) 4 heures après mais en faisant, attention : vous n&rsquo;aurez qu&rsquo;une heure pour récupérer vos récompenses, sinon vous les perdrez et la commande <code>&gt;shrine</code> ne vous sera plus disponible pendant 24 heures. Par exemple, si vous lancez un rituel à 10h, vous devrez le récupérer entre 14h et 15h pour obtenir les récompenses.</p>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/shrine_start_cooldown.png" width="auto" alt="shrine_start_cooldown.png"  />
+
+
+
+<img src="http://localhost:34803//img/commands_example/shrine_claim.png" width="auto" alt="shrine_claim.png"  />
+
+
+
+<img src="http://localhost:34803//img/commands_example/shrine_break.png" width="auto" alt="shrine_break.png"  /></p>
+<h3 id="commande-treasure-tr">
+  Commande <code>&gt;treasure</code> (<code>&gt;tr</code>)
+  <a class="anchor" href="#commande-treasure-tr">#</a>
+</h3>
+<p>Le trésor est une mécanique compétitive et globale sur le bot, il s&rsquo;agit d&rsquo;une mécanique  nécessitant un style de jeu actif.
+Le trésor est une récompense disponible toutes les quelques minutes, la particularité étant que cette récompense ne sera donnée qu&rsquo;à un seul joueur à travers l&rsquo;entiété d&rsquo;EnderBot : le premier joueur qui fera la commande <code>&gt;tr</code> dès l&rsquo;appartition du trésor. (Ça se joue usuellement à quelques millisecondes et à la chance !)</p>
+<p>Lorsque vous effectuez la commande <code>&gt;treasure</code>, vous verrez probablement un message de la sorte :
+
+
+
+<img src="http://localhost:34803//img/commands_example/treasure_not_available.png" width="auto" alt="treasure_not_available.png"  />
+Si le trésor est indisponible (ce qui est le cas dans 99% de cas où la commande est éxécutée), la commande <code>&gt;treasure</code> indiquera le nom du joueur ayant pris le dernier trésor, le nom de son organisation s&rsquo;il en a une et surtout le temps restant avant le prochain trésor.</p>
+<p>Si vous souhaitez tenter de récupérer des trésors, lorsque le timer arrivera très proche de zéro il faudra tenter votre chance en envoyant une rapide vague de commandes <code>&gt;tr</code> pour tenter d&rsquo;être le premier joueur qui éxécutera la commande dès que le trésor deviendra disponible ! Vous n&rsquo;y parviendrez probablement pas dès le premier trésor mais en perserverant c&rsquo;est possible.</p>
+<p>Un joueur ne peut capturer que 10 trésors par jour pour éviter un monopole de quelques joueurs, votre limite de trésors est affichable avec la commande <code>&gt;treasure limit</code> (<code>&gt;tr l</code>)
+
+
+
+<img src="http://localhost:34803//img/commands_example/treasure_limit.png" width="auto" alt="treasure_limit.png"  /></p>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/treasure_success.png" width="auto" alt="treasure_success.png"  /></p>
+<h3 id="commande-cooldown-cd">
+  Commande <code>&gt;cooldown</code> (<code>&gt;cd</code>)
+  <a class="anchor" href="#commande-cooldown-cd">#</a>
+</h3>
+<p>La commande de cooldown permet de facilement visualiser la plupart des cooldowns sur vos différentes commandes.
+
+
+
+<img src="http://localhost:34803//img/commands_example/cooldown.png" width="auto" alt="cooldown.png"  /></p>
+<p>Notamment :</p>
+<ul>
+<li>Cooldown de la commande <code>&gt;hourly</code></li>
+<li>Cooldown de la commande <code>&gt;daily</code></li>
+<li>Cooldown de la commande <code>&gt;summon</code></li>
+<li>Cooldown du fait de pouvoir claim une carte sur la commande <code>&gt;summon</code></li>
+<li>Cooldown de la commande <code>&gt;shrine</code></li>
+<li>Cooldown de la commande <code>&gt;vote</code></li>
+<li>Cooldown de la commande <code>&gt;exploration</code></li>
+<li>Cooldown de la commande <code>&gt;move</code> (si présent)</li>
+<li>Cooldowns de la commande <code>&gt;ritual</code> (si présent)</li>
+</ul>
+<h2 id="rpg">
+  RPG
+  <a class="anchor" href="#rpg">#</a>
+</h2>
+<h3 id="commande-inventory-inv-i">
+  Commande <code>&gt;inventory</code> (<code>&gt;inv</code>, <code>&gt;i</code>)
+  <a class="anchor" href="#commande-inventory-inv-i">#</a>
+</h3>
+<p>L&rsquo;inventaire se décompose en 5 pages :</p>
+<h4 id="page-dinventaire-générale">
+  Page d&rsquo;inventaire générale
+  <a class="anchor" href="#page-dinventaire-g%c3%a9n%c3%a9rale">#</a>
+</h4>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/inventory_general.png" width="auto" alt="inventory_general.png"  /></p>
+<h5 id="niveau--xp">
+  Niveau &amp; XP
+  <a class="anchor" href="#niveau--xp">#</a>
+</h5>
+<p>L&rsquo;expérience se gagne en faisant des actions sur le bot, quasiment toutes les commandes en donnent. Certains systèmes de jeu avancés nécessitent un haut niveau général.</p>
+<h5 id="mana">
+  Mana
+  <a class="anchor" href="#mana">#</a>
+</h5>
+<p>Le mana est l&rsquo;une des ressource centrale du système RPG, toutes les actions de production de ressources et de craft en nécessitent. Le mana maximum augmente en fonction du votre niveau. La formule du mana maximum est la suivante :</p>
+<p>$$
+Mana_{max} = 299 + Niveau
+$$
+La régénération naturelle de mana est de 1 point par minute (peut être augmenté pour les joueurs Premium).</p>
+<p>Si vous voulez plus de mana pour faire plus d&rsquo;action, la meilleure manière n&rsquo;est cependant pas juste d&rsquo;attendre mais de faire des commandes pour en gagner davantage. Notamment les commandes <code>&gt;daily</code>, <code>&gt;hourly</code>, <code>&gt;treasure</code> et <code>&gt;shrine</code>, mais il existe encore plus de systèmes permettant de ganger du mana.</p>
+<h5 id="endercoins">
+  EnderCoins
+  <a class="anchor" href="#endercoins">#</a>
+</h5>
+<p>Les EnderCoins sont la monnaie principale d&rsquo;EnderBot, à l&rsquo;heure actuellement cela permet:</p>
+<ul>
+<li>Acheter et améliorer sa license d&rsquo;échange (&ldquo;Trading license&rdquo;) au magasin (commande <code>&gt;shop</code>)</li>
+<li>Acheter une license magique (&ldquo;Magic license&rdquo;) au magasin</li>
+<li>Acheter des parts dans les structures (commande <code>&gt;structure</code>)</li>
+</ul>
+<h5 id="license-déchange-trading-license">
+  License d&rsquo;échange (Trading License)
+  <a class="anchor" href="#license-d%c3%a9change-trading-license">#</a>
+</h5>
+<p>La license d&rsquo;échange se décompose en 10 niveaux achetables qui permettent d&rsquo;améliorer votre capacité d&rsquo;échange. Cette license s&rsquo;achète au magasin (<code>&gt;shop</code>).
+Voir l&rsquo;article dédiée aux échanges pour plus de détails.</p>
+<h5 id="dark-mana--golems">
+  Dark Mana &amp; Golems
+  <a class="anchor" href="#dark-mana--golems">#</a>
+</h5>
+<p>Systèmes de jeu avancé liés au PvP, nécessite au moins le niveau 666 et permet de lancer des <code>&gt;spell</code>, ne sera pas détaillé ici.</p>
+<h4 id="page-dinventaire-de-ressources">
+  Page d&rsquo;inventaire de ressources
+  <a class="anchor" href="#page-dinventaire-de-ressources">#</a>
+</h4>
+<p>Utilisez <code>&gt;inventory common</code> (<code>&gt;i c</code>) ou <code>&gt;inventory resources</code> (<code>&gt;i r</code>) pour accéder directement à la page de ressources communes, ces ressources constituent le coeur du système RPG et servent à quasiment tout dans le jeu.</p>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/inventory_common.png" width="auto" alt="inventory_common.png"  /></p>
+<h4 id="page-dinventaire-dexploration">
+  Page d&rsquo;inventaire d&rsquo;exploration
+  <a class="anchor" href="#page-dinventaire-dexploration">#</a>
+</h4>
+<p>Utilisez <code>&gt;inventory exploration</code> (<code>&gt;i e</code>) pour accéder directement à la page d&rsquo;exploration, ces ressources s&rsquo;obtiennent à l&rsquo;aide de la commande <code>&gt;exploration</code> et permettent de faire des potions pour certaines recettes avancées.
+
+
+<img src="http://localhost:34803//img/commands_example/inventory_exploration.png" width="auto" alt="inventory_exploration.png"  /></p>
+<h4 id="page-dinventaire-dalchimie">
+  Page d&rsquo;inventaire d&rsquo;alchimie
+  <a class="anchor" href="#page-dinventaire-dalchimie">#</a>
+</h4>
+<p>Utilisez <code>&gt;inventory alchemy</code> (<code>&gt;i a</code>) pour accéder directement à la page d&rsquo;alchimie afin de lister vos potions, celles-ci sont fabriquées par des joueurs alchimistes.</p>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/inventory_alchemy.png" width="auto" alt="inventory_alchemy.png"  /></p>
+<h4 id="page-dinventaire-doutils">
+  Page d&rsquo;inventaire d&rsquo;outils
+  <a class="anchor" href="#page-dinventaire-doutils">#</a>
+</h4>
+<p>Utilisez <code>&gt;inventory items</code> pour accéder directement à la page d&rsquo;outils pour lister vos objets uniques, les outils s&rsquo;obtiennent par des joueurs forgerons.
+Si vous beaucoup d&rsquo;outils, la page d&rsquo;outils se décomposera en plusieurs sous-pages, utilisez les contrôles en bas pour naviguer.</p>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/inventory_items.png" width="auto" alt="inventory_items.png"  /></p>
+<h3 id="commande-craft-cra">
+  Commande <code>&gt;craft</code> (<code>&gt;cra</code>)
+  <a class="anchor" href="#commande-craft-cra">#</a>
+</h3>
+<p>La commande <code>&gt;craft</code> est utilisée pour la fabrication d&rsquo;outils et de potions.</p>
+<p>Si vous ne préciser pas d&rsquo;arguments, le bot vous proposera d&rsquo;ouvrir l&rsquo;interface du menu de craft :
+
+
+
+<img src="http://localhost:34803//img/commands_example/craft_no_args.png" width="auto" alt="craft_no_args.png"  /></p>
+<h4 id="sous-commmande-craft-menu">
+  Sous-commmande <code>&gt;craft menu</code>
+  <a class="anchor" href="#sous-commmande-craft-menu">#</a>
+</h4>
+<p><code>&gt;craft menu</code> (<code>&gt;cra m</code>) peut aussi être utilisé pour ouvrir le menu directement :
+
+
+
+<img src="http://localhost:34803//img/commands_example/craft_menu.png" width="auto" alt="craft_menu.png"  /></p>
+<p>Bien que quasiment tout peut être fait avec le menu, il est plus rapide de taper les commandes directement si vous savez ce que vous souhaitez crafter.</p>
+<h4 id="sous-commande-craft-next">
+  Sous-commande <code>&gt;craft next</code>
+  <a class="anchor" href="#sous-commande-craft-next">#</a>
+</h4>
+<p>Pour les outils, il est possible de rapidement fabriquer le prochain tier d&rsquo;outil en se basant sur votre outil actuellement équippé, les arguments possibles sont :
+
+
+
+<img src="http://localhost:34803//img/commands_example/craft_next_axe.png" width="auto" alt="craft_next_axe.png"  /></p>
+<h4 id="sous-commande-craft-direct">
+  Sous-commande <code>&gt;craft direct</code>
+  <a class="anchor" href="#sous-commande-craft-direct">#</a>
+</h4>
+<h4 id="fabrication-doutils">
+  Fabrication d&rsquo;outils
+  <a class="anchor" href="#fabrication-doutils">#</a>
+</h4>
+<p>Il existe 5 types d&rsquo;outils :</p>
+<ul>
+<li>Hache (<code>axe</code>) pour les bûcherons (<code>lumberjack</code>)</li>
+<li>Pioche (<code>pickaxe</code>) pour les mineurs (<code>miner</code>)</li>
+<li>Pelle (<code>shovel</code>) pour les pelleteurs (<code>digger</code>)</li>
+<li>Canne à pêche (<code>fishingrod</code>) pour les pecheurs (<code>fisher</code>)</li>
+<li>Houe (<code>hoe</code>) pour les fermiers (<code>farmer</code>)</li>
+</ul>
+<h4 id="fabrication-de-potions">
+  Fabrication de potions
+  <a class="anchor" href="#fabrication-de-potions">#</a>
+</h4>
+<h3 id="commande-forge">
+  Commande <code>&gt;forge</code>
+  <a class="anchor" href="#commande-forge">#</a>
+</h3>
+<p>La commande <code>&gt;forge</code> permet d&rsquo;améliorer un outil déjà forgé. Chaque niveau de forge augmentera la puissance de l&rsquo;outil de 5%. L&rsquo;intérêt de forger des outils, au delà de simplement les améliorer, est de gagner des points d&rsquo;expérience dans le métier de forgeron. Si vous souhaitez gagner des niveaux dans le métier de forgeron, l&rsquo;utilisation en mana par point XP d&rsquo;obtenu ne changera pas mais cela permettra d&rsquo;utiliser moins de ressources.</p>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/forge_pickaxe.png" width="auto" alt="forge_pickaxe.png"  /></p>
+<h3 id="commande-jobs-jo">
+  Commande <code>&gt;jobs</code> (<code>&gt;jo</code>)
+  <a class="anchor" href="#commande-jobs-jo">#</a>
+</h3>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/jobs.png" width="auto" alt="jobs.png"  /></p>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/jobs_2.png" width="auto" alt="jobs_2.png"  /></p>
+<h3 id="commandes-advmap-ad-et-move-mo">
+  Commandes <code>&gt;advmap</code> (<code>&gt;ad</code>) et <code>&gt;move</code> (<code>&gt;mo</code>)
+  <a class="anchor" href="#commandes-advmap-ad-et-move-mo">#</a>
+</h3>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/advmap_solo.png" width="auto" alt="advmap_solo.png"  /> 
+
+
+<img src="http://localhost:34803//img/commands_example/advmap_multi.png" width="auto" alt="advmap_multi.png"  /></p>
+<p>Votre personnage est toujours localisé quelque part sur l&rsquo;une des 12 zones de l&rsquo;île d&rsquo;Enderia, quand vous commencez votre aventure, vous vous trouvez à la plage.
+Si vous faites la commande <code>&gt;advmap</code> sur un serveur, les avatars de d&rsquo;autres joueurs ayant été actifs récemment seront aussi affichés à leur endroit respectif.</p>
+<p>La douze zones sont les suivantes :</p>
+<ul>
+<li>Beach (Plage)</li>
+<li>Lake (Lac)</li>
+<li>Village</li>
+<li>Mine</li>
+<li>Forest (Forêt)</li>
+<li>Farm (Ferme)</li>
+<li>Factory (Usine)</li>
+<li>Volcano (Volcan)</li>
+<li>Tundra</li>
+<li>Desert</li>
+<li>Tower (Tour)</li>
+<li>Capital (Capitale)</li>
+</ul>
+<p>Si vous souhaitez bouger d&rsquo;un endroit à un autre, vous devez bouger vers une zone adjacente sur la map, si vous ne vous souvenez plus du nom d&rsquo;une zone, faites simplement <code>&gt;move</code> pour les lister :</p>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/move_no_args.png" width="auto" alt="move_no_args.png"  /></p>
+<p>Une fois que vous avez choisi votre destination, faites <code>&gt;move [Nom de la zone]</code> pour bouger :</p>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/move_success.png" width="auto" alt="move_success.png"  /></p>
+<p>Astuce : le bot considère que votre personnage est toujours dans une zone, même si vous êtes en déplacement, tant que votre trajet n&rsquo;est pas entièrement fini, le bot considéra que vous êtes toujours dans votre zone d&rsquo;origine pour les commandes qui sont affecté par votre localisation.</p>
+<p>Les commandes étant impactés par la locasation sont :</p>
+<ul>
+<li><code>&gt;work</code> (<code>&gt;chop</code>, <code>&gt;mine</code>, <code>&gt;dig</code>, <code>&gt;fish</code>, <code>&gt;farm</code>) : certaines ressources ne sont disponibles que dans certaines zones et certaines zones donnent un boost de productivité à certains métiers</li>
+<li><code>&gt;shrine</code> : donne un boost si vous êtes dans la zone village ou capitale</li>
+<li><code>&gt;shop</code> : nécessite d&rsquo;être au village</li>
+<li><code>&gt;exploration</code> : (voir plus bas)</li>
+</ul>
+<h3 id="commande-exploration-ex">
+  Commande <code>&gt;exploration</code> (<code>&gt;ex</code>)
+  <a class="anchor" href="#commande-exploration-ex">#</a>
+</h3>
+<p>La commande <code>&gt;exploration</code> permet de récupérer de l&rsquo;XP, des EnderCoins et des ressources d&rsquo;exploration spécifique à une zone (utile pour les alchimistes).
+La commande peut être lancée jusqu&rsquo;à six joueurs en simultané pour un petit boost de récompenses.</p>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/exploration_start.png" width="auto" alt="exploration_start.png"  /> 
+
+
+<img src="http://localhost:34803//img/commands_example/exploration_result.png" width="auto" alt="exploration_result.png"  /></p>
+<h2 id="collection-de-cartes">
+  Collection de cartes
+  <a class="anchor" href="#collection-de-cartes">#</a>
+</h2>
+<h3 id="commande-summon-su">
+  Commande <code>&gt;summon</code> (<code>&gt;su</code>)
+  <a class="anchor" href="#commande-summon-su">#</a>
+</h3>
+<p>Pour invoquer des cartes, utilisez la commande <code>&gt;summon</code>, vous aurez alors le choix entre 3 cartes et vous pourrez en choisir une parmis les trois en cliquant sur le bouton correspondant. (appelé &ldquo;faire un claim&rdquo;)</p>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/summon.png" width="auto" alt="summon.png"  /></p>
+<p>Le cooldown entre deux invocations est de une heure et le cooldown entre deux claims est de 20 minutes.</p>
+<h3 id="commande-card-collection-car-c">
+  Commande <code>&gt;card collection</code> (<code>&gt;car c</code>)
+  <a class="anchor" href="#commande-card-collection-car-c">#</a>
+</h3>
+<p>Pour visualiser votre collection sous forme d&rsquo;image, vous pouvez utiliser la commande <code>&gt;card collection</code> :
+
+
+
+<img src="http://localhost:34803//img/commands_example/card_collection.png" width="auto" alt="card_collection.png"  /></p>
+<p>Vous pouvez également appliquer de nombreux filtres. Voir la page correspondantes pour plus de détails.</p>
+<h3 id="commande-card-show-car-sh">
+  Commande <code>&gt;card show</code> (<code>&gt;car sh</code>)
+  <a class="anchor" href="#commande-card-show-car-sh">#</a>
+</h3>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/card_show.png" width="auto" alt="card_show.png"  /></p>
+<h3 id="commande-card-list-car-l">
+  Commande <code>&gt;card list</code> (<code>&gt;car l</code>)
+  <a class="anchor" href="#commande-card-list-car-l">#</a>
+</h3>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/card_list.png" width="auto" alt="card_list.png"  /></p>
+<h3 id="commande-card-search-car-se">
+  Commande <code>&gt;card search</code> (<code>&gt;car se</code>)
+  <a class="anchor" href="#commande-card-search-car-se">#</a>
+</h3>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/card_search.png" width="auto" alt="card_search.png"  /></p>
+<h3 id="profil-web">
+  Profil web
+  <a class="anchor" href="#profil-web">#</a>
+</h3>
+<p>Lorsque votre collection commence à devenir conséquente, la meilleure manière de visualiser votre collection est d&rsquo;utiliser le site web du bot, utilisez la commande <code>&gt;web</code> pour avoir un lien vers votre profil (vous pouvez mentionner quelqu&rsquo;un ou marquer un pseudo en argument pour obtenir le lien vers le profil de quelqu&rsquo;un d&rsquo;autre)</p>
+<p>
+
+
+<img src="http://localhost:34803//img/commands_example/web_command.png" width="auto" alt="web_command.png"  />
+
+
+
+<img src="http://localhost:34803//img/commands_example/web_profile.png" width="auto" alt="web_profile.png"  /></p>
+<p>La version web permet d&rsquo;appliquer des filtres (recherche par nom de personnage ou d&rsquo;anime, filtrage par nombre d&rsquo;étoiles) pour facilement visualiser vos cartes.
+Si vous avez activé l&rsquo;affichage des ID, vous pouvez ensuite faire un clic droit sur un ID pour le copier/coller facilement dans le presse-papier si vous souhaitez par exemple l&rsquo;échanger ensuite.</p>
+<h2 id="pour-aller-plus-loin">
+  Pour aller plus loin
+  <a class="anchor" href="#pour-aller-plus-loin">#</a>
+</h2>
+<p>Ce guide couvre déjà une grosse partie de bot mais il existe encore d&rsquo;autres très gros systèmes de jeu qui n&rsquo;ont pas été mentionnés dans ce guide, notamment :</p>
+<ul>
+<li>Le système d&rsquo;organisation (<code>&gt;organization</code>)</li>
+<li>Le système PvP (<code>&gt;warmap</code>)</li>
+</ul>
+
+
+    
+
+<hr/>
+
+
+<div class="page-end" id="footer">
+    <div class="backlinks-container">
+        <h3>Backlinks</h3>
+<ul class="backlinks">
+    
+    
+    
+    
+    
+    
+    
+    <li>
+      No backlinks found
+    </li>
+    
+</ul>
+
+    </div>
+    <div>
+        <script
+  src="https://cdn.jsdelivr.net/npm/d3@6.7.0/dist/d3.min.js"
+  integrity="sha256-+7jaYCp29O1JusNWHaYtgUn6EhuP0VaFuswhNV06MyI="
+  crossorigin="anonymous"
+></script>
+<h3>Interactive Graph</h3>
+<div id="graph-container"></div>
+<style>
+  :root {
+    --g-node: var(--secondary);
+    --g-node-active: var(--primary);
+    --g-node-inactive: var(--visited);
+    --g-link: var(--outlinegray);
+    --g-link-active: #5a7282;
+  }
+</style>
+
+<script src="http://localhost:34803/quartz/js/graph.cbd78cfa87df7d3e230d16fc24f06548.js"></script>
+
+    </div>
+</div>
+
+
+
+
+
+
+<div id="contact_buttons">
+    <footer>
+        
+        
+        <p>Made with <a href="https://github.com/64bitpandas/amethyst">Amethyst</a>, © 2024 Ben Cuan</p>
+        <ul>
+            
+            <li><a href="http://localhost:34803/">Home</a></li>
+            <li><a href="https://bencuan.me">Website</a></li><li><a href="https://blog.bencuan.me">Blog</a></li></ul>
+    </footer>
+</div>
+
+
+    
+  </article>
+ 
+      
+      
+      
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a>
+      <ul>
+        <li><a href="#préambule">Préambule</a></li>
+      </ul>
+    </li>
+    <li><a href="#comment-jouer">Comment jouer</a>
+      <ul>
+        <li><a href="#commandes-communes">Commandes communes</a>
+          <ul>
+            <li><a href="#commande-hourly-hr">Commande <code>&gt;hourly</code> (<code>&gt;hr</code>)</a></li>
+            <li><a href="#commande-daily-da">Commande <code>&gt;daily</code> (<code>&gt;da</code>)</a></li>
+            <li><a href="#commande-shrine-shr">Commande <code>&gt;shrine</code> (<code>&gt;shr</code>)</a></li>
+            <li><a href="#commande-treasure-tr">Commande <code>&gt;treasure</code> (<code>&gt;tr</code>)</a></li>
+            <li><a href="#commande-cooldown-cd">Commande <code>&gt;cooldown</code> (<code>&gt;cd</code>)</a></li>
+          </ul>
+        </li>
+        <li><a href="#rpg">RPG</a>
+          <ul>
+            <li><a href="#commande-inventory-inv-i">Commande <code>&gt;inventory</code> (<code>&gt;inv</code>, <code>&gt;i</code>)</a></li>
+            <li><a href="#commande-craft-cra">Commande <code>&gt;craft</code> (<code>&gt;cra</code>)</a></li>
+            <li><a href="#commande-forge">Commande <code>&gt;forge</code></a></li>
+            <li><a href="#commande-jobs-jo">Commande <code>&gt;jobs</code> (<code>&gt;jo</code>)</a></li>
+            <li><a href="#commandes-advmap-ad-et-move-mo">Commandes <code>&gt;advmap</code> (<code>&gt;ad</code>) et <code>&gt;move</code> (<code>&gt;mo</code>)</a></li>
+            <li><a href="#commande-exploration-ex">Commande <code>&gt;exploration</code> (<code>&gt;ex</code>)</a></li>
+          </ul>
+        </li>
+        <li><a href="#collection-de-cartes">Collection de cartes</a>
+          <ul>
+            <li><a href="#commande-summon-su">Commande <code>&gt;summon</code> (<code>&gt;su</code>)</a></li>
+            <li><a href="#commande-card-collection-car-c">Commande <code>&gt;card collection</code> (<code>&gt;car c</code>)</a></li>
+            <li><a href="#commande-card-show-car-sh">Commande <code>&gt;card show</code> (<code>&gt;car sh</code>)</a></li>
+            <li><a href="#commande-card-list-car-l">Commande <code>&gt;card list</code> (<code>&gt;car l</code>)</a></li>
+            <li><a href="#commande-card-search-car-se">Commande <code>&gt;card search</code> (<code>&gt;car se</code>)</a></li>
+            <li><a href="#profil-web">Profil web</a></li>
+          </ul>
+        </li>
+        <li><a href="#pour-aller-plus-loin">Pour aller plus loin</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
