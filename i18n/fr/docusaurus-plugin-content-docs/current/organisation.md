@@ -51,7 +51,7 @@ Afin que l'organisation fonctionne au mieux, elle est composée d'une structure 
 - **Rang 3 - Modérateur** (il peut expulser des membres).
 - **Rang 2 - Recruteur** (il peut inviter de nouveaux membres dans l'organisation).
 - **Rang 1 - Membre** (rang de base).
-- **Rang 1 - Esclave** (il ne bénéficie pas des bonus de l'organisation et toutes les ressources récoltées vont pour l'organisation).
+- **Rang -1 - Esclave** (il ne bénéficie pas des bonus de l'organisation et toutes les ressources récoltées vont pour l'organisation).
 
 ![organization_promote.png](/img/commands_example/organization_promote.png)
 
