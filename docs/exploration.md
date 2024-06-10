@@ -12,8 +12,8 @@ Pour lancer une exploration il vous suffit d'utiliser la commande suite `>explor
 ![exploration_start.png](/img/commands_example/exploration_start.png)
 
 Lors d'une exploration vous pouvez récolter les ressources suivantes une fois que votre exploration est terminée :
-- Expérience :xp:
-- EnderCoin :endercoin:
+- :xp: Expérience.
+- :endercoin: EnderCoin.
 - Une ressource exotique (la ressource exotique récoltée dépend de l'endroit où vous vous situez sur la carte d'aventure).
 
 ![exploration_result.png](/img/commands_example/exploration_result.png)

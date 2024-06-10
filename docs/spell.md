@@ -3,14 +3,14 @@ sidebar_position: 10
 ---
 
 # Les sorts (`>spell NomDuSort`)
-Les sorts sont une fonctionnalité qui dépend directement de votre production de dark mana. Pour pouvoir utiliser des sorts vous devez être au moins niveau 666. 
+Les sorts sont une fonctionnalité qui dépend directement de votre production de magie noire. Pour pouvoir utiliser des sorts vous devez être au moins niveau 666. 
 
 Avant ce niveau franchis, la magie noire n'apparaît pas dans votre inventaire, c'est uniquement une fois ce palier franchis que vous la verrez. 
 
-Cependant, une fois le niveau 66 franchis, vous ne pouvez pas directement utiliser tous les sorts. Effectivement, le nombre de dark mana que vous pouvez stocker est limitée en fonction de votre niveau.
+Cependant, une fois le niveau 66 franchis, vous ne pouvez pas directement utiliser tous les sorts. Effectivement, le nombre de magie noire que vous pouvez stocker est limitée en fonction de votre niveau.
 
 :::tip ASTUCE
-Si vous voulez plus d'information sur la dark mana, cliquez ici.
+Si vous voulez plus d'information sur la magie noire, cliquez ici.
 :::
 :::info INFORMATION
 Par exemple, quand vous débloquez la magie noire au niveau 666 vous pourrez en stocker 66. Si vous êtes niveau 1300, vous pourrez en stocker 130.
@@ -26,14 +26,26 @@ Pour consulter tous les sorts qui existent, il vous suffit de faire la commande 
 ### Le sort de magie (`>spell mana`)
 Le sort de magie vous permet de vous d'ajouter directement 300 points de magie directement dans votre inventaire. Il a un coût de 30 points de magie noire.
 
-### Le sort de rituel (`>spell rituel`)
+![spell_mana.png](/img/commands_example/spell_mana.png)
+
+### Le sort de rituel (`>spell ritual`)
 Le sort de rituel vous permet de faire une invocation de cartes avec 7 autres joueurs. Il a un coût de 30 points de magie noire.
+
+![spell_ritual.png](/img/commands_example/spell_ritual.png)
+:::warning ATTENTION
+Vous devez impérativement avoir 7 autres joueurs avec vous pour que le rituel commence pour pouvoir avoir des invocations.
+:::
 
 ### Le sort de téléportation (`>spell teleportation`)
 Le sort de téléportation vous permet d'aller instantanément à l'endroit de votre choix sur la carte d'aventure. Votre temps d'attente pour passer d'un endroit à un autre est annulé. Il a un coût de 30 points de magie noire.
 
-## Le sort de renforcement du trésor (`>spell trasure boost`)
-Le sort de renforcement du trésor vous permet d'augmenter les gains d':endercoin: Endercoins, d':xp: expérience :xp: et de de l'essence de cartes lors de l'apparition du prochain trésor. Il a un coût de 40 points de magie noire.
+![spell_teleportation.png](/img/commands_example/spell_teleportation.png)
+
+## Le sort de renforcement du trésor (`>spell treasure boost`)
+Le sort de renforcement du trésor vous permet d'augmenter les gains d' :endercoin: endercoins, d' :xp: expérience et de de l'essence de cartes lors de l'apparition du prochain trésor. Il a un coût de 40 points de magie noire.
+
+![spell_treasure_boost.png](/img/commands_example/spell_treasure_boost.png)
+![spell_treasure_boost_success.png](/img/commands_example/spell_treasure_boost_success.png)
 :::tip ASTUCE
 N'hésitez pas à consulter quand sera disponible le prochain trésor avec la commande `>treasure info` avant d'utiliser votre sort afin d'avoir une meilleure idée de quand l'utiliser.
 :::
@@ -51,17 +63,27 @@ De plus, vous obtenez des ressources supplémentaire au début de ce sort. Vous 
 - :mana: Magie.
 - :cardessence: Essence de cartes.
 
+![spell_soul_sanctuary.png](/img/commands_example/spell_soul_sanctuary.png)
+
 ### Le sort d'excuse au tombeau (`>spell shrine pardon`)
  Le sort d'excuse au tombeau vous permet d'annuler le temps d'attente si jamais vous cassez celui-ci. Il a un coût de 40 points de magie noire.
+
+![spell_shrine_pardon.png](/img/commands_example/spell_shrine_pardon.png)
 
 ### Le sort de réduction de l'exploration (`>spell exploration warp`)
 Le sort de réduction de l'exploration vous permet de réduire le temps d'attente. Il a un coût de 25 points de magie noire.
 
+![spell_exploration_warp.png](/img/commands_example/spell_exploration_warp.png)
+
  ### Le sort d'évasion fiscale (`>spell tax evasion`)
  Le sort d'évasion fiscale vous permet de ne plus verser de ressources à l'organisation durant les prochaines 24 heures. Il a un coût de 70 points de magie noire.
 
+![spell_tax_evasion.png](/img/commands_example/spell_tax_evasion.png)
+
  ### Le sort de rénitialisation de sort (`>spell refresh`)
  Le sort de rénitialisation de sort permet de supprimer le temps d'attente de n'importe quel sort contre la moitié de son coût lorsque vous souhaitez l'utiliser.
+
+ ![spell_refresh.png](/img/commands_example/spell_refresh.png)
  :::info INFORMATION
  Par exemple, si vous souhaitez rénitialiser le temps d'attente sur le sort du sanctuaire de l'âme, vous devrez payer 75 points de magie noire.
  :::
