@@ -2,7 +2,7 @@
 sidebar_position: 10
 ---
 
-# Les sorts (`>spell NomDuSort`)
+# Sorts (`>spell NomDuSort`)
 Les sorts sont une fonctionnalité qui dépend directement de votre production de magie noire. Pour pouvoir utiliser des sorts vous devez être au moins niveau 666. 
 
 Avant ce niveau franchis, la magie noire n'apparaît pas dans votre inventaire, c'est uniquement une fois ce palier franchis que vous la verrez. 

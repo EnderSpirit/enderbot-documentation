@@ -2,7 +2,7 @@
 sidebar_position: 7
 ---
 
-# Les explorations
+# Explorations
 
 Les explorations sont une fonctionnalité qui dépend directement de la carte d'aventure. 
 

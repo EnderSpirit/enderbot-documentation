@@ -2,7 +2,7 @@
 sidebar_position: 7
 ---
 
-# La carte d'aventure 
+# Carte d'aventure 
 
 Votre personnage (représenté par votre photo de profile Discord), est toujours localisé quelque part parmis les **12 zones** de l'île d'Enderia.
 

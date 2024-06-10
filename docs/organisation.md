@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Les organisations
+# Organisations
 
 Les organisations **sont composées de groupes de joueurs** qui décident de réunir leurs forces afin **de jouer ensemble** (si vous préférez, vous pouvez les appeler "guildes").
 
