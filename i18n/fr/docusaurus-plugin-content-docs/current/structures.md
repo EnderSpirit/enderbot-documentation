@@ -8,6 +8,15 @@ Les structures sont directement reliées aux serveur. Un serveur est considéré
 
 Lorsque vous commencez à investir dans une structure, vous devez dépenser 100 000 points de magie au total ou 250 invocations de carte pour faire gagner un niveau à votre structure.
 
+Une action permet de vous donner des ressources sur le bot. Le nombre de ressources données tout dépend de la productivité du serveur. Plus la productivité sera haute, plus votre action vous donnera de ressources.
+
+La productivité du serveur est basée sur les données suivantes:
+- Le nombre total d' :endercoin: Endercoins investis sur la structure.
+- Le nombre de membres présents sur la structure (les bots ne comptent pas).
+- L'activité du serveur.
+- Le hasard.
+- Autres facteurs que nous gardons secrets.
+
 :::info INFORMATION
 Les serveurs comptant de nombreux membres commencent avec un niveau légèrement supérieur.
 :::
@@ -105,7 +114,7 @@ Vous pouvez alors retrouver plusieurs informations comme:
 Vous pouvez réclamer les récompenses de vos actions sur les différentes structures une fois par semaine. La rénitialisation des récompenses s'effectue une fois par semaine le lundi à 2h.
 ::: 
 
-### Activier la structure sur un serveur (`>str enable`)
+### Activer la structure sur un serveur (`>str enable`)
 Si vous souhaitez faire de votre serveur une structure évolutive il vous suffit de faire (`>str enable`) afin que la magie dépensée et les invocations de cartes soient comptabilisés pour faire évoluer la structure.
 
 ### Désactiver la structure sur un serveur (`>str disable`)
