@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Questions fréquentes :
+# Questions fréquentes
 ### Comment puis-je vérifier si je suis premium ?
 
 Pour vérifier si vous êtes premium au bot il vous suffit de faire la commande `>premium` (ou `/ebpremium status`). Sur cette commande, vous pourrez consulter à quelle offre vous avez souscrit ainsi que le temps restant avant expiration de votre premium.

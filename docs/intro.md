@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Guide du débutant:
+# Guide du débutant
 
 Si vous êtes nouveau sur EnderBot ou vous êtes perdus vis à vis du bot, cette page est faite pour vous!
 
