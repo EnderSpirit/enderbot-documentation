@@ -2,48 +2,48 @@
 sidebar_position: 1
 ---
 
-# Inventaire
+# Inventory
 
-Vous pouvez consulter tout ce que vous possédez sur EnderBot grâce à la commande `>inv` (ou /ebinventory).
+You can view everything you own on EnderBot using the `>inv` (or /ebinventory) command.
 
 :::info INFORMATION
-C'est la page générale qui s'ouvrira par défaut quand vous effectuerez la commande. Vous y trouverez dans les grandes lignes concernant la progression de votre compte.
+This is the general page that will open by default when you place the order. There you will find an overview of the progress of your account.
 :::
 
-Informations générales:
+General informations:
 
-- **Votre niveau** (vous permet de savoir votre progression générale sur le bot) ainsi que l'XP totale.
-- **Votre mana** (vous permet de travailler et de récolter des ressources sur les différents métiers).
-- **Votre dark mana** (vous permet d'utiliser vos sortilèges avec ebspell).
-- **Vos EnderCoin** ( vous permet d'acheter les licences dans le shop, des shares et sert de monnaie d'échange contre des ressources ou des cartes auprès des autres joueurs).
-- **Vos Card Essence** (vous permet de réinitialiser votre temps d'attente pour récupérer de nouvelles cartes ou votre invocation). 
-- **Vos Golems** (vous permet de savoir combien de golems vous avez en votre possession afin d'attaquer ou de défendre sur la carte pvp).
+- **Your level** (allows you to know your general progress on the bot) as well as the total XP.
+- **Your mana** (allows you to work and collect resources on different jobs).
+- **Your dark mana** (allows you to use your spells with ebspell).
+- **Your EnderCoin** (allows you to buy licenses in the shop, shares and serves as currency for resources or cards from other players).
+- **Your Card Essence** (allows you to reset your waiting time to collect new cards or your summon).
+- **Your Golems** (allows you to know how many golems you have in your possession in order to attack or defend on the pvp map).
 
-Les cartes:
-- **Votre nombre total de cartes**.
-- **Votre nombre total d'étoiles** (sur toutes vos cartes possédées).
-- **Votre nombre total de cartes uniques** (vos doubles ne sont pas comptés).
-- **Votre nombre total d'étoiles uniques** (vos doubles ne sont pas comptés).
-- Votre puissance de carte totale (?).
-- Votre puissance de carte disponible (?).
+The cards:
+- **Your total number of cards**.
+- **Your total number of stars** (on all your owned cards).
+- **Your total number of unique cards** (your doubles are not counted).
+- **Your total number of unique stars** (your doubles are not counted).
+- Your total card power (?).
+- Your available card power (?).
 
-Les objets:
-Permet de savoir quel objet vous avez équipé sur chaque métier ainsi que son ID (chaque objet possède un ID unique afin de le différencier des autres).
+Items:
+Allows you to know which item you have equipped on each job as well as its ID (each item has a unique ID to differentiate it from the others).
 
-La page des ressources:
-Sur cette page, vous pourrez trouver toutes les ressources en votre possession triées par métier!
+The resources page:
+On this page, you can find all the resources you have sorted by job!
 
-- **Les ressources minières** sont liées au **métier de mineur** et à la **pioche**. 
-- **Les ressources de creusement** sont liées au **métier de forage** et à la **pelle**. 
-- **Les ressources de bois** sont liées au métier de **bûcheron**, et à la **hache**. 
-- **Les ressources de pêche** sont liées au **métier de pêcheur** et à la canne à **pêche**. 
-- **Les ressources agricoles** sont liées au **métier d'agriculteur** et à la **binette**. 
+- **Mining resources** are linked to the **miner job** and the **pickaxe**.
+- **Digging resources** are linked to the **digger job** and the **shovel**.
+- **Wood resources** are linked to the **lumberjack job**, and to the **axe**.
+- **Fishing resources** are linked to the **fisher job** and the **fishing**.
+- **Agricultural resources** are linked to the **farmer job** and the **hoe**.
 
-La page des explorations:
+The explorations page:
 ?
 
-La page d'alchimiste:
+The Alchemist Page:
 ?
 
-La page des objets:
-Vous trouverez sur cette page tous les objets que vous possédez. ?
+The objects page:
+On this page you will show all the items you own.
