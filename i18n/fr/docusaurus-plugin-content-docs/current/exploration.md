@@ -21,5 +21,5 @@ Lors d'une exploration vous pouvez récolter les ressources suivantes une fois q
 N'hésitez pas à utiliser réduire votre cooldown d'exploration de 1h avec vos compétences de mana sombre.
 :::
 :::warning ATTENTION
-Tous les jours voulant participer à la même exploration doivent se trouver au même endroit. Tenter de rejoindre une exploration alors que vous êtes à un endroit différent que les autres joueurs sur la carte d'aventure vous sera alors impossible.
+Tous les joueurs voulant participer à la même exploration doivent se trouver au même endroit. Tenter de rejoindre une exploration alors que vous êtes à un endroit différent que les autres joueurs sur la carte d'aventure vous sera alors impossible.
 :::
