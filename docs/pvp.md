@@ -4,107 +4,106 @@ sidebar_position: 12
 
 # PvP
 
-Le PvP se déroule sur **une carte de guerre** que vous pouvez retrouver ci-dessous. Elle est de forme **radius 11**. Chaque carte est **localisée par une coordonnée** qui permet de la situer. Le but du PvP est que **votre organisation** et **vous même** possédez **un chateau** et aller expandre votre territoires au maximum tout en **affrontant** les autres organisations. Vous affronterez les autres organisations avec des golems. Le PvP **ne sert pas seulement à affronter les autres organisation**s mais débloque également une ressource exclusive en fonction du territoire que vous possédez. Il s'agit de **la magie noire**.
+PvP takes place on **a war map** which you can find below. It has the shape **radius 11**. Each card is **located by a coordinate** which allows it to be located. The goal of PvP is that **your organization** and **yourself** own **a castle** and expand your territories as much as possible while **confronting** other organizations. You will face other organizations with golems. PvP **is not only used to face other organizations** but also unlocks an exclusive resource depending on the territory you own. This is **dark mana**.
 
 ![pvp_warmap.png](/img/commands_example/pvp_warmap.png)
 
-### Prérequis pour pouvoir participer sur la carte de guerre
-Pour pouvoir participer sur la carte de guerre vous devez impérativement avoir les éléments suivants:
-- **Une organisation** possédant un chateau sur la carte de guerre.
-- **Un général** pour pouvoir poser des golems sur la carte de guerre.
-- **Des golems**.
+### Prerequisites to participate in the war map
+To be able to participate on the war map you must have the following elements:
+- **An organization** with a castle on the war map.
+- **A general** to be able to place golems on the war map.
+- **Golems**.
 
-## Les différentes cases sur la carte de guerre
-Sur la carte de guerre, vous pouvez retrouver **4 types de cases** qui ont des fonctionnalités différentes.
+## The different territory on the war map
+On the war map, you can find **4 types of territory** which have different functionalities.
 
-### Le chateau
-Chaque organisation possède **un chateau** qui se situe à un endroit fixe sur la carte. Le chateau a **plusieurs points forts** que ne possèdent pas les autres cases. Les spécificités du chateau sont les suivants:
-- **Toutes les troupes étant dans le chateau sont protégées** et **ne peuvent pas être attaquées** par des organisations adverses.
-- Chaque général que vous décidez de mettre sur la carte de guerre **doit passer par le chateau**.
+### The castle
+Each organization has **a castle** which is located in a fixed location on the map. The castle has **several strong points** that the other boxes do not have. The specific features of the castle are as follows:
+- **All troops in the castle are protected** and **cannot be attacked** by opposing organizations.
+- Each general you decide to put on the war map **must go through the castle**.
 
 ![castle_hex.png](/img/warmap/tiles/castle_hex.png)
 
 :::info INFORMATION
-Pour posséder un chateau vous devez être dans **le top 16 organisations** ayant des améliorations.
+To own a castle you must be in **the top 16 organizations** with improvements.
 :::
 
-### La friche
-La friche est une case qui permet de **séparer les différentes runes entre elles** et qui permet de **produire un petit peu** de magie noire. Uniquement les 5 joueurs ayant le plus de troupes sur la rune produisent de la magie noire. La répartition de la production se déroule comme ceci:
-- +0.25 :darkmana: Magie Noir/heure pour le premier joueur ayant le plus de troupes sur la rune.
-- +0.17 :darkmana: Magie Noire/heure pour le deuxième joueur ayant le plus de troupes sur la rune.
-- +0.13 :darkmana: Magie Noire/heure pour le troisième ayant le plus de troupes sur la rune.
-- +0.10 :darkmana: Magie Noire/heure pour le quatrième ayant le plus de troupes sur la rune.
-- +0.08 :darkmana: Magie noire/heure pour le cinquiète ayant le plus de troupes sur la rune.
+### The grass
+The grass is a space which allows you to **separate the different runes from each other** and which allows you to **produce a little bit** of dark mana. Only the 5 players with the most troops on the rune produce dark mana. The distribution of production goes like this:
+- +0.25 :darkmana: Dark Mana/hour for the first player with the most troops on the rune.
+- +0.17 :darkmana: Dark Mana/hour for the second player with the most troops on the rune.
+- +0.13 :darkmana: Dark Mana/hour for the third with the most troops on the rune.
+- +0.10 :darkmana: Dark Mana/hour for the fourth with the most troops on the rune.
+- +0.08 :darkmana: Dark Mana/hour for the worrywart with the most troops on the rune.
 
 ![grass_hex.png](/img/warmap/tiles/grass_hex.png)
 
-### La suprême rune
-Il s'agit de **la rune centrale** sur la carte. Cette rune est différente des autres car les 5 joueurs ayant le plus de troupes sur cette case produisent **1 de magie noire** par heure. C'est donc une rune qui s'avère **beaucoup plus productive** que les autres runes.
+### The supreme rune
+This is **the central rune** on the card. This rune is different from the others because the 5 players with the most troops on this space produce **1 dark mana** per hour. It is therefore a rune that turns out to be **much more productive** than the other runes.
 
 ![supreme_rune_hex.png](/img/warmap/tiles/supreme_rune_hex.png)
 
-### Les runes
-Les runes sont des cases sur la carte qui permettent de produire de la magie noire. Il y en a 9 sur la carte. Uniquement les 5 joueurs ayant le plus de troupes sur la rune produisent de la magie noire. La répartition de la production se déroule comme ceci:
-- +1.00 :darkmana: Magie Noir/heure pour le premier joueur ayant le plus de troupes sur la rune.
-- +0.50 :darkmana: Magie Noire/heure pour le deuxième joueur ayant le plus de troupes sur la rune.
-- +0.33 :darkmana: Magie Noire/heure pour le troisième ayant le plus de troupes sur la rune.
-- +0.25 :darkmana: Magie Noire/heure pour le quatrième ayant le plus de troupes sur la rune.
-- +0.20 :darkmana: Magie noire/heure pour le cinquiète ayant le plus de troupes sur la rune.
-
+### The runes
+Runes are spaces on the map that allow you to produce dark magic. There are 17 on the map. Only the 5 players with the most troops on the rune produce dark mana. The distribution of production goes like this:
+- +1.00 :darkmana: Dark Mana/hour for the first player with the most troops on the rune.
+- +0.50 :darkmana: Dark Mana/hour for the second player with the most troops on the rune.
+- +0.33 :darkmana: Dark Mana/hour for the third with the most troops on the rune.
+- +0.25 :darkmana: Dark Mana/hour for the fourth with the most troops on the rune.
+- +0.20 :darkmana: Dark Mana/hour for the worrywart with the most troops on the rune.
 ![rune_hex.png](/img/warmap/tiles/rune_hex.png)
 
 
-:::warning ATTENTION
-Si vous êtes en dehors du top 5 vous ne produisez pas de magie noire.
+:::warning WARNING
+If you are outside the top 5 you are not producing dark mana.
 :::
 
-### Promouvoir un général et le placer sur la carte de guerre
-Pour promouvoir un général, vous devez faire la commande `>card promote IdentifiantDeLaCarte.` Une fois promu, il vous suffit de cliquer sur le chateau de votre organisation et de cliquer sur "Spawn Forces". Un menu va alors s'ouvrir et il vous suffit de sélectionner votre général et de valider. Une fois votre général dans votre chateau vous pourrez alors le déplacer à votre guise et pouvoir faire apparaître des golems quand ce dernier est stationné sur une case.
+### Promote a general and place him on the war map
+To promote a general, you must do the command `>card promoteCardID.` Once promoted, simply click on your organization's castle and click on "Spawn Forces". A menu will then open and you just need to select your general and validate. Once your general is in your castle, you can then move him as you wish and be able to make golems appear when he is stationed on a territory.
 
 ![pvp_promote.png](/img/commands_example/pvp_promote.png)
 
-:::warning ATTENTION
-Vous devez posséder 6600 points de puissance de carte pour pouvoir promouvoir un général.
+:::warning WARNING
+You must have 6600 card power points to promote a general.
 :::
 
-### Explications sur les golems et leur utilisation
-Les golems sont comme vos troupes sur la carte de guerre. Le calcul de votre production de golem est basée sur votre nombre de cartes uniques possédées ainsi que votre niveau.
-Lorsque vous souhaitez mettre des golems sur la carte de guerre (pour rappel vous êtes obligés de les placer via un général), vous avez alors le choix de les placer soit en attaque, soit en défense. Vous l'aurez compris, les golems attaquants servent à attaquer les défenses ennemies et les défenseurs savent à défendrent contre les attaques ennemies.
+### Explanations on golems and their use
+Golems are like your troops on the war map. The calculation of your golem production is based on your number of unique cards possessed as well and your level.
+When you want to place golems on the war map (as a reminder, you are obliged to place them via a general), you then have the choice of placing them either in attack or in defense. As you will have understood, attacking golems are used to attack enemy defenses and defenders know how to defend against enemy attacks.
 
-Pour placer vos golems il suffit de suivre la procédure suivant:
-- Cliquez sur la case où vous souhaitez faire apparaître vos golems (avec un général bien évidemment).
-- Cliquez sur "Spawn forces".
-- Déterminer combien de troupes vous souhaitez faire apparaître autant en attaque qu'en défense.
-- Valider.
-- Attendre le chargement et vos golems seront déployés fur et à mesure du temps.
+To place your golems, simply follow the following procedure:
+- Click on the box where you want your golems to appear (with a general of course).
+- Click on "Spawn forces".
+- Determine how many troops you want to appear in both attack and defense.
+- To validate.
+- Wait for loading and your golems will be deployed over time.
 
 ![pvp_spawn.gif](/img/commands_example/pvp_spawn.gif)
 
-### Déplacer des golems
-Si vous le souhaitez, vous pouvez déplacer des golems sur une autre case. Gardez à l'esprit que vous ne pouvez pas téléporter des golems. Si vous souhaitez les bouger de plusieurs cases, vous devrez passer par toutes les cases qui séparent la case où se trouvent les golems et la case de destinations.
+### Moving golems
+If you wish, you can move golems to another square. Keep in mind that you cannot teleport golems. If you want to move them several squares, you will have to go through all the squares which separate the square where the golems are located and the destination square.
 
-Pour déplacer vos golems il suffit de suivre la procédure suivant:
-- Cliquez sur la case où vous souhaitez faire déplacer vos golems (vous pouvez également faire déplacer un général si vous le souhaitez).
-- Cliquez sur "Move forces".
-- Déterminer combien de troupes vous souhaitez déplacer autant en attaque qu'en défense.
-- Valider.
-- Attendre le chargement et il vous faudra attendre 1 heure pour qu'ils se déplacent d'une case à une autre. Les golems en déplacement sont représentés par une flèche de couleur rouge.
+To move your golems, simply follow the following procedure:
+- Click on the box where you want to move your golems (you can also move a general if you wish).
+- Click on “Move forces”.
+- Determine how many troops you want to move both in attack and defense.
+- To validate.
+- Wait for loading and you will have to wait 1 hour for them to move from one space to another. Moving golems are represented by a red arrow.
 
 ![pvp_moves.gif](/img/commands_example/pvp_moves.gif)
 
-### Etude d'une case
-Par exemple, sur la capture d'écran ci-dessous, nous allons nous concentrer sur le menu de gauche.  Nous pouvons voir que la rune a les coordonnées suivante (0, 9, -9) et que cette dernière est possédée par l'organisation railgun. Au total il y a 38200 golems attaquants de postés sur la rune ainsi que 66200 golems défenseurs.
+### Study of a territory
+For example, in the screenshot below, we will focus on the left menu. We can see that the rune has the following coordinates (0, 9, -9) and that it is owned by the railgun organization. In total there are 38,200 attacking golems posted on the rune as well as 66,200 defending golems.
 
-Plus bas, nous pouvons voir que le joueur starducks. possède un général ainsi que 4924 attaquants et 32400 défenseurs. Ensuite, si nous continuons de faire défiler le menu, nous pouvons voir les informations sur les autres joueurs.
+Further down we can see that the player starducks. has a general as well as 4924 attackers and 32400 defenders. Then, if we continue to scroll down the menu, we can see information about other players.
 
 ![pvp_info.png](/img/commands_example/pvp_info.png)
 
-:::tip ASTUCE
-Vous pouvez consulter votre production de golem sur votre inventaire `>inv`.
+:::tip TIP
+You can view your golem production on your `>inv` inventory.
 :::
 :::info INFORMATION
-Lorsque vous placez des golems sur une case, uniquement vous pouvez voir combien de golems vous placez.
+When you place golems on a square, only you can see how many golems you place.
 :::
-:::warning ATTENTION
-Si vous êtes plusieurs à faire apparaître des golems sur la même case, le temps d'attente pour qu'ils soient placés sera rallongé.
+:::warning WARNING
+If several of you make golems appear on the same square, the waiting time for them to be placed will be extended.
 :::
