@@ -2,45 +2,45 @@
 sidebar_position: 7
 ---
 
-# Carte d'aventure 
+# Adventure map
 
-Votre personnage (représenté par votre photo de profile Discord), est toujours localisé quelque part parmis les **12 zones** de l'île d'Enderia.
+Your character (represented by your Discord profile photo), is always located somewhere among the **12 zones** of the island of Enderia.
 
-Lorsque vous commencez à jouer à EnderBot, vous serez automatiquement situé à la plage.
+When you start playing EnderBot, you will automatically be located at the beach.
 
 ![advmap_multi.png](/img/commands_example/advmap_multi.png)
 
-Les douzes zones suivantes sont:
-- La plage.
-- Le lac.
-- Le village (c'est là que vous devez vous rendre si vous voulez acheter quelque chose dans le shop).
-- La mine.
-- La forêt.
-- La ferme.
-- L'usine.
-- Le volcan.
-- Le Toundra.
-- Le désert.
-- La tour.
-- La capitale.
+The following twelve zones are:
+- The beach.
+- Lake.
+- The village (this is where you have to go if you want to buy something in the shop).
+- The mine.
+- The forest.
+- The farm.
+- Factory.
+- The volcano.
+- The Tundra.
+- The desert.
+- Tower.
+- The capital.
 
-### Changer votre localisation sur la carte (`>move NomDeLaLocalisation`)
-Si vous souhaitez **bouger de zone** sur la carte, vous devez obligatoirement **bouger vers une zone adjacente** sur la map.
+### Change your location on the map (`>move NomDeLaLocalisation`)
+If you want to **move zone** on the map, you must **move to an adjacent zone** on the map.
 
-Si jamais vous ne vous souvenez plus des noms des différentes zones sur la carte, il vous suffit d'effectuer la commande sans mettre de nom afin d'obtenir la liste des différents lieux disponibles.
+If you ever no longer remember the names of the different areas on the map, simply perform the command without putting a name in order to obtain the list of the different places available.
 
 ![move_success.png](/img/commands_example/move_success.png)
 
-Une fois que vous avez choisi une destination, il vous suffit de faire la commande `>move NomDeLaZone`
+Once you have chosen a destination, simply do the command `>moveZoneName`.
 
 ![move_no_args.png](/img/commands_example/move_no_args.png)
 
-:::tip ASTUCE
-Le bot considère que votre personnage est toujours dans une zone, même si vous êtes en déplacement, tant que votre trajet n'est pas entièrement fini, le bot considéra que vous êtes toujours dans votre zone d'origine pour les commandes qui sont affectées par votre localisation.
+:::tip TIP
+The bot considers that your character is always in a zone, even if you are moving, as long as your journey is not completely finished, the bot will consider that you are still in your original zone for commands that are affected by your location.
 :::
 
-Les commandes affectées par la localisation sont:
+The commands affected by localization are:
 - `>work`
-- `>shrine` (donne un boost si vous êtes dans la zone du village ou de la capitale).
-- `>shop` (nécessite d'être au village).
-- `>exploration` (comme il s'agit d'une mécanique qui lui est propre cliquez ici).
+- `>shrine` (gives a boost if you are in the village or capital area).
+- `>shop` (requires being in the village).
+- `>exploration` (as this is its own mechanic, click here).
