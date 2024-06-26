@@ -2,62 +2,62 @@
 sidebar_position: 1
 ---
 
-# Cartes
+# Cards
 
-La collection de cartes:
+The card collection:
 
-### Invoquer des cartes (`>summon`)
-Pour invoquer des cartes, utilisez la commande `>summon`, vous aurez alors **le choix entre 3 cartes** et vous pourrez **en choisir une** parmis les trois en cliquant sur le bouton correspondant (aussi appelé "faire un claim").
+### Summon Cards (`>summon`)
+To summon cards, use the `>summon` command, you will then have **the choice between 3 cards** and you can **choose one** among the three by clicking on the corresponding button (also called "make a claim").
 
 ![summon.png](/img/commands_example/summon.png)
 :::info INFORMATION
-Le temps d'attente entre deux invocations est de 1 heure.
-Le temps d'attente entre deux claims et de 20 minutes.
+The waiting time between two summons is 1 hour.
+The waiting time between two claims is 20 minutes.
 :::
-:::tip ASTUCE
-N'hésitez pas à consulter notre page premium pour avoir des délais plus court pour faire des invocations ou récupérer des cartes.
+:::tip TIP
+Do not hesitate to consult our premium page for shorter times to make summons or collect cards.
 :::
 
-### Voir sa collection de cartes à partir d'une image globale de vos cartes (`>card collection`)
-Pour visualiser votre collection de cartes il vous suffit d'utiliser la commande `>card collection`.
+### View your card collection from a global image of your cards (`>card collection`)
+To view your card collection, simply use the `>card collection` command.
 
 ![card_collection.png](/img/commands_example/card_collection.png)
 
-:::tip ASTUCE
-Vous pouvez également consulter votre collection de cartes sur notre site web en faisant la commande `>web`.
+:::tip TIP
+You can also view your card collection on our website by doing the `>web` command.
 :::
 
-### Voir sa collection de cartes à partir d'une liste manuscrite (`>card list`)
-Vous pouvez également consulter votre collection de carte de manière manuscrite avec la commande `>card list`.
-Vous y retrouverez alors certaines informations comme:
-- L'identifiant de la carte.
-- Le nom de la carte.
-- La rareté de la carte.
-- La collection dont fait partie la carte.
+### View your card collection from a handwritten list (`>card list`)
+You can also consult your card collection manually with the `>card list` command.
+You will then find certain information there such as:
+- The card identify.
+- The name of the card.
+- The rarity of the card.
+- The collection the card is part of.
 
 ![card_list.png](/img/commands_example/card_list.png)
 
-### Voir les détails d'une carte (`>card show`)
-Vous pouvez consulter les détails d'une carte avec la commande `>chard show <NomDeLaCarte>`.
+### View card details (`>card show`)
+You can view the details of a card with the `>chard show <CardName>` command.
 
-Vous pourrez y retrouver certaines information comme:
-- Le nom de la carte.
-- La collection de la carte.
-- Le niveau de rareté de la carte (son nombre d'étoiles).
-- Le niveau de rareté de la carte (écrit de mannière manuscrite).
-- L'identifiant de la carte.
-- La date de quand a été obtenue la carte.
-- Le pseudo du propriétaire de la carte.
+You can find certain information there such as:
+- The name of the card.
+- The card collection.
+- The rarity level of the card (its number of stars).
+- The rarity level of the card (written in handwriting).
+- The card identify.
+- The date when the card was obtained.
+- The nickname of the card owner.
 
 ![card_show.png](/img/commands_example/card_show.png)
 
-### Rechercher une carte dans une collection (`>card searech`)
-Si vous souhaitez rechercher les cartes d'une certaines collection pour avoir une idée d'où vous vous situez dans votre avancée il vous suffit de faire la commande `>card searech <NomDeLaCollection>`.
+### Search for a card in a collection (`>card searech`)
+If you want to search for cards from a certain collection to get an idea of ​​where you are in your progress, simply do the command `>card searech <CollectionName>`.
 
-Un petit TAG "Possédé" apparaîtra si jamais vous possédez la carte ainsi que l'identifiant de la carte.
+A small “Owned” TAG will appear if you ever own the card as well as the card identifier.
 
 ![card_search.png](/img/commands_example/card_search.png)
 
-:::info
-Si vous voyez plusieurs identifiants à la suite cela signifie que vous avez la carte en plusieurs exemplaires.
+:::info INFORMATION 
+If you see several identify in a row this means that you have several copies of the card.
 :::
