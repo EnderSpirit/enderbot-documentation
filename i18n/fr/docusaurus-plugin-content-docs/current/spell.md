@@ -71,7 +71,7 @@ De plus, vous obtenez des ressources supplémentaire au début de ce sort. Vous 
 ![spell_shrine_pardon.png](/img/commands_example/spell_shrine_pardon.png)
 
 ### Le sort de réduction de l'exploration (`>spell exploration warp`)
-Le sort de réduction de l'exploration vous permet de réduire le temps d'attente. Il a un coût de 25 points de magie noire.
+Le sort de réduction de l'exploration vous permet de réduire le temps d'attente de 1 heure. Il a un coût de 25 points de magie noire.
 
 ![spell_exploration_warp.png](/img/commands_example/spell_exploration_warp.png)
 
