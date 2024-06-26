@@ -45,7 +45,7 @@ Il s'agit de la rune centrale sur la carte. Cette rune est différente des autre
 ![supreme_rune_hex.png](/img/warmap/tiles/supreme_rune_hex.png)
 
 ### Les runes
-Les runes sont des cases sur la carte qui permettent de produire de la magie noire. Il y en a 9 sur la carte. Uniquement les 5 joueurs ayant le plus de troupes sur la rune produisent de la magie noire. La répartition de la production se déroule comme ceci:
+Les runes sont des cases sur la carte qui permettent de produire de la magie noire. Il y en a 17 sur la carte. Uniquement les 5 joueurs ayant le plus de troupes sur la rune produisent de la magie noire. La répartition de la production se déroule comme ceci:
 - +1.00 :darkmana: Magie Noir/heure pour le premier joueur ayant le plus de troupes sur la rune.
 - +0.50 :darkmana: Magie Noire/heure pour le deuxième joueur ayant le plus de troupes sur la rune.
 - +0.33 :darkmana: Magie Noire/heure pour le troisième ayant le plus de troupes sur la rune.
