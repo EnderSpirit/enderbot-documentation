@@ -4,118 +4,118 @@ sidebar_position: 11
 
 # Structures
 
-Les structures sont directement reliées aux serveur. Un serveur est considéré comme une structure. Vous pouvez faire évoluer votre structure en fonction de votre activité sur EnderBot avec votre magie et vos invocations de cartes.
+The structures are directly connected to the servers. A server is considered a structure. You can evolve your structure based on your activity on EnderBot with your mana and card summons.
 
-Lorsque vous commencez à investir dans une structure, vous devez dépenser 100 000 points de magie au total ou 250 invocations de carte pour faire gagner un niveau à votre structure.
+When you start investing in a structure, you must spend 100,000 mana points in total or 250 card summons to level up your structure.
 
-Une action permet de vous donner des ressources sur le bot. Le nombre de ressources données tout dépend de la productivité du serveur. Plus la productivité sera haute, plus votre action vous donnera de ressources.
+An action gives you resources on the bot. The number of resources given all depends on the productivity of the server. The higher the productivity, the more resources your action will give you.
 
-La productivité du serveur est basée sur les données suivantes:
-- Le nombre total d' :endercoin: Endercoins investis sur la structure.
-- Le nombre de membres présents sur la structure (les bots ne comptent pas).
-- L'activité du serveur.
-- Le hasard.
-- Autres facteurs que nous gardons secrets.
+Server productivity is based on the following data:
+- The total number of :endercoin: Endercoins invested on the structure.
+- The number of members present on the structure (bots do not count).
+- Server activity.
+- Chance.
+- Other factors that we keep secret.
 
 :::info INFORMATION
-Les serveurs comptant de nombreux membres commencent avec un niveau légèrement supérieur.
+Servers with many members start at a slightly higher level.
 :::
-:::warning ATTENTION
-Plus votre structure augmente en niveaux, vous vous devrez dépenser de magie et faire des invocations de cartes pour faire évoluer cette dernière.
+:::warning WARNING
+The more your structure increases in levels, you will have to spend mana and summon cards to make it evolve.
 :::
 
-### Consulter les informations d'une structure (`>structure info`)
-Lorsque vous effectuez la commande (`>structure info`), vous pouvez retrouver les informations principales sur cette dernière comme:
-- Le nom de la structure.
-- Le niveau de la structure.
-- Le nombre de membres de la structure.
-- La productivité de la structure.
+### Consult information about a structure (`>structure info`)
+When you perform the command (`>structure info`), you can find the main information about it like:
+- The name of the structure.
+- The level of the structure.
+- The number of members of the structure.
+- The productivity of the structure.
 
-- Le nombre de shares total de la structure.
-- Le nombre de shares disponibles de la structure.
-- Le nombre de shares achetés de la structure.
+- The total number of shares of the structure.
+- The number of shares available in the structure.
+- The number of shares purchased from the structure.
 
-Plus-bas vous retrouvez d'autres informations complémentaires comme:
-- Le détail du nombre de shares possédés par chaque membre.
-- La contribution de chaque joueur sur la structure (ressources collectées et invocations faites).
+Further down you will find other additional information such as:
+- Details of the number of shares owned by each member.
+- The contribution of each player to the structure (resources collected and summons made).
 
-Enfin, tout en bas vous pouvez retrouver l'avancée avant de faire gagner la structure en niveaux:
-- Le nombre de magie dépensée avant l'objectif.
-- Le nombre d'invocation faites avant l'objectif.
+Finally, at the very bottom you can find the progress before gaining the structure in levels:
+- The number of mana spent before the objective.
+- The number of summons made before the objective.
 
 ![structures_info.png](/img/commands_example/structures_info.png)
 
-### Acheter des shares (`>str buy`)
-Les shares sont un peu comme des actions à la bourse. Plus votre structure gagne en niveaux, plus il y aura des shares de disponibles.
+### Buy shares (`>str buy`)
+Shares are a bit like shares on the stock market. The more levels your structure gains, the more shares there will be available.
 
-Vous pouvez alors acheter des shares sur la structure pour 100 :endercoin: Enderdoins avec la commande (`>str buy`).
+You can then buy shares on the structure for 100 :endercoin: Enderdoins with the command (`>str buy`).
 
 ![structures_buy.png](/img/commands_example/structures_buy.png)
 
-:::tip ASTUCE
-Pensez à collecter des ressources et à faire des invocations de cartes pour mettre vos actions à l'abris des autres joueurs qui seraient tentés de vous les voler.
+:::tip TIP
+Remember to collect resources and summon cards to protect your actions from other players who would be tempted to steal them from you.
 :::
-:::warning ATTENTION
-Vous pouvez acheter des actions sur la même structure tous les 16 heures.
+:::warning WARNING
+You can buy shares on the same structure every 16 hours.
 :::
 
-### Revendre des shares (`>str sell`)
-Si vous souhaitez revendre vos actions pour diverses raisons, il vous suffit de faire la commande (`>str sell`).
+### Resell shares (`>str sell`)
+If you want to resell your shares for various reasons, simply make the command (`>str sell`).
 
 ![structures_sell.png](/img/commands_example/structures_sell.png)
 
 :::info INFORMATION
-Une fois que vous avez revendus vos actions, vous ne récupérez pas immédiatement vos :endercoin: Endercoins. Vous devez attendre qu'un autre joueur rachète vos actions pour les récupérer.
+Once you have sold your shares, you do not immediately get your :endercoin: Endercoins back. You must wait for another player to buy your shares to get them back.
 :::
 
-### Forcer les actions d'un autre joueur (`>str forcebuy`)
-Si jamais il n'y a plus d'actions de disponibles sur le serveur, vous pouvez toujours forcer les actions des autres joueurs avec la commande `>str forcebuy`. Il faut cependant certains crytères pour forcer les actions des autres joueurs:
-- Avoir 2 fois plus de ressources produites que le joueur visé sur la structure.
-- Avoir 2 fois plus d'invocations ue le joueur visé sur la structure.
+### Force another player's actions (`>str forcebuy`)
+If there are no more actions available on the server, you can always force the actions of other players with the `>str forcebuy` command. However, some criteria are required to force the actions of other players:
+- Have twice as many resources produced as the targeted player on the structure.
+- Have twice as many summons as the targeted player on the structure.
 
 ![structures_force.png](/img/commands_example/structures_force.png)
 
-### Réclamer vos actions (`>str dividends`)
-Pour réclamer vos actions sur une structure, il vous suffit de faire la commande `>str dividens`.
+### Claim your shares (`>str dividends`)
+To claim your shares on a structure, simply use the command `>str dividends`.
 
-Vous obtiendez alors les récompenses suivantes:
-- :cardessence: Essence de cartes.
-- :mana: Magie.
+You then get the following rewards:
+- :cardessence: Card essence.
+- :mana: Mana.
 - :endercoin: Endercoins.
 - :golem: Golems.
 
 ![structures_dividends.png](/img/commands_example/structures_dividends.png)
 
 :::info INFORMATION
-VOus pouvez consulter votre liste d'actions sur les différentes structures avec la commandes `>str `
+You can consult your list of actions on the different structures with the command `>str`.
 :::
 
-### Réclamer vos actions à distance (`>str dividends NomDeLaStructure`)
-Vous pouvez également réclamer vos récompenses de dividendes à distance si par exemple vous n'avez plus accès au serveur. Pour cela il suffit de faire la commande `>str dividends NomDeLaStructure`.
+### Claim your shares remotely (`>str dividends NomDeLaStructure`)
+You can also claim your dividend rewards remotely if for example you no longer have access to the server. To do this, simply issue the command `>str dividendsStructureName`.
 
 ![structures_div_away.png](/img/commands_example/structures_div_away.png)
 
-:::warning ATTENTION
-Même si vous pouvez réclamer vos actions à distance, vos actions peuvent toujours être forcés par d'autres joueurs.
+:::warning WARNING
+Even though you can claim your actions remotely, your actions can still be forced by other players except if your shares are protected.
 :::
 
-### Consulter vos actions sur les différents serveurs (`>str list`)
-Vous pouvez consulter votre liste d'actions sur les différentes structures avec la commandes `>str `
+### Consult your actions on the different servers (`>str list`)
+You can consult your list of actions on the different structures with the command `>str`.
 
-Vous pouvez alors retrouver plusieurs informations comme:
-- La productivité du serveur.
-- Le nombre d'actions que vous avez sur le serveur.
-- Le nom de la structure (serveur).
-- Si les dividendes sont prêtes à être réclamées ou non.
+You can then find several information such as:
+- Server productivity.
+- The number of shares you have on the server.
+- The name of the structure (server).
+- Whether dividends are ready to be claimed or not.
 
 ![structures_list.png](/img/commands_example/structures_list.png)
 
 :::info INFORMATION
-Vous pouvez réclamer les récompenses de vos actions sur les différentes structures une fois par semaine. La rénitialisation des récompenses s'effectue une fois par semaine le lundi à 2h.
+You can claim the rewards of your shares on the different structures once a week. Rewards are reset once a week on mondays at 2 a.m.
 ::: 
 
-### Activer la structure sur un serveur (`>str enable`)
-Si vous souhaitez faire de votre serveur une structure évolutive il vous suffit de faire (`>str enable`) afin que la magie dépensée et les invocations de cartes soient comptabilisés pour faire évoluer la structure.
+### Enable structure on a server (`>str enable`)
+If you want to make your server an evolving structure, you just need to do (`>str enable`) so that the mana spent and the invocations of cards are counted to evolve the structure.
 
-### Désactiver la structure sur un serveur (`>str disable`)
-Si vous le souhaitez désactiver la structure sur votre serveur il vous suffit de faire la commande `>str disable`. La magie dépensée ainsi que les invocations de cartes sur le serveur ne seront alors plus comptabilisés pour faire evoluer la structure.
+### Disable the structure on a server (`>str disable`)
+If you wish to disable the structure on your server, simply issue the command `>str disable`. The mana spent as well as the summons of cards on the server will then no longer be counted to evolve the structure.
