@@ -2,126 +2,150 @@
 sidebar_position: 1
 ---
 
-# Guide du débutant
+# Beginner's Guide
 
-Si vous êtes nouveau sur EnderBot ou vous êtes perdus vis à vis du bot, cette page est faite pour vous!
+If you are new to EnderBot or you are lost about the bot, this page is for you!
 
 # **Préambule:**
-Une fois que vous avez accepté les règles du jeu, vous pouvez commencer à jouer au bot.
+Once you have accepted the game rules, you can start playing the bot.
 
-Veuillez noter que pour toute la documentation, les commandes sont préfixées par le préfixe par défaut d'EnderBot qui est `>`. Cependant, vous pouvez toujours personnaliser le prefix du bot s'il ne vous contient pas avec la commande `>prefix` (Uniquement les administrateurs du serveur peuvent modifier le préfixe du bot).
+Please note that for all documentation, commands are prefixed with EnderBot's default prefix which is `>`. However, you can still customize the bot prefix if it does not contain you with the `>prefix` command (Only server administrators can change the bot prefix).
 :::tip INFORMATION
-Par exemple la commande `>ping` peut aussi être exécutée en tapant `ebping` ou même en commande slash avec `/ebping`.
-La plupart des commandes du jeu peuvent être exécutées en commande slash.
+For example the `>ping` command can also be executed by typing `ebping` or even as a slash command with `/ebping`.
+Most commands in the game can be executed as a slash command.
 :::
 
-Cependant, la plupart des joueurs préfèrent utiliser les commandes avec préfixes car elles restent beaucoup plus pratiques que les commandes en slash.
+However, most players prefer to use prefix commands because they are much more convenient than slash commands.
 
-:::tip CONSEIL
-N'hésitez pas à utiliser un maximum les abbréviations autant que possible afin de gagner un maxium de temps !
+:::tip ADVICE
+Do not hesitate to use abbreviations as much as possible in order to save as much time as possible!
 :::
-# Les commandes communes:                           
+# Common commands:                           
 
-# Comment jouer?
-EnderBot se décompose en deux sous-systèmes de jeu majeurs : **la partie RPG** et **la partie de collecte de cartes**. Ces deux systèmes sont indépendents mais se rejoignent à haut niveau, **vous pouvez choisir de jouer** à seulement l'un ou l'autre, ou les deux !
+# How to play?
+EnderBot is broken down into two major game subsystems: **the RPG part** and **the card collecting part**. These two systems are independent but come together at high level, **you can choose to play** only one or the other, or both!
 
+# Command `>hourly` (`>hr`)
+The `>hourly` command allows you to collect rewards every hour.
+This command has a 60 minute cooldown and gives rewards for advancing faster in the game, don't hesitate to use it as soon as it becomes available if you want to advance quickly.
+This command also has **a combo mechanic**, if you collect an `>hourly` 90 minutes after collecting your last `>hourly` you will gain a little more resources, the rewards no longer increase after combo 10 . **To optimize the production of resources it is therefore preferable to chain them**.
 
+On the screeen below, we see 4 rewards conferred by this command in order:
 
-# Commande `>hourly` (`>hr`)
-La commande `>hourly` permet de récupérer des récompenses toutes les heures.
-Cette commande a un cooldown de 60 minutes et donne des récompenses pour avancer plus vite dans le jeu, n'hésitez pas à l'utiliser dès qu'elle est disponible si vous souhaitez avancer rapidement.
-Cette commande a également **une mécanique de combo**, si vous récupérez un `>hourly` 90 minutes après avoir récupéré votre dernier `>hourly` vous gagnerez un peu plus de ressources, les récompenses n'augmentent plus après le combo 10. **Pour optimiser la production de ressources il est donc préférable de les enchainer**.
+• **XP** (experience points allowing you to level up).
 
+• **Mana** (allows you to perform actions on the RPG).
 
-Sur le screeen ci-dessous, on voit 4 récompenses conférées par cette commande dans l'ordre:
+• **EnderCoin** (in-game currency allowing you to purchase exchange licenses or exchange cards/resources with other players).
 
-• **XP** (points d'expérience permettant de monter en niveau).
+• **Essence card** (to reset the waiting time to summon cards or collect cards).
 
-• **Mana** (permet de faire des actions sur le RPG).
+![hourly_cooldown.png](/img/commands_example/hourly_cooldown.png)
+![hourly_success.png](/img/commands_example/hourly_success.png)
 
-• **EnderCoin** (monnaie du jeu permettant d'acheter d'acheter des licence d'échange ou d'échanger des cartes/ressources avec les autres joueurs).
+# Command `>daily` (`>da`)
+The `>daily` command is very similar to the `>hourly` command except that it can only be done once per day, gives more rewards and has no combo system.
 
-• **Carte essence** (pour rénitiatliser le temps d'attente pour invoquer des cartes ou récupérer des cartes).
+![daily_cooldown.png](/img/commands_example/daily_cooldown.png)
 
-# Commande `>daily` (`>da`)
-La commande `>daily` est très similaire à la commande `>hourly` exceptée qu'elle n'est faisable qu'une fois par jour, donne plus de récompenses et n'a pas de système de combo.
+# Command `>shrine` (`>shr`)
+The `>shrine` command allows you to launch a ritual and obtain rewards.
+After using `>shrine start` (`>shr s`), you must **wait 4 hours** before claiming your rewards using the `>shrine claim` (`>shr c`) command. Once the 4 hours have passed you have **1 hour to collect** your rewards. Once this deadline has passed, you will no longer be able to collect rewards and your shrine will be **broken for the next 24 hours**.
 
-# Commande `>shrine` (`>shr`)
-La commande `>shrine` permet de lancer un rituel et d'obtenir des récompenses.
-Après avoir utilisé `>shrine start` (`>shr s`), vous devez **attendre 4 heures** avant de récupérer vos récompenses à l'aide de la commande `>shrine claim` (`>shr c`). Une fois les 4 heures passées vous avez **1 heure pour récupérer** vos récompenses. Une fois ce délais passé, vous ne pourrez plus récupérer de récompenses et votre shrine sera **cassé pour les 24 prochaines heures**.
+![shrine_start_cooldown.png](/img/commands_example/shrine_start_cooldown.png)
+![shrine_claim.png](/img/commands_example/shrine_claim.png)
+![shrine_break.png](/img/commands_example/shrine_break.png)
 
-Par exemple, si vous **lancez un rituel à 10h**, vous devrez le **récupérer entre 14h et 15h** pour obtenir les récompenses.
+For example, if you **cast a ritual at 10 a.m.**, you will need to **collect it between 2 p.m. and 3 p.m.** to get the rewards.
 :::tip INFORMATION
-N'importe laquelle de nos souscriptions premium permet de réduire le temps d'attente si jamais vous cassez votre shrine.
+Any of our premium subscriptions can reduce waiting time if you ever break your shrine.
 :::
 
-# Commande `>treasure` (`>tr`)
-Le trésor est **une mécanique compétitive** et globale sur le bot, il s'agit d'une mécanique nécessitant **un style de jeu actif**.
-Le trésor est une récompense disponible **toutes les quelques minutes**, la particularité étant que cette récompense ne sera donnée qu'au joueur le plus rapide à effectuer la commande lorsque le trésor sera disponible. (Ça se joue usuellement à quelques millisecondes et à la chance !)
-
+# Command `>treasure` (`>tr`)
+Treasure is **a competitive** and global mechanic on the bot, it is a mechanic requiring **an active play style**.
+The treasure is a reward available **every few minutes**, the particularity being that this reward will only be given to the player fastest to complete the order when the treasure is available. (It usually comes down to a few milliseconds and luck!)
 :::tip INFORMATION
-Ça se joue usuellement à quelques millisecondes et à la chance. Donc à vous d'être le plus rapide à envoyer la commande lorsqu'il est disponible!
+It usually comes down to a few milliseconds and luck. So it's up to you to be the quickest to send the order when it's available!
 :::
 
-Lorsque vous effectuez la commande `>treasure`, vous verrez probablement un message de la sorte :
+When you run the `>treasure` command, you will probably see a message like this:
+![treasure_not_available.png](/img/commands_example/treasure_not_available.png)
 
-Si le trésor est indisponible (ce qui est le cas dans 99% des cas lorsque vous effectuez la commande),
-la commande vous donnera plusieurs informations tels que:
+If the treasure is unavailable (which is the case in 99% of cases when you place the order),
+the command will give you several information such as:
 
-• **Le pseudo du dernier joueur** ayant pris le dernier trésor.
+• **The nickname of the player** who took the last treasure.
 
-• **Le nom de son organisation** si jamais il en a une.
+• **The name of his organization** if he has one.
 
-• **Le temps restant** avant que le prochain trésor soit disponible.
+• **The time remaining** before the next treasure becomes available.
 :::tip INFORMATION
-Un joueur ne peut récupérer que **10 trésors par jour** afin d'éviter qu'un monopole de joueurs capturent les trésor et ainsi vous donner plus de chances d'en capturer un. Vous pouvez consulter **combien vous avez pris de trésor** au cours de 24 dernières heures avec la commande `>treasure limit` (`>tr l`).
+A player can only collect **10 treasures per day** in order to avoid a monopoly of players capturing treasures and thus giving you more chances of capturing one. You can check **how much treasure you have taken** in the last 24 hours with the `>treasure limit` (`>tr l`) command.
+
+![treasure_limit.png](/img/commands_example/treasure_limit.png)
 :::
 
-# Commande `>cooldown` (`>cd`)
-La commande de cooldown permet de facilement visualiser la plupart des cooldowns sur vos différentes commandes comme par exemple:
+# Command `>cooldown` (`>cd`)
+The cooldown command allows you to easily visualize most of the cooldowns on your different commands, such as:
 
-• Temps d'attente de la commande `>hourly`.
+• Waiting time for the `>hourly` command.
 
-• Temps d'attente de la commande `>daily`.
+• Waiting time for the `>daily` command.
 
-• Temps d'attente de la commande avant de récupérer une nouvelle carte.
+• Waiting time for the order before collecting a new card.
 
-• Temps d'attente de la commande `>summon`.
+• Waiting time for the `>summon` command.
 
-• Temps d'attente de la commande `>shrine`.
+• Waiting time for the `>shrine` command.
 
-• Temps d'attente de la commande `>vote`.
+• Waiting time for the `>vote` command.
 
-• Temps d'attente de la commande `>exploration`.
+• Waiting time for the `>exploration` command.
 
-• Temps d'attente de la commande `>move` (si vous êtes en voyage sur la carte).
+• Waiting time for the `>move` command (if you are traveling on the map).
 
-• Temps d'attente de la commande `>ritual` (si vous participez à un rituel).
+• Waiting time for the `>ritual` command (if you are participating in a ritual).
 
-# Les commandes RPG:      
-# Commande `>invotory` (`>inv`)
-L'inventaire vous permet de voir tout ce que vous possédez sur le bot:
-
-• **Sur la première page** vous pourrez y trouver **toutes les informations générales** à propos de votre compte de jeu Enderbot. 
-
-• **Sur la seconde page** vous pourrez y trouver **toutes les ressources** que vous possédez sur le bot.
-
-• **Sur la troisième page** vous pourriez y trouver **toutes les ressources spéciales** afin de réaliser certaines potions.
-
-• **Sur la quatrième page** vous pourrez y trouver **toutes les potions** que vous avez fabriquées.
-
-• **Sur la cinquième page** vous pourrez y trouver **tous les outilsùù que vous possédez sur le bot.
-
-# Commande `>craft` (`>cra`)
-La commande `>craft` est utilisée pour la fabrication d'outils et de potions.
-
-Si vous ne préciser pas d'arguments, le bot vous proposera d'ouvrir l'interface du menu de craft :
-
-Pour les outils, il est possible de rapidement fabriquer le prochain tier d'outil en se basant sur votre outil actuellement équippé, les arguments possibles sont :
+![cooldown.png](/img/commands_example/cooldown.png)
 
 
-# Commande `>forge` (`>for`)
+# The RPG commands:      
+# Command `>inventory` (`>inv`)
+The inventory allows you to see everything you own on the bot:
 
-# Commande `>exploration` (`>exp`)
-La commande `>exploration` permet de récupérer de l'XP, des EnderCoins et des ressources d'exploration spécifique à une zone (utile pour les alchimistes).
-La commande peut être lancée jusqu'à six joueurs en simultané pour un petit boost de récompenses.
+• **On the first page** you can find **all the general information** about your Enderbot game account.
+![inventory_general.png](/img/commands_example/inventory_general.png)
+
+• **On the second page** you will be able to find **all the resources** that you have on the bot.
+![inventory_common.png](/img/commands_example/inventory_common.png)
+
+• **On the third page** you could find **all the special resources** to make certain potions.
+
+![inventory_exploration.png](/img/commands_example/inventory_exploration.png)
+
+• **On the fourth page** you can find **all the potions** that you have made.
+![inventory_alchemy.png](/img/commands_example/inventory_alchemy.png)
+
+• **On the fifth page** you can find **all the tools** that you have on the bot.
+![inventory_items.png](/img/commands_example/inventory_items.png)
+
+
+# Command `>craft` (`>cra`)
+The `>craft` command is used for crafting tools and potions.
+
+![craft_menu.png](/img/commands_example/craft_menu.png)
+:::info INFORMATION
+If you need more information about explorations click here.
+:::
+
+# Command `>forge` (`>for`)
+The `>forge` command is improved the statistics of your items depending on the chosen job. There are 5 levels of item improvement. If you would like to know more information click here.
+![forge_pickaxe.png](/img/commands_example/forge_pickaxe.png)
+
+# Command `>exploration` (`>exp`)
+The `>exploration` command allows you to recover XP, EnderCoins and exploration resources specific to an area (useful for alchemists).
+The command can be launched with up to six players simultaneously for a small boost in rewards.
+![advmap_solo.png](/img/commands_example/advmap_solo.png)
+:::info INFORMATION
+If you need more information about explorations click here.
+:::
