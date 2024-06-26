@@ -4,32 +4,32 @@ sidebar_position: 12
 
 # PvP
 
-Le PvP se déroule sur une carte de guerre que vous pouvez retrouver ci-dessous. Elle est de forme radius 11. Chaque carte est localisée par une coordonnée qui permet de la situer. Le but du PvP est que votre organisation et vous même possédez un chateau afin de posséder un chateau et aller expendre votre territoires au maximum tout en affrontant les autres organisations. Vous affronterez les autres organisations avec des golems. Le PvP ne sert pas seulement à affronter les autres organisations mais débloque également une ressource exclusive en fonction du territoire que vous possédez. Il s'agit de la magie noire.
+Le PvP se déroule sur **une carte de guerre** que vous pouvez retrouver ci-dessous. Elle est de forme **radius 11**. Chaque carte est **localisée par une coordonnée** qui permet de la situer. Le but du PvP est que **votre organisation** et **vous même** possédez **un chateau** et aller expandre votre territoires au maximum tout en **affrontant** les autres organisations. Vous affronterez les autres organisations avec des golems. Le PvP **ne sert pas seulement à affronter les autres organisation**s mais débloque également une ressource exclusive en fonction du territoire que vous possédez. Il s'agit de **la magie noire**.
 
 ![pvp_warmap.png](/img/commands_example/pvp_warmap.png)
 
 ### Prérequis pour pouvoir participer sur la carte de guerre
 Pour pouvoir participer sur la carte de guerre vous devez impérativement avoir les éléments suivants:
-- Une organisation possédant un chateau sur la carte de guerre.
-- Un général pour pouvoir poser des golems sur la carte de guerre.
-- Des golems.
+- **Une organisation** possédant un chateau sur la carte de guerre.
+- **Un général** pour pouvoir poser des golems sur la carte de guerre.
+- **Des golems**.
 
 ## Les différentes cases sur la carte de guerre
-Sur la carte de guerre, vous pouvez retrouver 4 types de cases qui ont des fonctionnalités.
+Sur la carte de guerre, vous pouvez retrouver **4 types de cases** qui ont des fonctionnalités différentes.
 
 ### Le chateau
-Chaque organisation possède un chateau qui se situe à un endroit fixe sur la carte. Le chateau a plusieurs points forts que ne possède pas les autres cases. Les spécificités du chateau sont les suivants:
-- Toutes les troupes étant dans le chateau sont protégées et ne peuvent pas être attaquées par des organisations adverses.
-- Chaque général que vous décidez de mettre sur la carte de guerre doit passer par le chateau.
+Chaque organisation possède **un chateau** qui se situe à un endroit fixe sur la carte. Le chateau a **plusieurs points forts** que ne possèdent pas les autres cases. Les spécificités du chateau sont les suivants:
+- **Toutes les troupes étant dans le chateau sont protégées** et **ne peuvent pas être attaquées** par des organisations adverses.
+- Chaque général que vous décidez de mettre sur la carte de guerre **doit passer par le chateau**.
 
 ![castle_hex.png](/img/warmap/tiles/castle_hex.png)
 
 :::info INFORMATION
-Pour posséder un chateau vous devez être dans le top 16 organisations ayant des améliorations.
+Pour posséder un chateau vous devez être dans **le top 16 organisations** ayant des améliorations.
 :::
 
 ### La friche
-La friche est une case qui permet de séparer les différentes runes entre elles et qui permet de produire un petit peu de magie noire. Uniquement les 5 joueurs ayant le plus de troupes sur la rune produisent de la magie noire. La répartition de la production se déroule comme ceci:La répartition de la production se déroule comme ceci:
+La friche est une case qui permet de **séparer les différentes runes entre elles** et qui permet de **produire un petit peu** de magie noire. Uniquement les 5 joueurs ayant le plus de troupes sur la rune produisent de la magie noire. La répartition de la production se déroule comme ceci:
 - +0.25 :darkmana: Magie Noir/heure pour le premier joueur ayant le plus de troupes sur la rune.
 - +0.17 :darkmana: Magie Noire/heure pour le deuxième joueur ayant le plus de troupes sur la rune.
 - +0.13 :darkmana: Magie Noire/heure pour le troisième ayant le plus de troupes sur la rune.
@@ -39,7 +39,7 @@ La friche est une case qui permet de séparer les différentes runes entre elles
 ![grass_hex.png](/img/warmap/tiles/grass_hex.png)
 
 ### La suprême rune
-Il s'agit de la rune centrale sur la carte. Cette rune est différente des autres car les 5 joueurs ayant le plus de troupes sur cette case produisent 1 de magie noire par heure. C'est donc une rune qui s'avère beaucoup plus productive que les autres runes.
+Il s'agit de **la rune centrale** sur la carte. Cette rune est différente des autres car les 5 joueurs ayant le plus de troupes sur cette case produisent **1 de magie noire** par heure. C'est donc une rune qui s'avère **beaucoup plus productive** que les autres runes.
 
 ![supreme_rune_hex.png](/img/warmap/tiles/supreme_rune_hex.png)
 
