@@ -4,22 +4,23 @@ sidebar_position: 7
 
 # Explorations
 
-Les explorations sont une fonctionnalité qui dépend directement de la carte d'aventure. 
+Explorations are a feature that depends directly on the adventure map.
 
-## Lancer une exploration (>exploration)
-Pour lancer une exploration il vous suffit d'utiliser la commande suite `>exploration`. Une exploration peut se lancer jusqu'à 6 joueurs au maximum. Plus vous serez nombreux à être dans une même expédition, plus vous collecterez de ressources.
+## Strart an exploration (>exploration)
+To start an exploration, simply use the following `>exploration` command. An exploration can be launched with up to 6 players maximum. The more of you are on the same expedition, the more resources you will collect.
 
 ![exploration_start.png](/img/commands_example/exploration_start.png)
 
-Lors d'une exploration vous pouvez récolter les ressources suivantes une fois que votre exploration est terminée :
-- :xp: Expérience.
+During an exploration you can collect the following resources once your exploration is completed:
+- :xp: Experience.
 - :endercoin: EnderCoin.
-- Une ressource exotique (la ressource exotique récoltée dépend de l'endroit où vous vous situez sur la carte d'aventure).
+- An exotic resource (the exotic resource harvested depends on where you are on the adventure map).
 
 ![exploration_result.png](/img/commands_example/exploration_result.png)
-:::tip ASTUCE
-N'hésitez pas à utiliser réduire votre cooldown d'exploration de 1h avec vos compétences de mana sombre.
+
+:::tip TIP
+Don't hesitate to use reduce your exploration cooldown by 1 hour with your dark mana skills (>ebspell exploration warp).
 :::
-:::warning ATTENTION
-Tous les jours voulant participer à la même exploration doivent se trouver au même endroit. Tenter de rejoindre une exploration alors que vous êtes à un endroit différent que les autres joueurs sur la carte d'aventure vous sera alors impossible.
+:::warning WARNING
+All players wanting to participate in the same exploration must be in the same location. Attempting to join an exploration while you are in a different location than the other players on the adventure map will then be impossible for you.
 :::
