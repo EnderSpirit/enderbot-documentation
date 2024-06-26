@@ -43,12 +43,21 @@ Sur le screeen ci-dessous, on voit 4 récompenses conférées par cette commande
 
 • **Carte essence** (pour rénitiatliser le temps d'attente pour invoquer des cartes ou récupérer des cartes).
 
+![hourly_cooldown.png](/img/commands_example/hourly_cooldown.png)
+![hourly_success.png](/img/commands_example/hourly_success.png)
+
 # Commande `>daily` (`>da`)
 La commande `>daily` est très similaire à la commande `>hourly` exceptée qu'elle n'est faisable qu'une fois par jour, donne plus de récompenses et n'a pas de système de combo.
+
+![daily_cooldown.png](/img/commands_example/daily_cooldown.png)
 
 # Commande `>shrine` (`>shr`)
 La commande `>shrine` permet de lancer un rituel et d'obtenir des récompenses.
 Après avoir utilisé `>shrine start` (`>shr s`), vous devez **attendre 4 heures** avant de récupérer vos récompenses à l'aide de la commande `>shrine claim` (`>shr c`). Une fois les 4 heures passées vous avez **1 heure pour récupérer** vos récompenses. Une fois ce délais passé, vous ne pourrez plus récupérer de récompenses et votre shrine sera **cassé pour les 24 prochaines heures**.
+
+![shrine_start_cooldown.png](/img/commands_example/shrine_start_cooldown.png)
+![shrine_claim.png](/img/commands_example/shrine_claim.png)
+![shrine_break.png](/img/commands_example/shrine_break.png)
 
 Par exemple, si vous **lancez un rituel à 10h**, vous devrez le **récupérer entre 14h et 15h** pour obtenir les récompenses.
 :::tip INFORMATION
@@ -64,6 +73,7 @@ Le trésor est une récompense disponible **toutes les quelques minutes**, la pa
 :::
 
 Lorsque vous effectuez la commande `>treasure`, vous verrez probablement un message de la sorte :
+![treasure_not_available.png](/img/commands_example/treasure_not_available.png)
 
 Si le trésor est indisponible (ce qui est le cas dans 99% des cas lorsque vous effectuez la commande),
 la commande vous donnera plusieurs informations tels que:
@@ -75,6 +85,8 @@ la commande vous donnera plusieurs informations tels que:
 • **Le temps restant** avant que le prochain trésor soit disponible.
 :::tip INFORMATION
 Un joueur ne peut récupérer que **10 trésors par jour** afin d'éviter qu'un monopole de joueurs capturent les trésor et ainsi vous donner plus de chances d'en capturer un. Vous pouvez consulter **combien vous avez pris de trésor** au cours de 24 dernières heures avec la commande `>treasure limit` (`>tr l`).
+
+![treasure_limit.png](/img/commands_example/treasure_limit.png)
 :::
 
 # Commande `>cooldown` (`>cd`)
@@ -98,30 +110,45 @@ La commande de cooldown permet de facilement visualiser la plupart des cooldowns
 
 • Temps d'attente de la commande `>ritual` (si vous participez à un rituel).
 
+![cooldown.png](/img/commands_example/cooldown.png)
+
 # Les commandes RPG:      
-# Commande `>invotory` (`>inv`)
+# Commande `>inventory` (`>inv`)
 L'inventaire vous permet de voir tout ce que vous possédez sur le bot:
 
-• **Sur la première page** vous pourrez y trouver **toutes les informations générales** à propos de votre compte de jeu Enderbot. 
+• **Sur la première page** vous pourrez y trouver **toutes les informations générales** à propos de votre compte de jeu Enderbot.
+![inventory_general.png](/img/commands_example/inventory_general.png)
 
 • **Sur la seconde page** vous pourrez y trouver **toutes les ressources** que vous possédez sur le bot.
+![inventory_common.png](/img/commands_example/inventory_common.png)
 
 • **Sur la troisième page** vous pourriez y trouver **toutes les ressources spéciales** afin de réaliser certaines potions.
+![inventory_exploration.png](/img/commands_example/inventory_exploration.png)
 
 • **Sur la quatrième page** vous pourrez y trouver **toutes les potions** que vous avez fabriquées.
+![inventory_alchemy.png](/img/commands_example/inventory_alchemy.png)
 
 • **Sur la cinquième page** vous pourrez y trouver **tous les outilsùù que vous possédez sur le bot.
+![inventory_items.png](/img/commands_example/inventory_items.png)
 
 # Commande `>craft` (`>cra`)
-La commande `>craft` est utilisée pour la fabrication d'outils et de potions.
-
-Si vous ne préciser pas d'arguments, le bot vous proposera d'ouvrir l'interface du menu de craft :
-
-Pour les outils, il est possible de rapidement fabriquer le prochain tier d'outil en se basant sur votre outil actuellement équippé, les arguments possibles sont :
-
+La commande `>craft` est utilisée pour la fabrication d'outils et de potions pour chaque métier disponible. Il existe 5 niveaux d’amélioration des objets.
+![craft_menu.png](/img/commands_example/craft_menu.png)
+:::info INFORMATION
+Si vous souhaitez plus d'informations cliquez ici.
+:::
 
 # Commande `>forge` (`>for`)
+La commande `>forge` améliore les statistiques de vos objets en fonction du job choisi. Il existe 5 niveaux d’amélioration des objets.
+![forge_pickaxe.png](/img/commands_example/forge_pickaxe.png)
+:::info INFORMATION
+Si vous souhaitez plus d'informations cliquez ici.
+:::
 
 # Commande `>exploration` (`>exp`)
 La commande `>exploration` permet de récupérer de l'XP, des EnderCoins et des ressources d'exploration spécifique à une zone (utile pour les alchimistes).
 La commande peut être lancée jusqu'à six joueurs en simultané pour un petit boost de récompenses.
+![advmap_solo.png](/img/commands_example/advmap_solo.png)
+:::info INFORMATION
+Si vous souhaitez plus d'informations cliquez ici.
+:::
