@@ -2,90 +2,91 @@
 sidebar_position: 10
 ---
 
-# Sorts 
+# Spell
 
-Les sorts (`>spell NomDuSort`)
-Les sorts sont une fonctionnalité qui dépend directement de votre production de magie noire. Pour pouvoir utiliser des sorts vous devez être au moins niveau 666. 
+# Spell (`>spell NomDuSort`)
+Spells are a feature that directly depends on your dark mana output. To be able to use spells you must be at least level 666.
 
-Avant ce niveau franchis, la magie noire n'apparaît pas dans votre inventaire, c'est uniquement une fois ce palier franchis que vous la verrez. 
+Before this level has been reached, black magic does not appear in your inventory, it is only once this level has been reached that you will see it.
 
-Cependant, une fois le niveau 66 franchis, vous ne pouvez pas directement utiliser tous les sorts. Effectivement, le nombre de magie noire que vous pouvez stocker est limitée en fonction de votre niveau.
+However, once you reach level 66, you cannot directly use all spells. Indeed, the number of dark mana you can store is limited depending on your level.
 
-:::tip ASTUCE
-Si vous voulez plus d'information sur la magie noire, cliquez ici.
+:::tip TIP
+If you want more information on black magic, click here.
 :::
 :::info INFORMATION
-Par exemple, quand vous débloquez la magie noire au niveau 666 vous pourrez en stocker 66. Si vous êtes niveau 1300, vous pourrez en stocker 130.
+For example, when you unlock dark mana at level 666 you will be able to store 66. If you are level 1300, you will be able to store 130.
 :::
 
-### Consulter la liste des sorts (`>spell`)
-Pour consulter tous les sorts qui existent, il vous suffit de faire la commande `>spell`. Vous y retrouverez le nom de tous les sorts ainsi que le temps d'attente avant de pouvoir le réutiliser si vous vous en servez.
+### View the spell list (`>spell`)
+To view all the spells that exist, simply issue the `>spell` command. You will find the name of all the spells there as well as the waiting time before being able to use it again if you use it.
 
 ![spell_list.png](/img/commands_example/spell_list.png)
 
-## La liste des différents sorts existants sont:
+## The list of different existing spells are:
 
-### Le sort de magie (`>spell mana`)
+### The Mana spell (`>spell mana`)
 Le sort de magie vous permet de vous d'ajouter directement 300 points de magie directement dans votre inventaire. Il a un coût de 30 points de magie noire.
 
 ![spell_mana.png](/img/commands_example/spell_mana.png)
 
-### Le sort de rituel (`>spell ritual`)
-Le sort de rituel vous permet de faire une invocation de cartes avec 7 autres joueurs. Il a un coût de 30 points de magie noire.
+### The Ritual spell (`>spell ritual`)
+The ritual spell allows you to summon cards with 7 other players. It has a cost of 30 dark mana points.
 
 ![spell_ritual.png](/img/commands_example/spell_ritual.png)
-:::warning ATTENTION
-Vous devez impérativement avoir 7 autres joueurs avec vous pour que le rituel commence pour pouvoir avoir des invocations.
+
+:::warning WARNING
+You must have 7 other players with you for the ritual to begin to be able to have summons.
 :::
 
-### Le sort de téléportation (`>spell teleportation`)
-Le sort de téléportation vous permet d'aller instantanément à l'endroit de votre choix sur la carte d'aventure. Votre temps d'attente pour passer d'un endroit à un autre est annulé. Il a un coût de 30 points de magie noire.
+### The Teleportation spell (`>spell teleportation`)
+The teleport spell allows you to instantly go to any location you want on the adventure map. Your waiting time to move from one location to another is canceled. It has a cost of 30 dark mana points.
 
 ![spell_teleportation.png](/img/commands_example/spell_teleportation.png)
 
-## Le sort de renforcement du trésor (`>spell treasure boost`)
-Le sort de renforcement du trésor vous permet d'augmenter les gains d' :endercoin: endercoins, d' :xp: expérience et de de l'essence de cartes lors de l'apparition du prochain trésor. Il a un coût de 40 points de magie noire.
+## The Treasure Boost Spell (`>spell treasure boost`)
+The treasure boost spell allows you to increase the gains of :endercoin: endcoins, :xp: experience and card essence when the next treasure appears. It has a cost of 40 dark mana points.
 
 ![spell_treasure_boost.png](/img/commands_example/spell_treasure_boost.png)
 ![spell_treasure_boost_success.png](/img/commands_example/spell_treasure_boost_success.png)
-:::tip ASTUCE
-N'hésitez pas à consulter quand sera disponible le prochain trésor avec la commande `>treasure info` avant d'utiliser votre sort afin d'avoir une meilleure idée de quand l'utiliser.
+:::tip TIP
+Don't hesitate to check when the next treasure will be available with the `>treasure info` command before using your spell in order to have a better idea of ​​when to use it.
 :::
 :::info INFORMATION
-Vous ne pouvez pas programmer quand vous souhaitez renforcer le trésor. Dés que vous utiliser le renforcement de trésor, le sort sera appliqué lors de la prochaine apparition.
+You cannot schedule when you want to strengthen the treasure. As soon as you use the treasure reinforcement, the spell will be applied during the next appearance.
 :::
 :::warning ATTENTION
-Les autres joueurs bénéficient de votre renforcement de trésor si jamais quelqu'un est plus rapide que vous lorsque le prochain trésor sera disponible.
+Other players benefit from your treasure boost if someone is faster than you when the next treasure becomes available.
 :::
 
-### Le sort du sanctuaire de l'âme (`>spell soul sanctuary`)
-Le sort du sanctuaire de l'âme a le même fonctionnement qu'un rituel, sauf que c'est à plus grande échelle car vous pourrez bénéficier de 20 invocations avec ce sort. Contrairement au rituel, vous n'avez pas besoin des autres joueurs pour le déclencher. Il a un coût de 150 points de magie noire.
+### The Soul Sanctuary spell (`>spell soul sanctuary`)
+The soul sanctuary spell works the same as a ritual, except that it is on a larger scale because you can benefit from 20 invocations with this spell. Unlike the ritual, you don't need other players to trigger it. It has a cost of 150 dark mana points.
 
-De plus, vous obtenez des ressources supplémentaire au début de ce sort. Vous obtenez les ressources suivantes:
-- :mana: Magie.
-- :cardessence: Essence de cartes.
+In addition, you obtain additional resources at the start of this spell. You get the following resources:
+- :mana: Mana.
+- :cardessence: Card essence.
 
 ![spell_soul_sanctuary.png](/img/commands_example/spell_soul_sanctuary.png)
 
-### Le sort d'excuse au tombeau (`>spell shrine pardon`)
- Le sort d'excuse au tombeau vous permet d'annuler le temps d'attente si jamais vous cassez celui-ci. Il a un coût de 40 points de magie noire.
+### The Shrine Pardon spell (`>spell shrine pardon`)
+The shrine pardon spell at the tomb allows you to cancel the waiting time if you ever break it. It has a cost of 40 dark mana points.
 
 ![spell_shrine_pardon.png](/img/commands_example/spell_shrine_pardon.png)
 
-### Le sort de réduction de l'exploration (`>spell exploration warp`)
-Le sort de réduction de l'exploration vous permet de réduire le temps d'attente. Il a un coût de 25 points de magie noire.
+### The Exploration Warp spell (`>spell exploration warp`)
+The exploration warp spell allows you to reduce waiting time by 1 hour. It has a cost of 25 dark mana points.
 
 ![spell_exploration_warp.png](/img/commands_example/spell_exploration_warp.png)
 
- ### Le sort d'évasion fiscale (`>spell tax evasion`)
- Le sort d'évasion fiscale vous permet de ne plus verser de ressources à l'organisation durant les prochaines 24 heures. Il a un coût de 70 points de magie noire.
+ ### The Taxe Evasion spell (`>spell tax evasion`)
+The tax evasion spell allows you to no longer contribute resources to the organization for the next 24 hours. It has a cost of 70 dark mana points.
 
 ![spell_tax_evasion.png](/img/commands_example/spell_tax_evasion.png)
 
- ### Le sort de rénitialisation de sort (`>spell refresh`)
- Le sort de rénitialisation de sort permet de supprimer le temps d'attente de n'importe quel sort contre la moitié de son coût lorsque vous souhaitez l'utiliser.
+ ### The Spell Reset spell (`>spell refresh`)
+The Spell Reset spell allows you to remove the wait time of any spell for half its cost when you want to use it.
 
  ![spell_refresh.png](/img/commands_example/spell_refresh.png)
  :::info INFORMATION
- Par exemple, si vous souhaitez rénitialiser le temps d'attente sur le sort du sanctuaire de l'âme, vous devrez payer 75 points de magie noire.
+ For example, if you want to reset the wait time on the Soul Sanctuary spell, you will have to pay 75 dark mana points.
  :::
