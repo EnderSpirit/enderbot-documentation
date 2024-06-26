@@ -87,7 +87,7 @@ Vous obtiendez alors les récompenses suivantes:
 ![structures_dividends.png](/img/commands_example/structures_dividends.png)
 
 :::info INFORMATION
-VOus pouvez consulter votre liste d'actions sur les différentes structures avec la commandes `>str `
+Vous pouvez consulter votre liste d'actions sur les différentes structures avec la commandes `>str `
 :::
 
 ### Réclamer vos actions à distance (`>str dividends NomDeLaStructure`)
